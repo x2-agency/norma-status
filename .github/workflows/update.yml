@@ -1,0 +1,38 @@
+name: Update status
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [project-update]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-status
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build README
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+        run: python3 scripts/build.py
+
+      - name: Commit changes
+        run: |
+          if [[ -z "$(git status --porcelain README.md)" ]]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update status snapshot"
+          git push
