@@ -504,7 +504,7 @@ def render_html(done, work, testing, now_iso: str) -> str:
     const weekRanges = [];
     {{
       const todayWeekStart = startOfWeek(new Date());
-      for (let i = 0; i < 3; i++) {{
+      for (let i = 0; i < 5; i++) {{
         const s = new Date(todayWeekStart); s.setDate(s.getDate() - 7*i);
         const e = new Date(s); e.setDate(e.getDate() + 6);
         weekRanges.push({{ start: s, end: e }});
