@@ -4,27 +4,64 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Norma — статус задач</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0f1115;
-    --card: #161922;
-    --border: #232838;
-    --fg: #e7eaf2;
-    --muted: #8a92a6;
-    --accent: #4f8cff;
-    --done: #3ecf8e;
-    --warn: #ffb454;
+    --bg: #fafbfc;
+    --bg-grad: linear-gradient(180deg, #fafbfc 0%, #f3f5f9 100%);
+    --card: #ffffff;
+    --card-2: #f7f8fb;
+    --border: #e6e8ef;
+    --border-strong: #d0d4dd;
+    --fg: #131720;
+    --fg-2: #3a4151;
+    --muted: #6c7388;
+    --muted-2: #9aa1b3;
+    --accent: #5b6cff;
+    --accent-soft: #eef0ff;
+    --done: #16a067;
+    --done-soft: #e3f6ec;
+    --review: #d97706;
+    --review-soft: #fdf3e2;
+    --active: #5b6cff;
+    --active-soft: #eef0ff;
+    --ready: #0891b2;
+    --ready-soft: #e1f5fa;
+    --backlog: #6c7388;
+    --backlog-soft: #eef0f4;
+    --blocked: #dc2626;
+    --blocked-soft: #fde7e7;
+    --shadow: 0 1px 2px rgba(15,20,30,0.04), 0 4px 16px rgba(15,20,30,0.04);
   }
-  @media (prefers-color-scheme: light) {
+  @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #f7f8fa;
-      --card: #ffffff;
-      --border: #e4e7ee;
-      --fg: #1a1d24;
-      --muted: #6a7080;
-      --accent: #2f6fdb;
-      --done: #1faa6b;
-      --warn: #c7791a;
+      --bg: #0c0e14;
+      --bg-grad: linear-gradient(180deg, #0c0e14 0%, #0a0c11 100%);
+      --card: #14171f;
+      --card-2: #1a1d27;
+      --border: #232734;
+      --border-strong: #2e3343;
+      --fg: #eef0f5;
+      --fg-2: #c5cad6;
+      --muted: #8a92a6;
+      --muted-2: #5d6478;
+      --accent: #7d8bff;
+      --accent-soft: rgba(125,139,255,0.13);
+      --done: #3ecf8e;
+      --done-soft: rgba(62,207,142,0.13);
+      --review: #ffb454;
+      --review-soft: rgba(255,180,84,0.13);
+      --active: #7d8bff;
+      --active-soft: rgba(125,139,255,0.13);
+      --ready: #38bdf8;
+      --ready-soft: rgba(56,189,248,0.13);
+      --backlog: #8a92a6;
+      --backlog-soft: rgba(138,146,166,0.13);
+      --blocked: #f87171;
+      --blocked-soft: rgba(248,113,113,0.13);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
     }
   }
   * { box-sizing: border-box; }
@@ -62,6 +99,14 @@
     min-width: 84px; opacity: 0.8; }
   footer { color: var(--muted); font-size: 13px; margin-top: 32px; text-align: center; }
   footer a { color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .wrap { padding: 24px 16px 60px; }
+    .header, .group > summary, .status { padding-left: 18px; padding-right: 18px; }
+    .header h1 { font-size: 22px; }
+    .group-title { font-size: 17px; }
+    .actions { margin-left: 0; width: 100%; }
+  }
 </style>
 </head>
 <body>
@@ -322,5 +367,22 @@
 </details>
   <footer>Автоматически обновляется каждые 5 минут</footer>
 </div>
+<script>
+  (function () {
+    const el = document.getElementById('rel-time');
+    const t = document.getElementById('updated-at');
+    if (!el || !t) return;
+    const updated = new Date(t.getAttribute('datetime'));
+    function fmt() {
+      const diff = Math.max(0, (Date.now() - updated.getTime()) / 1000);
+      if (diff < 60) return 'только что';
+      if (diff < 3600) return Math.floor(diff/60) + ' мин назад';
+      if (diff < 86400) return Math.floor(diff/3600) + ' ч назад';
+      return Math.floor(diff/86400) + ' дн назад';
+    }
+    el.textContent = '· ' + fmt();
+    setInterval(() => { el.textContent = '· ' + fmt(); }, 60000);
+  })();
+</script>
 </body>
 </html>

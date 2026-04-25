@@ -21,11 +21,11 @@ _Обновлено: 2026-04-25 14:02 UTC_
 - `2026-03-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_
 - `2026-03-30` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_
 
-#### В процессе (1)
+#### В процессе (3)
 
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
 
-#### На ревью (3)
+#### Передано в тестирование (10)
 
 - `2026-04-24` [Внедрить валидацию по адресу получения на этапе «Приёмка вещей»](https://github.com/x2-agency/norma-app/issues/250) · _Mobile App_
 - `2026-04-24` [Убрать текст про скидку 30% с кнопки в пустом состоянии раздела Заказы](https://github.com/x2-agency/norma-webapp/issues/353) · _Mobile App_
@@ -70,7 +70,7 @@ _Обновлено: 2026-04-25 14:02 UTC_
 - `2026-04-03` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_
 - `2026-04-03` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
 
-#### Бэклог (49)
+#### Бэклог (47)
 
 - `2026-04-24` [Неправильный расчёт суммы заказа в корзине](https://github.com/x2-agency/norma-webapp/issues/355) · _Backend_
 - `2026-04-24` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
