@@ -20,19 +20,59 @@ STATUS_ORDER = [
 ]
 
 
+GRAPHQL_QUERY = """
+query($org: String!, $num: Int!, $cursor: String) {
+  organization(login: $org) {
+    projectV2(number: $num) {
+      items(first: 100, after: $cursor) {
+        pageInfo { hasNextPage endCursor }
+        nodes {
+          fieldValues(first: 30) {
+            nodes {
+              __typename
+              ... on ProjectV2ItemFieldSingleSelectValue {
+                name
+                field { ... on ProjectV2SingleSelectField { name } }
+              }
+            }
+          }
+          content {
+            __typename
+            ... on Issue       { title url createdAt }
+            ... on PullRequest { title url createdAt }
+            ... on DraftIssue  { title createdAt }
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
+
 def fetch(project_number: int) -> list[dict]:
-    proc = subprocess.run(
-        [
-            "gh", "project", "item-list", str(project_number),
-            "--owner", OWNER, "--format", "json", "--limit", "1000",
-        ],
-        capture_output=True, text=True,
-    )
-    if proc.stderr:
-        print(f"[project {project_number}] gh stderr: {proc.stderr[:300]}", flush=True)
-    if not proc.stdout.strip():
-        raise RuntimeError(f"No data for project {project_number}; exit={proc.returncode}")
-    return json.loads(proc.stdout)["items"]
+    items: list[dict] = []
+    cursor = ""
+    while True:
+        args = ["gh", "api", "graphql", "-f", f"query={GRAPHQL_QUERY}",
+                "-F", f"org={OWNER}", "-F", f"num={project_number}"]
+        if cursor:
+            args += ["-F", f"cursor={cursor}"]
+        proc = subprocess.run(args, capture_output=True, text=True, check=True)
+        data = json.loads(proc.stdout)["data"]["organization"]["projectV2"]["items"]
+        items.extend(data["nodes"])
+        if not data["pageInfo"]["hasNextPage"]:
+            break
+        cursor = data["pageInfo"]["endCursor"]
+    return items
+
+
+def extract_status(node: dict) -> str:
+    for fv in node.get("fieldValues", {}).get("nodes", []):
+        if fv.get("__typename") == "ProjectV2ItemFieldSingleSelectValue" \
+                and (fv.get("field") or {}).get("name") == "Status":
+            return fv.get("name") or "Без статуса"
+    return "Без статуса"
 
 
 def collect():
@@ -40,14 +80,15 @@ def collect():
     done = []
     in_progress = defaultdict(list)
     for number, label in PROJECTS:
-        for item in fetch(number):
-            content = item.get("content") or {}
+        for node in fetch(number):
+            content = node.get("content") or {}
             entry = {
-                "title": (item.get("title") or content.get("title") or "(без названия)").strip(),
+                "title": (content.get("title") or "(без названия)").strip(),
                 "url": content.get("url"),
+                "created": content.get("createdAt"),
                 "project": label,
             }
-            status = (item.get("status") or "Без статуса").strip()
+            status = extract_status(node).strip()
             (done if status == DONE_STATUS else in_progress[status]).append(entry)
     return done, in_progress
 
@@ -79,7 +120,8 @@ def render_md(done, in_progress, now: str) -> str:
     def line(e: dict) -> str:
         title = e["title"].replace("|", "\\|")
         link = f"[{title}]({e['url']})" if e["url"] else title
-        return f"- {link} · _{e['project']}_"
+        date = e["created"][:10] if e.get("created") else "—"
+        return f"- `{date}` {link} · _{e['project']}_"
 
     total = sum(len(v) for v in in_progress.values())
     parts.append(f"<details><summary><b>🚧 В работе — {total}</b></summary>")
@@ -88,13 +130,13 @@ def render_md(done, in_progress, now: str) -> str:
         items = in_progress[status]
         parts.append(f"#### {status} ({len(items)})")
         parts.append("")
-        parts.extend(line(e) for e in sorted(items, key=lambda x: x["title"].lower()))
+        parts.extend(line(e) for e in sorted(items, key=lambda x: (x.get("created") or ""), reverse=True))
         parts.append("")
     parts.append("</details>")
     parts.append("")
     parts.append(f"<details open><summary><b>✅ Готово — {len(done)}</b></summary>")
     parts.append("")
-    parts.extend(line(e) for e in sorted(done, key=lambda x: x["title"].lower()))
+    parts.extend(line(e) for e in sorted(done, key=lambda x: (x.get("created") or ""), reverse=True))
     parts.append("")
     parts.append("</details>")
     parts.append("")
@@ -112,14 +154,15 @@ def render_html(done, in_progress, now: str) -> str:
             link = f'<a href="{esc(e["url"])}" target="_blank" rel="noopener">{title}</a>'
         else:
             link = title
-        return f'<li>{link} <span class="proj">{proj}</span></li>'
+        date = esc(e["created"][:10]) if e.get("created") else "—"
+        return f'<li><span class="date">{date}</span>{link}<span class="proj">{proj}</span></li>'
 
     sections_html = []
     total = sum(len(v) for v in in_progress.values())
     inner = []
     for status in ordered_statuses(in_progress):
         items = in_progress[status]
-        items_html = "\n".join(li(e) for e in sorted(items, key=lambda x: x["title"].lower()))
+        items_html = "\n".join(li(e) for e in sorted(items, key=lambda x: (x.get("created") or ""), reverse=True))
         inner.append(
             f'<h3>{esc(status)} <span class="count">{len(items)}</span></h3>\n'
             f'<ul>{items_html}</ul>'
@@ -132,7 +175,7 @@ def render_html(done, in_progress, now: str) -> str:
         f'</details>'
     )
 
-    done_html = "\n".join(li(e) for e in sorted(done, key=lambda x: x["title"].lower()))
+    done_html = "\n".join(li(e) for e in sorted(done, key=lambda x: (x.get("created") or ""), reverse=True))
     sections_html.append(
         f'<details open>\n'
         f'<summary><span class="emoji">✅</span> Готово '
@@ -200,6 +243,9 @@ def render_html(done, in_progress, now: str) -> str:
   li a {{ color: var(--fg); text-decoration: none; flex: 1; min-width: 0; }}
   li a:hover {{ color: var(--accent); }}
   .proj {{ color: var(--muted); font-size: 13px; flex-shrink: 0; }}
+  .date {{ color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; flex-shrink: 0;
+    min-width: 84px; opacity: 0.8; }}
   footer {{ color: var(--muted); font-size: 13px; margin-top: 32px; text-align: center; }}
   footer a {{ color: var(--muted); }}
 </style>
