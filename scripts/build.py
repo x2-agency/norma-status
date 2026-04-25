@@ -16,14 +16,18 @@ DONE_STATUS = "Готово"
 
 
 def fetch(project_number: int) -> list[dict]:
-    out = subprocess.check_output(
+    proc = subprocess.run(
         [
             "gh", "project", "item-list", str(project_number),
             "--owner", OWNER, "--format", "json", "--limit", "1000",
         ],
-        text=True,
+        capture_output=True, text=True,
     )
-    return json.loads(out)["items"]
+    if proc.stderr:
+        print(f"[project {project_number}] gh stderr: {proc.stderr[:500]}", flush=True)
+    if not proc.stdout.strip():
+        raise RuntimeError(f"No data for project {project_number}; exit={proc.returncode}")
+    return json.loads(proc.stdout)["items"]
 
 
 def item_line(item: dict, project_label: str) -> str:
