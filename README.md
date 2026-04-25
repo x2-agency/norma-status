@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-25 14:17 UTC_
+_Обновлено: 2026-04-25 15:30 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -23,9 +23,13 @@ _Обновлено: 2026-04-25 14:17 UTC_
 
 #### В процессе (3)
 
+- `2026-04-24` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
-- `2026-04-14` [Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)](https://github.com/x2-agency/norma-app/issues/219) · _Mobile App_
 - `2026-04-03` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
+
+#### На ревью (1)
+
+- `2026-04-14` [Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)](https://github.com/x2-agency/norma-app/issues/219) · _Mobile App_
 
 #### Есть вопросы (2)
 
@@ -42,10 +46,9 @@ _Обновлено: 2026-04-25 14:17 UTC_
 - `2026-04-13` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 - `2026-04-03` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_
 
-#### Бэклог (47)
+#### Бэклог (46)
 
 - `2026-04-24` [Неправильный расчёт суммы заказа в корзине](https://github.com/x2-agency/norma-webapp/issues/355) · _Backend_
-- `2026-04-24` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
 - `2026-04-24` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-webapp/issues/354) · _Backend_
 - `2026-04-24` [Пропал функционал указания размеров при добавлении ковров и штор](https://github.com/x2-agency/norma-webapp/issues/352) · _Backend_
 - `2026-04-24` [Фикс ошибочных чеков при отсутствии email пользователя](https://github.com/x2-agency/norma-webapp/issues/347) · _Backend_
