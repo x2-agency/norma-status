@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-25 19:36 UTC_
+_Обновлено: 2026-04-25 20:26 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 59</b></summary>
+<details><summary><b>🚧 В работе — 60</b></summary>
 
 #### В работе (4)
 
@@ -46,8 +46,9 @@ _Обновлено: 2026-04-25 19:36 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (37)
+#### Бэклог (38)
 
+- `2026-04-25` [Баг валидации формы: при выборе 'дом' форма валидируется как 'квартира' или 'офис'](https://github.com/x2-agency/norma-webapp/issues/358) · _Frontend_
 - `2026-04-24` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-webapp/issues/345) · _Backend_
 - `2026-04-24` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-webapp/issues/344) · _Backend_
 - `2026-04-24` [В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_
