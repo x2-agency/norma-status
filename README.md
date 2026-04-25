@@ -1,16 +1,15 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-25 18:33 UTC_
+_Обновлено: 2026-04-25 19:33 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 60</b></summary>
+<details><summary><b>🚧 В работе — 59</b></summary>
 
-#### В работе (5)
+#### В работе (4)
 
-- `2026-04-25` [Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента](https://github.com/x2-agency/norma-backend/issues/39) · _Backend_
 - `2026-04-19` [Интеграция LifePay](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_
 - `2026-04-18` [Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_
 - `2026-04-18` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
@@ -126,8 +125,9 @@ _Обновлено: 2026-04-25 18:33 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 161</b></summary>
+<details open><summary><b>✅ Готово — 162</b></summary>
 
+- `2026-04-25` [Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента](https://github.com/x2-agency/norma-backend/issues/39) · _Backend_
 - `2026-04-25` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
 - `2026-04-25` [Баг №34. UX списка: клик по плашке открывает карточку клиента вместо заказа](https://github.com/x2-agency/norma-backend/issues/35) · _Backend_
 - `2026-04-25` [Баг №29: Оплата бонусами не передаётся в АГБИС — клиент висит должником](https://github.com/x2-agency/norma-backend/issues/34) · _Backend_
