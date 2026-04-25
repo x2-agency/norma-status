@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-25 16:28 UTC_
+_Обновлено: 2026-04-25 17:22 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -8,9 +8,8 @@ _Обновлено: 2026-04-25 16:28 UTC_
 
 <details><summary><b>🚧 В работе — 60</b></summary>
 
-#### В работе (5)
+#### В работе (4)
 
-- `2026-04-24` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-backend/issues/36) · _Backend_
 - `2026-04-18` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
 - `2026-04-18` [Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_
 - `2026-04-08` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_
@@ -89,12 +88,17 @@ _Обновлено: 2026-04-25 16:28 UTC_
 - `2026-04-03` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
 - `2026-03-30` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
 
+#### Тестовый сервер (1)
+
+- `2026-04-24` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-backend/issues/36) · _Backend_
+
 </details>
 
-<details><summary><b>🧪 На тестировании — 18</b></summary>
+<details><summary><b>🧪 На тестировании — 19</b></summary>
 
-#### Готово к работе (7)
+#### Готово к работе (8)
 
+- `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_
 - `2026-04-15` [Брюки в корзине: не отображается картинка, хотя добавлена](https://github.com/x2-agency/norma-webapp/issues/266) · _Frontend_
 - `2026-04-13` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_
 - `2026-04-03` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
