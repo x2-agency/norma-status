@@ -6,7 +6,7 @@ _Обновлено: 2026-04-25 14:07 UTC_
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 84</b></summary>
+<details><summary><b>🚧 В работе — 66</b></summary>
 
 #### В работе (4)
 
@@ -26,33 +26,6 @@ _Обновлено: 2026-04-25 14:07 UTC_
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
 - `2026-04-14` [Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)](https://github.com/x2-agency/norma-app/issues/219) · _Mobile App_
 - `2026-04-03` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
-
-#### Передано в тестирование (10)
-
-- `2026-04-24` [Внедрить валидацию по адресу получения на этапе «Приёмка вещей»](https://github.com/x2-agency/norma-app/issues/250) · _Mobile App_
-- `2026-04-24` [Убрать текст про скидку 30% с кнопки в пустом состоянии раздела Заказы](https://github.com/x2-agency/norma-webapp/issues/353) · _Mobile App_
-- `2026-04-23` [Не показывается история бонусов](https://github.com/x2-agency/norma-app/issues/248) · _Mobile App_
-- `2026-04-23` [Повторить заказ не работает на статусе завершен](https://github.com/x2-agency/norma-app/issues/246) · _Mobile App_
-- `2026-04-23` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_
-- `2026-04-23` [Баг \| Обратиться в поддержку добавить стрелку назад, иначе нет возможности вернуться в прошлое меню](https://github.com/x2-agency/norma-app/issues/242) · _Mobile App_
-- `2026-04-23` [Доработка \| Добавить заглушку на кнопку "перейти в чат" в разделе вопросы](https://github.com/x2-agency/norma-app/issues/241) · _Mobile App_
-- `2026-04-23` [Доработка \| Сделать заглушку на кнопку "Написать в поддержку"](https://github.com/x2-agency/norma-app/issues/240) · _Mobile App_
-- `2026-04-23` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_
-- `2026-04-08` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_
-
-#### Тестирование (1)
-
-- `2026-04-22` [Анимация появления по блочно с таймингом и типом как на сайте Студии](https://github.com/x2-agency/norma-webapp/issues/322) · _Frontend_
-
-#### Готово к работе (7)
-
-- `2026-04-23` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
-- `2026-04-15` [Брюки в корзине: не отображается картинка, хотя добавлена](https://github.com/x2-agency/norma-webapp/issues/266) · _Frontend_
-- `2026-04-03` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
-- `2026-04-03` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
-- `2026-03-31` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_
-- `2026-03-31` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_
-- `2026-03-30` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_
 
 #### Есть вопросы (2)
 
@@ -118,6 +91,37 @@ _Обновлено: 2026-04-25 14:07 UTC_
 - `2026-04-03` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Frontend_
 - `2026-04-03` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
 - `2026-03-30` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
+
+</details>
+
+<details><summary><b>🧪 На тестировании — 18</b></summary>
+
+#### Готово к работе (7)
+
+- `2026-04-23` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
+- `2026-04-15` [Брюки в корзине: не отображается картинка, хотя добавлена](https://github.com/x2-agency/norma-webapp/issues/266) · _Frontend_
+- `2026-04-03` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
+- `2026-04-03` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
+- `2026-03-31` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_
+- `2026-03-31` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_
+- `2026-03-30` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_
+
+#### Передано в тестирование (10)
+
+- `2026-04-24` [Внедрить валидацию по адресу получения на этапе «Приёмка вещей»](https://github.com/x2-agency/norma-app/issues/250) · _Mobile App_
+- `2026-04-24` [Убрать текст про скидку 30% с кнопки в пустом состоянии раздела Заказы](https://github.com/x2-agency/norma-webapp/issues/353) · _Mobile App_
+- `2026-04-23` [Не показывается история бонусов](https://github.com/x2-agency/norma-app/issues/248) · _Mobile App_
+- `2026-04-23` [Повторить заказ не работает на статусе завершен](https://github.com/x2-agency/norma-app/issues/246) · _Mobile App_
+- `2026-04-23` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_
+- `2026-04-23` [Баг \| Обратиться в поддержку добавить стрелку назад, иначе нет возможности вернуться в прошлое меню](https://github.com/x2-agency/norma-app/issues/242) · _Mobile App_
+- `2026-04-23` [Доработка \| Добавить заглушку на кнопку "перейти в чат" в разделе вопросы](https://github.com/x2-agency/norma-app/issues/241) · _Mobile App_
+- `2026-04-23` [Доработка \| Сделать заглушку на кнопку "Написать в поддержку"](https://github.com/x2-agency/norma-app/issues/240) · _Mobile App_
+- `2026-04-23` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_
+- `2026-04-08` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_
+
+#### Тестирование (1)
+
+- `2026-04-22` [Анимация появления по блочно с таймингом и типом как на сайте Студии](https://github.com/x2-agency/norma-webapp/issues/322) · _Frontend_
 
 </details>
 

@@ -13,10 +13,13 @@ PROJECTS = [
     (4, "Backend"),
 ]
 DONE_STATUS = "Готово"
-STATUS_ORDER = [
+TESTING_STATUSES = {"Передано в тестирование", "Тестирование", "Готово к работе"}
+STATUS_ORDER_WORK = [
     "В работе", "В разработке", "В процессе",
-    "На ревью", "Передано в тестирование", "Тестирование",
-    "Готово к работе", "Есть вопросы", "Есть блокеры", "Бэклог",
+    "На ревью", "Есть вопросы", "Есть блокеры", "Бэклог",
+]
+STATUS_ORDER_TEST = [
+    "Готово к работе", "Передано в тестирование", "Тестирование",
 ]
 
 
@@ -76,9 +79,10 @@ def extract_status(node: dict) -> str:
 
 
 def collect():
-    """Returns (done, in_progress_by_status) — each entry is dict with title/url/project."""
+    """Returns (done, work_by_status, testing_by_status)."""
     done = []
-    in_progress = defaultdict(list)
+    work = defaultdict(list)
+    testing = defaultdict(list)
     for number, label in PROJECTS:
         for node in fetch(number):
             content = node.get("content") or {}
@@ -89,23 +93,28 @@ def collect():
                 "project": label,
             }
             status = extract_status(node).strip()
-            (done if status == DONE_STATUS else in_progress[status]).append(entry)
-    return done, in_progress
+            if status == DONE_STATUS:
+                done.append(entry)
+            elif status in TESTING_STATUSES:
+                testing[status].append(entry)
+            else:
+                work[status].append(entry)
+    return done, work, testing
 
 
-def ordered_statuses(in_progress: dict) -> list[str]:
+def ordered_statuses(buckets: dict, order: list[str]) -> list[str]:
     seen = set()
     result = []
-    for s in STATUS_ORDER:
-        if s in in_progress:
+    for s in order:
+        if s in buckets:
             result.append(s); seen.add(s)
-    for s in sorted(in_progress):
+    for s in sorted(buckets):
         if s not in seen:
             result.append(s)
     return result
 
 
-def render_md(done, in_progress, now: str) -> str:
+def render_md(done, work, testing, now: str) -> str:
     parts = ["# Norma — статус задач", "", f"_Обновлено: {now}_", ""]
     parts.append(
         f"Источники: "
@@ -123,17 +132,23 @@ def render_md(done, in_progress, now: str) -> str:
         date = e["created"][:10] if e.get("created") else "—"
         return f"- `{date}` {link} · _{e['project']}_"
 
-    total = sum(len(v) for v in in_progress.values())
-    parts.append(f"<details><summary><b>🚧 В работе — {total}</b></summary>")
-    parts.append("")
-    for status in ordered_statuses(in_progress):
-        items = in_progress[status]
-        parts.append(f"#### {status} ({len(items)})")
+    def group(emoji: str, name: str, buckets: dict, order: list[str], is_open: bool) -> None:
+        total = sum(len(v) for v in buckets.values())
+        opener = "<details open>" if is_open else "<details>"
+        parts.append(f"{opener}<summary><b>{emoji} {name} — {total}</b></summary>")
         parts.append("")
-        parts.extend(line(e) for e in sorted(items, key=lambda x: (x.get("created") or ""), reverse=True))
+        for status in ordered_statuses(buckets, order):
+            items = buckets[status]
+            parts.append(f"#### {status} ({len(items)})")
+            parts.append("")
+            parts.extend(line(e) for e in sorted(items, key=lambda x: (x.get("created") or ""), reverse=True))
+            parts.append("")
+        parts.append("</details>")
         parts.append("")
-    parts.append("</details>")
-    parts.append("")
+
+    group("🚧", "В работе", work, STATUS_ORDER_WORK, is_open=False)
+    group("🧪", "На тестировании", testing, STATUS_ORDER_TEST, is_open=False)
+
     parts.append(f"<details open><summary><b>✅ Готово — {len(done)}</b></summary>")
     parts.append("")
     parts.extend(line(e) for e in sorted(done, key=lambda x: (x.get("created") or ""), reverse=True))
@@ -143,7 +158,7 @@ def render_md(done, in_progress, now: str) -> str:
     return "\n".join(parts)
 
 
-def render_html(done, in_progress, now_iso: str) -> str:
+def render_html(done, work, testing, now_iso: str) -> str:
     def esc(s: str) -> str:
         return html.escape(s, quote=True)
 
@@ -190,13 +205,16 @@ def render_html(done, in_progress, now_iso: str) -> str:
         "Есть вопросы": "s-blocked", "Есть блокеры": "s-blocked",
     }
 
-    in_progress_blocks = []
-    total_in_progress = sum(len(v) for v in in_progress.values())
-    for status in ordered_statuses(in_progress):
-        in_progress_blocks.append(
-            status_block(status, in_progress[status], status_color.get(status, "s-default"))
-        )
+    def build_group(buckets: dict, order: list[str]) -> tuple[str, int]:
+        blocks = []
+        for status in ordered_statuses(buckets, order):
+            blocks.append(
+                status_block(status, buckets[status], status_color.get(status, "s-default"))
+            )
+        return "".join(blocks), sum(len(v) for v in buckets.values())
 
+    work_blocks, total_work = build_group(work, STATUS_ORDER_WORK)
+    testing_blocks, total_testing = build_group(testing, STATUS_ORDER_TEST)
     done_block = status_block("Готово", done, "s-done")
 
     actions_url = f"https://github.com/{OWNER}/norma-status/actions/workflows/update.yml"
@@ -284,7 +302,8 @@ def render_html(done, in_progress, now_iso: str) -> str:
   .group-title {{ font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }}
   .group-count {{ margin-left: auto; padding: 4px 12px; border-radius: 999px;
     font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }}
-  .group.in-progress .group-count {{ background: var(--review-soft); color: var(--review); }}
+  .group.in-progress .group-count {{ background: var(--active-soft); color: var(--active); }}
+  .group.testing .group-count {{ background: var(--review-soft); color: var(--review); }}
   .group.done .group-count {{ background: var(--done-soft); color: var(--done); }}
   .group-body {{ border-top: 1px solid var(--border); padding: 8px 0 16px; }}
 
@@ -373,10 +392,21 @@ def render_html(done, in_progress, now_iso: str) -> str:
     <summary>
       <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4l4 4-4 4"/></svg>
       <span class="group-title">🚧 В работе</span>
-      <span class="group-count">{total_in_progress}</span>
+      <span class="group-count">{total_work}</span>
     </summary>
     <div class="group-body">
-      {"".join(in_progress_blocks)}
+      {work_blocks}
+    </div>
+  </details>
+
+  <details class="group testing">
+    <summary>
+      <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4l4 4-4 4"/></svg>
+      <span class="group-title">🧪 На тестировании</span>
+      <span class="group-count">{total_testing}</span>
+    </summary>
+    <div class="group-body">
+      {testing_blocks}
     </div>
   </details>
 
@@ -416,15 +446,15 @@ def render_html(done, in_progress, now_iso: str) -> str:
 
 
 def main() -> None:
-    done, in_progress = collect()
+    done, work, testing = collect()
     now_dt = datetime.now(timezone.utc).replace(microsecond=0)
     now_human = now_dt.strftime("%Y-%m-%d %H:%M UTC")
     now_iso = now_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write(render_md(done, in_progress, now_human))
+        f.write(render_md(done, work, testing, now_human))
     with open("index.html", "w", encoding="utf-8") as f:
-        f.write(render_html(done, in_progress, now_iso))
+        f.write(render_html(done, work, testing, now_iso))
 
 
 if __name__ == "__main__":
