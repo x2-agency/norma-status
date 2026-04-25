@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Norma — статус задач</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #161922;
+    --border: #232838;
+    --fg: #e7eaf2;
+    --muted: #8a92a6;
+    --accent: #4f8cff;
+    --done: #3ecf8e;
+    --warn: #ffb454;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --border: #e4e7ee;
+      --fg: #1a1d24;
+      --muted: #6a7080;
+      --accent: #2f6fdb;
+      --done: #1faa6b;
+      --warn: #c7791a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 4px; }
+  .sources a { color: var(--accent); text-decoration: none; margin-right: 12px; }
+  .sources a:hover { text-decoration: underline; }
+  details { background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    margin-top: 20px; overflow: hidden; }
+  summary { list-style: none; cursor: pointer; padding: 18px 20px; font-size: 18px; font-weight: 600;
+    display: flex; align-items: center; gap: 10px; user-select: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸"; color: var(--muted); font-size: 14px; transition: transform .15s; }
+  details[open] > summary::before { transform: rotate(90deg); }
+  .emoji { font-size: 18px; }
+  .badge { margin-left: auto; background: rgba(255,180,84,0.15); color: var(--warn);
+    padding: 2px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+  .badge.done { background: rgba(62,207,142,0.15); color: var(--done); }
+  .body { padding: 0 20px 20px; border-top: 1px solid var(--border); }
+  h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 22px 0 8px; font-weight: 600; }
+  .count { color: var(--fg); opacity: 0.65; font-weight: 400; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { padding: 10px 0; border-bottom: 1px solid var(--border); display: flex;
+    align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  li:last-child { border-bottom: none; }
+  li a { color: var(--fg); text-decoration: none; flex: 1; min-width: 0; }
+  li a:hover { color: var(--accent); }
+  .proj { color: var(--muted); font-size: 13px; flex-shrink: 0; }
+  footer { color: var(--muted); font-size: 13px; margin-top: 32px; text-align: center; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Norma — статус задач</h1>
+  <div class="meta">Обновлено: 2026-04-25 13:58 UTC</div>
+  <div class="meta sources">
+    Источники:
+    <a href="https://github.com/orgs/x2-agency/projects/9" target="_blank" rel="noopener">Mobile App</a>
+    <a href="https://github.com/orgs/x2-agency/projects/7" target="_blank" rel="noopener">Frontend</a>
+    <a href="https://github.com/orgs/x2-agency/projects/4" target="_blank" rel="noopener">Backend</a>
+  </div>
+  <details>
+<summary><span class="emoji">🚧</span> В работе <span class="badge">84</span></summary>
+<div class="body"><h3>В работе <span class="count">4</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-backend/issues/15" target="_blank" rel="noopener">Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/13" target="_blank" rel="noopener">Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/22" target="_blank" rel="noopener">Интеграция LifePay</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/16" target="_blank" rel="noopener">Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent</a> <span class="proj">Backend</span></li></ul><h3>В разработке <span class="count">3</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-webapp/issues/104" target="_blank" rel="noopener">[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/90" target="_blank" rel="noopener">[SITE-045]: Исправление позиционирование футера на устройствах с IOS</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/284" target="_blank" rel="noopener">Подкидывать страницу наверх после нажатия кнопки выбора адреса и оформления заказа</a> <span class="proj">Frontend</span></li></ul><h3>В процессе <span class="count">1</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-app/issues/238" target="_blank" rel="noopener">Починить подтверждение заказа (3 бага)</a> <span class="proj">Mobile App</span></li></ul><h3>На ревью <span class="count">3</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-app/issues/250" target="_blank" rel="noopener">Внедрить валидацию по адресу получения на этапе «Приёмка вещей»</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/175" target="_blank" rel="noopener">Диплинки</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/353" target="_blank" rel="noopener">Убрать текст про скидку 30% с кнопки в пустом состоянии раздела Заказы</a> <span class="proj">Mobile App</span></li></ul><h3>Передано в тестирование <span class="count">7</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-app/issues/243" target="_blank" rel="noopener">Админка правки | Привести список пунктов к общему виду (добавить везде Москву или убрать)</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/242" target="_blank" rel="noopener">Баг | Обратиться в поддержку добавить стрелку назад, иначе нет возможности вернуться в прошлое меню</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/239" target="_blank" rel="noopener">Баг | Серый квадрат в уровнях привилегий</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/241" target="_blank" rel="noopener">Доработка | Добавить заглушку на кнопку &quot;перейти в чат&quot; в разделе вопросы</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/240" target="_blank" rel="noopener">Доработка | Сделать заглушку на кнопку &quot;Написать в поддержку&quot;</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/248" target="_blank" rel="noopener">Не показывается история бонусов</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/246" target="_blank" rel="noopener">Повторить заказ не работает на статусе завершен</a> <span class="proj">Mobile App</span></li></ul><h3>Тестирование <span class="count">1</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-webapp/issues/322" target="_blank" rel="noopener">Анимация появления по блочно с таймингом и типом как на сайте Студии</a> <span class="proj">Frontend</span></li></ul><h3>Готово к работе <span class="count">7</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-backend/issues/23" target="_blank" rel="noopener">[SEO]: Создание страницы &quot;Цены&quot;</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/154" target="_blank" rel="noopener">[SITE-022]: Акция &quot;блоки контента&quot; должны быть отдельные для мобильного приложения / сайта + разные кнопки</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/24" target="_blank" rel="noopener">[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/92" target="_blank" rel="noopener">[SITE-043]: Улучшение показателя &quot;Производительность&quot; для мобильных устройств</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/128" target="_blank" rel="noopener">[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/31" target="_blank" rel="noopener">Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/266" target="_blank" rel="noopener">Брюки в корзине: не отображается картинка, хотя добавлена</a> <span class="proj">Frontend</span></li></ul><h3>Есть вопросы <span class="count">2</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-app/issues/218" target="_blank" rel="noopener">Исправить порядок категорий быстрого заказа согласно дизайну</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/201" target="_blank" rel="noopener">Пропал статус вещей активного заказа</a> <span class="proj">Mobile App</span></li></ul><h3>Есть блокеры <span class="count">7</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-app/issues/233" target="_blank" rel="noopener">Возможность оставить несколько отзывов на один заказ</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/224" target="_blank" rel="noopener">Выгода (акции) кнопка скачать приложение в приложении</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/227" target="_blank" rel="noopener">Переработать парсинг режима работы пункта выдачи</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/214" target="_blank" rel="noopener">Проработать флоу просмотра комментария технолога в заказе</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/226" target="_blank" rel="noopener">Сетевая активность в мобильном приложении</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/144" target="_blank" rel="noopener">🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/156" target="_blank" rel="noopener">🛑 [APP-045]: Не работает кнопка &quot;не знаю размер&quot;</a> <span class="proj">Mobile App</span></li></ul><h3>Бэклог <span class="count">49</span></h3>
+<ul><li><a href="https://github.com/x2-agency/norma-webapp/issues/99" target="_blank" rel="noopener">[CORE-3]: Покрытие тестами оформление заказа</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/154" target="_blank" rel="noopener">[SITE-022]: Акция &quot;блоки контента&quot; должны быть отдельные для мобильного приложения / сайта + разные кнопки</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/24" target="_blank" rel="noopener">[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/276" target="_blank" rel="noopener">Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа</a> <span class="proj">Backend</span></li>
+<li>Баг №11. Не сработала бесплатная доставка у заказа (добавить) <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/325" target="_blank" rel="noopener">Баг №11/2: Передавать стоимость доставки в АГБИС + Максма</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/326" target="_blank" rel="noopener">Баг №20. Вывести доп. реквизиты и фото технолога</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/327" target="_blank" rel="noopener">Баг №25. Добавить отдельный индикатор «Подтверждён химчисткой»</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/328" target="_blank" rel="noopener">Баг №29: Оплата бонусами не передаётся в АГБИС — клиент висит должником</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/329" target="_blank" rel="noopener">Баг №34. UX списка: клик по плашке открывает карточку клиента вместо заказа</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/330" target="_blank" rel="noopener">Баг №37. Привести в порядок статусы заказов в бэке</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/254" target="_blank" rel="noopener">Баг: не отображаются слоты доставки для Санкт-Петербурга</a> <span class="proj">Backend</span></li>
+<li>Бот создает задачи как драфт, нужно доработать, чтобы он создавал их как issue <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/354" target="_blank" rel="noopener">Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/249" target="_blank" rel="noopener">В секции со списанием баллов отображается общее кол-во баллов</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/219" target="_blank" rel="noopener">Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/336" target="_blank" rel="noopener">Возможность редактировать адрес доставки до этапа &quot;Готов к отправке&quot; включительно</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/340" target="_blank" rel="noopener">Вывести все статусы при выборе получения в пункте выдачи</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/247" target="_blank" rel="noopener">Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/286" target="_blank" rel="noopener">Данные курьерской доставки не отображаются в админке</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/257" target="_blank" rel="noopener">Добавить возможность получения всех позиций конкретного заказа</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/252" target="_blank" rel="noopener">Добавить кнопку «Не знаю размер» на экран выбора размера штор</a> <span class="proj">Mobile App</span></li>
+<li>добавить от там где поддтовары <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/338" target="_blank" rel="noopener">Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента</a> <span class="proj">Backend</span></li>
+<li>Интеграция CloudPayments СБП: два метода API для оплаты <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/345" target="_blank" rel="noopener">Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/331" target="_blank" rel="noopener">Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/26" target="_blank" rel="noopener">Интегрировать комментарий технолога из АГБИС</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/293" target="_blank" rel="noopener">Исправить проблему с ролями: добавить редактирование/удаление</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/341" target="_blank" rel="noopener">Минимальная сумма заказа 1 рубль при полной оплате бонусами</a> <span class="proj">Backend</span></li>
+<li>Не передаётся имя клиента — вместо имени подставляется номер телефона и mail <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/355" target="_blank" rel="noopener">Неправильный расчёт суммы заказа в корзине</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/170" target="_blank" rel="noopener">Оплатить услуг СБП lifepay</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/342" target="_blank" rel="noopener">Перестали создаваться заказы в МАсме — последние заказы не попали</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/244" target="_blank" rel="noopener">Плавающий баг | Дублирование Фамилии в поле Имя</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/343" target="_blank" rel="noopener">Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/281" target="_blank" rel="noopener">Проверить изменение даты забора: API Агбис и синхронизация с Телетрек</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/339" target="_blank" rel="noopener">Проверить создание задач в телетрек на забор и отдачу API</a> <span class="proj">Backend</span></li>
+<li>Пропадает цена доставки <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/344" target="_blank" rel="noopener">Пропадают этапы выдачи заказов при незаполненном адресе получения</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/352" target="_blank" rel="noopener">Пропал функционал указания размеров при добавлении ковров и штор</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/283" target="_blank" rel="noopener">Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/302" target="_blank" rel="noopener">Разобраться с настройкой АГБИС для подтверждения онлайн-заказов</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/295" target="_blank" rel="noopener">Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/25" target="_blank" rel="noopener">Расширить логирование на бекенде и улучшить поиск логов в админке</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/30" target="_blank" rel="noopener">Реализовать API для отправки отзыва о заказе</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/197" target="_blank" rel="noopener">Сделать так чтобы подтовары находились из поиска</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/337" target="_blank" rel="noopener">Скрыть кнопку &#x27;Уточню позже&#x27; на этапе &#x27;Готов к отправке&#x27;</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/347" target="_blank" rel="noopener">Фикс ошибочных чеков при отсутствии email пользователя</a> <span class="proj">Backend</span></li></ul></div>
+</details>
+<details open>
+<summary><span class="emoji">✅</span> Готово <span class="badge done">155</span></summary>
+<div class="body"><ul><li><a href="https://github.com/x2-agency/norma-webapp/issues/214" target="_blank" rel="noopener">7 спринт / Выводить фискальный чек от CloudPayment в карточке заказа после оплаты</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/217" target="_blank" rel="noopener">7 спринт / показывать промежуточный статус при возврате</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/216" target="_blank" rel="noopener">7 спринт / получать PNG с подписью клиента из телетрека выводить ее в карточке заказа</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/215" target="_blank" rel="noopener">7 спринт / получать от телетрека фото-отчет курьера о доставке выводить в карточке заказе</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/146" target="_blank" rel="noopener">[APP-021]: Пропал виджет прогресс-бара бесплатной доставки</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/147" target="_blank" rel="noopener">[APP-022]: Пропал пункт с калькуляцией скидок в заказе</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/148" target="_blank" rel="noopener">[APP-037]: Картинки пунктов приема не выводятся</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/149" target="_blank" rel="noopener">[APP-038]: Рука пропала</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/150" target="_blank" rel="noopener">[APP-039]: Картинки в карточке большие</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/151" target="_blank" rel="noopener">[APP-040]: Картинки из админки не выводятся пп (картинки внутри)</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/152" target="_blank" rel="noopener">[APP-041]: Лишний статус заказ, надо скрыть его</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/153" target="_blank" rel="noopener">[APP-042]: Сортировка внутри от меньшего к большему по цене (картинка внутри)</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/155" target="_blank" rel="noopener">[APP-044]: Нет вибрации при вводе некорректного номера/кода</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/157" target="_blank" rel="noopener">[APP-046]: Не меняется цена товара при изменении ширины и длины</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/158" target="_blank" rel="noopener">[APP-047]: Не работает навигация (видео внутри)</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/145" target="_blank" rel="noopener">[APP-049]: Интеграция с платежной системой</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/159" target="_blank" rel="noopener">[APP-050]: при истекшем таймере отправки кода верификации номера телефона и нажатии кнопки отправить еще раз на перебрасывает на этот же экран...</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/143" target="_blank" rel="noopener">[APP-17]: Лишний статус показывается на экране (картинка внутри)</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/115" target="_blank" rel="noopener">[BUG-5]: Исправление кэширования фронтенда</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/141" target="_blank" rel="noopener">[BUG-8]: Доинтегрировать список приходящих изображений</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/89" target="_blank" rel="noopener">[CORE-1]: Подключение Sentry к проекту</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/95" target="_blank" rel="noopener">[CORE-2]: Подключение уведомлений при мердже</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/108" target="_blank" rel="noopener">[CORE-4]: Провести очистку репозитория</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/241" target="_blank" rel="noopener">[DEVOPS] Замена SSH доступов к серверу</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/149" target="_blank" rel="noopener">[FEATURE-12]:  Страница реквизитов</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/278" target="_blank" rel="noopener">[norma backend] Один пользователь может создать два заказа в один и тот же слот</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/259" target="_blank" rel="noopener">[SEO]: Добавить секцию &quot;Наши преимущества&quot; на главную страницу</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/262" target="_blank" rel="noopener">[SEO]: Интеграция страницы реквизиты</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/263" target="_blank" rel="noopener">[SEO]: Интеграция страницы способы оплаты</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/125" target="_blank" rel="noopener">[SEO]: Пополнить контракт настроек сайта новой секцией &quot;Прозрачный баннер&quot;</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/127" target="_blank" rel="noopener">[SEO]: Создание страницы &quot;Вопросы и ответы&quot;</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/123" target="_blank" rel="noopener">[SEO]: Создание страницы &quot;Оплата&quot;</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/207" target="_blank" rel="noopener">[SEO]: Создание страницы Политика конфиденциальности</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/208" target="_blank" rel="noopener">[SEO]: Создание страницы Пользовательское соглашение</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/206" target="_blank" rel="noopener">[SEO]: Создание страницы примеры работ</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/205" target="_blank" rel="noopener">[SEO]: Создание страницы реквизиты</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/185" target="_blank" rel="noopener">[SEO]: Страница программа лояльности</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/185" target="_blank" rel="noopener">[SEO]: Страница программа лояльности</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/151" target="_blank" rel="noopener">[SITE-020]: Интеграция размеров ковра/штор</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/153" target="_blank" rel="noopener">[SITE-021]: Сделать больше фотографию на мобильной версии в секции слайдера</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/155" target="_blank" rel="noopener">[SITE-024]: Вывести названия пунктов выдачи в разделе https://normaclean.ru/reception-points</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/93" target="_blank" rel="noopener">[SITE-030]: Подключение Яндекс Метрики к проекту</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/98" target="_blank" rel="noopener">[SITE-036]: Исправление отзывчивости слотов при оформлении заказа</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/157" target="_blank" rel="noopener">[SITE-038]: На мобильной версии в модальном окне указания &quot;Откуда забрать вещи&quot; улучшить UX</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/102" target="_blank" rel="noopener">[SITE-039]: Убрать кнопку чата из страниц оформления заказа</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/159" target="_blank" rel="noopener">[SITE-040]: Нам нужна сноска, которая прячется под знаком вопросика</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/101" target="_blank" rel="noopener">[SITE-041]: Внести корректировки в логику оформления заказа</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/91" target="_blank" rel="noopener">[SITE-042]: Ускорение появления пунктов меню хэдера на мобильной версии</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/97" target="_blank" rel="noopener">[SITE-048]: Улучшение отзывчивости незаполненных обязательных полей формы</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/129" target="_blank" rel="noopener">[SITE-049]: Интегрировать кнопку и текст в каталоге, которая находится под кнопкой перейти в корзину (Ожидание выкатки бека в прод)</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/152" target="_blank" rel="noopener">[SITE-050]: Интеграция ручки отключения верификации номера телефона</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/131" target="_blank" rel="noopener">[SITE-052]: Пофиксить переход по страницам (в каталоге / быстрый заказ) - долгий</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/160" target="_blank" rel="noopener">[SITE-053]: Каунтеры для панели навигации + виджеты</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/2" target="_blank" rel="noopener">feat/add-points-in-questions-and-answers-page: переименовать пункты и добавить новые</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/277" target="_blank" rel="noopener">Адрес без номера дома/квартиры проходит валидацию</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/217" target="_blank" rel="noopener">Баг: при нажатии подтвердить заказ сразу все кнопки нажимаются</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/225" target="_blank" rel="noopener">Влить ветку с Dev на Prod: исправление PreferredPositionRoute</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/230" target="_blank" rel="noopener">Время передачи раньше времени приема</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/7" target="_blank" rel="noopener">Добавить CI-чеки (phpstan, tests, fix-code-style)</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/pull/271" target="_blank" rel="noopener">Добавить автодеплой на Yandex Cloud</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/167" target="_blank" rel="noopener">Добавить блок статуса оплаты заказа</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/210" target="_blank" rel="noopener">Добавить в /site/settings новые настройки</a> <span class="proj">Backend</span></li>
+<li>Добавить в админке возможность включать/выключать подтверждение номера для клиента <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/213" target="_blank" rel="noopener">Добавить в админку ссылки на документы</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/288" target="_blank" rel="noopener">Добавить возможность настройки интеграции с Агбис через админку</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/134" target="_blank" rel="noopener">Добавить для cloudpayments сохранение чеков в БД.</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/195" target="_blank" rel="noopener">Добавить поле названия пункта выдачи, можно поле назвать как name, в админке они заполнены, но не отдаются</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/12" target="_blank" rel="noopener">Добавить проверку уязвимости зависимых пакетов</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/130" target="_blank" rel="noopener">Добавить ручку в админку для верификации номера телефона, чтобы ее можно было включить/отключить</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/pull/290" target="_blank" rel="noopener">Добавить уведомления в CI/CD</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/188" target="_blank" rel="noopener">Добавить эндпойнт для получения списка банков СБП</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/199" target="_blank" rel="noopener">Добавь к /api/v1/site/receptions поле phone</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/165" target="_blank" rel="noopener">Доверстать страницу составления отзыва</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/238" target="_blank" rel="noopener">Долгий переход по урлам</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/187" target="_blank" rel="noopener">Закрыть от индексации админ-панель</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/172" target="_blank" rel="noopener">Заполнить чек-лист публикации МП на платформах</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/303" target="_blank" rel="noopener">интеграция политики конфиденциальности и пользовательского соглашения</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/164" target="_blank" rel="noopener">Интеграция с cloudpayments</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/1" target="_blank" rel="noopener">Интеграция фотоотчётов курьера и подписей клиента</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/185" target="_blank" rel="noopener">Интегрировать ссылки на документы в профиле</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/109" target="_blank" rel="noopener">Исправить HEALTHCHECK в Dockerfile</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/pull/145" target="_blank" rel="noopener">Исправить авторизацию GHCR на сервере после переноса репозитория в организацию</a> <span class="proj">Frontend</span></li>
+<li>Исправить залипание кнопок на странице пустой корзины в Яндекс Браузере <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/137" target="_blank" rel="noopener">Исправить работу эндпойнтов при выключенной интеграции MAXMA</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/29" target="_blank" rel="noopener">Исправление багов в интеграциях с Агбис, максма и телетреком</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/213" target="_blank" rel="noopener">Картинка отмены заказа низкого качества</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/138" target="_blank" rel="noopener">Кэширование данных на бекенде</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/231" target="_blank" rel="noopener">Мигрировать на Yandex Cloud</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/163" target="_blank" rel="noopener">Надо сделать так чтобы порядок фотографий для пунктов приёма не соответствует тому, как они добавлены в админке.</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/11" target="_blank" rel="noopener">Настройка периодичности синхронизации с АГБИС в админке</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/4" target="_blank" rel="noopener">Настройка тестов при деплое</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/9" target="_blank" rel="noopener">Настройки Телетрек</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/169" target="_blank" rel="noopener">Не передается сумма заказа при оплате СПБ</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/221" target="_blank" rel="noopener">Не пропадает секция с выбором оплаты после оплаты заказа через СБП</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/200" target="_blank" rel="noopener">Не соответствует дизайну страница пунктов выдачи</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/199" target="_blank" rel="noopener">Неактивна кнопка сохранения адреса на странице заказа</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/112" target="_blank" rel="noopener">Невозможность оформления заказа с товаром не &quot;из Агбис&quot;</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/198" target="_blank" rel="noopener">Нельзя изменить адрес обратной доставки</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/196" target="_blank" rel="noopener">Нет кнопки подтверждения заказа на странице заказа на этапе приемки заказа</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/171" target="_blank" rel="noopener">Нет скелетона у компонента календаря слотов</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/19" target="_blank" rel="noopener">Обновление OpenApi и фикс ошибок phpstan</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/162" target="_blank" rel="noopener">Оптимизация REST API</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/17" target="_blank" rel="noopener">Отдельный воркер для уведомлений. Генерация doc_num для агбис заказов</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/197" target="_blank" rel="noopener">Отображение комментария &quot;Сумма может измениться после приемки вещей&quot;</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/228" target="_blank" rel="noopener">Ошибка авторизации через мобильное приложение.</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/198" target="_blank" rel="noopener">Ошибка Не задано значение доп реквизита values! при отправке заказа в Agbis</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/229" target="_blank" rel="noopener">Ошибка синхронизации в САГА при редактировании адреса</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/174" target="_blank" rel="noopener">Подготовить Google Play Store для публикации приложения</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/232" target="_blank" rel="noopener">Подготовить ВМ на Yandex Cloud</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/251" target="_blank" rel="noopener">подключение метрик</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/111" target="_blank" rel="noopener">Подключить докер для бекенда</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/28" target="_blank" rel="noopener">Поиск юзера по contr_id вместо dor_id при синхронизации оплат</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/219" target="_blank" rel="noopener">Показывать только один тайм слот при выборе времени доставки</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/162" target="_blank" rel="noopener">Покрыть скелетонами всю главную страницу</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/176" target="_blank" rel="noopener">После выхода из приложения удаляется содержимое корзины</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/232" target="_blank" rel="noopener">После переустановки приложения в имени появляется номер телефона.</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/issues/14" target="_blank" rel="noopener">Построить инфраструктуру уведомлений и реализовать первые ~15 уведомлений по статусам заказа и оплате.</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/177" target="_blank" rel="noopener">При добавлении в корзину штор/ковров с карточки товара сумма на кнопке «Добавить в корзину» на экране карточки товара считается неправильно — как за 1 м². При добавлении из каталога всё верно.</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/233" target="_blank" rel="noopener">При неверифицированном запросе с сайта можно заменить имя и почту у существующего пользователя</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/170" target="_blank" rel="noopener">При оплате СПБ не открывается приложение Т‑Банка.</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/223" target="_blank" rel="noopener">При удалении адреса перекидывает на главную страницу</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/246" target="_blank" rel="noopener">Принять работу по созданию issue задачи</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/234" target="_blank" rel="noopener">Приходят неактуальные слоты после обновления заказа</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/168" target="_blank" rel="noopener">Проверить MR, слить задачу от Вовы по получению слота по адресу и фильтрации слотов по зоне</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/178" target="_blank" rel="noopener">Продумать флоу оплаты для заказов с неизвестными параметрами</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/169" target="_blank" rel="noopener">Пропали &quot;группа&quot; и &quot;тип&quot; из https://admin.normaclean.ru/addon-types</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/279" target="_blank" rel="noopener">Пустой (быстрый) заказ: дата забора = +2 дня к выбранной дате</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/224" target="_blank" rel="noopener">Развернуть AGBIS на удаленном сервере</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/147" target="_blank" rel="noopener">Разобраться в причинах долгих ответов от бекенда</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/256" target="_blank" rel="noopener">Разобраться с генерацией ссылки на СБП. Шлюз генерирует ссылку на подписку, вместо оплаты</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/21" target="_blank" rel="noopener">Расширить логирования колбэков телетрека</a> <span class="proj">Backend</span></li>
+<li>Редизайн страницы добавления заказа: карта и форма на одной странице <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/291" target="_blank" rel="noopener">СБП: генерация ссылки на оплату из админки для техподдержки</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/270" target="_blank" rel="noopener">сделать валидацию ввода адреса в модалке адресов</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/260" target="_blank" rel="noopener">Сделать обработку выбранных дат при оформлении быстрого заказа</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/166" target="_blank" rel="noopener">Скрывающееся изображение при отсутствии описания либо при малом описании в карточке товара</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/144" target="_blank" rel="noopener">Сломана авторизация GHCR при деплое после переноса репозитория в организацию</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/pull/242" target="_blank" rel="noopener">Сменить SSH авторизацию по паролю на SSH ключ</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/200" target="_blank" rel="noopener">Сменить урл запроса за слотами заказа</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/225" target="_blank" rel="noopener">Сохраненные карты верстка белая полоса</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/182" target="_blank" rel="noopener">Страница политики конфиденциальности</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/212" target="_blank" rel="noopener">Толстая линия у рамки на странице отмены заказа</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/220" target="_blank" rel="noopener">Толстая полоса при в окне &quot;Заказ подтвержден&quot;</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/275" target="_blank" rel="noopener">Убрать автоматическую оплату наличными для долго неоплаченных заказов</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/240" target="_blank" rel="noopener">Убрать доступы для Тереховцев</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/10" target="_blank" rel="noopener">Уведомления FCM</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/282" target="_blank" rel="noopener">Унифицировать отправку идентификаторов заказа в интеграциях</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/280" target="_blank" rel="noopener">Учитывать срок готовности товаров при расчёте срока забора</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/8" target="_blank" rel="noopener">Фабрики для моделей</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/6" target="_blank" rel="noopener">Фикс багов. Исправления уведомлений. Ссылки на оплату в админки</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/178" target="_blank" rel="noopener">Фото пунктов приема надо выводить в порядке от первого к последнему (сейчас наоборот)</a> <span class="proj">Frontend</span></li>
+<li><a href="https://github.com/x2-agency/norma-webapp/issues/178" target="_blank" rel="noopener">Фото пунктов приема надо выводить в порядке от первого к последнему (сейчас наоборот)</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-backend/pull/20" target="_blank" rel="noopener">Централизованное логирование</a> <span class="proj">Backend</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/154" target="_blank" rel="noopener">🛑 [APP-043]: У нас есть заголовок и подзаголовок для превью, а также заголовок и подзаголовок для карточки акц...</a> <span class="proj">Mobile App</span></li>
+<li><a href="https://github.com/x2-agency/norma-app/issues/164" target="_blank" rel="noopener">🛑 Доработка адресов Таймслоты</a> <span class="proj">Mobile App</span></li></ul></div>
+</details>
+  <footer>Автоматически обновляется каждые 5 минут</footer>
+</div>
+</body>
+</html>
