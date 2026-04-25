@@ -26,6 +26,12 @@
     --done-soft: #e3f6ec;
     --review: #d97706;
     --review-soft: #fdf3e2;
+    --yellow: #ca8a04;
+    --yellow-soft: #fef9c3;
+    --orange: #ea580c;
+    --orange-soft: #ffedd5;
+    --green: #16a067;
+    --green-soft: #d8f5e6;
     --active: #5b6cff;
     --active-soft: #eef0ff;
     --ready: #0891b2;
@@ -81,9 +87,9 @@
   .group-title { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
   .group-count { margin-left: auto; padding: 4px 12px; border-radius: 999px;
     font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
-  .group.in-progress .group-count { background: var(--active-soft); color: var(--active); }
-  .group.testing .group-count { background: var(--review-soft); color: var(--review); }
-  .group.done .group-count { background: var(--done-soft); color: var(--done); }
+  .group.in-progress .group-count { background: var(--yellow-soft); color: var(--yellow); }
+  .group.testing .group-count { background: var(--orange-soft); color: var(--orange); }
+  .group.done .group-count { background: var(--green-soft); color: var(--green); }
   .group-body { border-top: 1px solid var(--border); padding: 8px 0 16px; }
 
   /* Status block */
@@ -93,12 +99,9 @@
   .status-head h3 { margin: 0; font-size: 13px; font-weight: 600;
     text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-2);
     padding-left: 10px; border-left: 3px solid var(--muted-2); }
-  .status.s-active .status-head h3 { border-left-color: var(--active); color: var(--active); }
-  .status.s-review .status-head h3 { border-left-color: var(--review); color: var(--review); }
-  .status.s-ready .status-head h3 { border-left-color: var(--ready); color: var(--ready); }
-  .status.s-backlog .status-head h3 { border-left-color: var(--backlog); color: var(--backlog); }
-  .status.s-blocked .status-head h3 { border-left-color: var(--blocked); color: var(--blocked); }
-  .status.s-done .status-head h3 { border-left-color: var(--done); color: var(--done); }
+  .group.in-progress .status-head h3 { border-left-color: var(--yellow); color: var(--yellow); }
+  .group.testing .status-head h3 { border-left-color: var(--orange); color: var(--orange); }
+  .group.done .status-head h3 { border-left-color: var(--green); color: var(--green); }
   .status-count { color: var(--muted); font-size: 12.5px;
     font-variant-numeric: tabular-nums; font-family: 'JetBrains Mono', monospace; }
 
@@ -107,11 +110,9 @@
   .tasks li { display: flex; align-items: flex-start; gap: 12px; padding: 9px 0; }
   .bullet { width: 6px; height: 6px; border-radius: 50%; background: var(--muted-2);
     margin-top: 9px; flex-shrink: 0; }
-  .s-active .bullet { background: var(--active); }
-  .s-review .bullet { background: var(--review); }
-  .s-ready .bullet { background: var(--ready); }
-  .s-blocked .bullet { background: var(--blocked); }
-  .s-done .bullet { background: var(--done); }
+  .group.in-progress .bullet { background: var(--yellow); }
+  .group.testing .bullet { background: var(--orange); }
+  .group.done .bullet { background: var(--green); }
   .task { flex: 1; min-width: 0; }
   .task-title { font-size: 14.5px; line-height: 1.45; color: var(--fg); }
   .task-title a { color: var(--fg); text-decoration: none; }
