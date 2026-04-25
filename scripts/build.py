@@ -206,6 +206,7 @@ def render_html(done, in_progress, now_iso: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>Norma — статус задач</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -237,35 +238,6 @@ def render_html(done, in_progress, now_iso: str) -> str:
     --blocked: #dc2626;
     --blocked-soft: #fde7e7;
     --shadow: 0 1px 2px rgba(15,20,30,0.04), 0 4px 16px rgba(15,20,30,0.04);
-  }}
-  @media (prefers-color-scheme: dark) {{
-    :root {{
-      --bg: #0c0e14;
-      --bg-grad: linear-gradient(180deg, #0c0e14 0%, #0a0c11 100%);
-      --card: #14171f;
-      --card-2: #1a1d27;
-      --border: #232734;
-      --border-strong: #2e3343;
-      --fg: #eef0f5;
-      --fg-2: #c5cad6;
-      --muted: #8a92a6;
-      --muted-2: #5d6478;
-      --accent: #7d8bff;
-      --accent-soft: rgba(125,139,255,0.13);
-      --done: #3ecf8e;
-      --done-soft: rgba(62,207,142,0.13);
-      --review: #ffb454;
-      --review-soft: rgba(255,180,84,0.13);
-      --active: #7d8bff;
-      --active-soft: rgba(125,139,255,0.13);
-      --ready: #38bdf8;
-      --ready-soft: rgba(56,189,248,0.13);
-      --backlog: #8a92a6;
-      --backlog-soft: rgba(138,146,166,0.13);
-      --blocked: #f87171;
-      --blocked-soft: rgba(248,113,113,0.13);
-      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
-    }}
   }}
   * {{ box-sizing: border-box; }}
   html, body {{ margin: 0; padding: 0; background: var(--bg); color: var(--fg);
@@ -419,7 +391,7 @@ def render_html(done, in_progress, now_iso: str) -> str:
     </div>
   </details>
 
-  <footer>Автоматически обновляется каждые 12 часов · <a href="https://github.com/{OWNER}/norma-status" target="_blank" rel="noopener">исходник</a></footer>
+  <footer>Автоматически обновляется каждый час · <a href="https://github.com/{OWNER}/norma-status" target="_blank" rel="noopener">исходник</a></footer>
 </div>
 <script>
   (function () {{
