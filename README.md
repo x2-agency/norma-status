@@ -1,15 +1,16 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-25 15:30 UTC_
+_Обновлено: 2026-04-25 16:28 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 66</b></summary>
+<details><summary><b>🚧 В работе — 60</b></summary>
 
-#### В работе (4)
+#### В работе (5)
 
+- `2026-04-24` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-backend/issues/36) · _Backend_
 - `2026-04-18` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
 - `2026-04-18` [Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_
 - `2026-04-08` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_
@@ -21,22 +22,23 @@ _Обновлено: 2026-04-25 15:30 UTC_
 - `2026-03-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_
 - `2026-03-30` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_
 
-#### В процессе (3)
+#### В процессе (2)
 
-- `2026-04-24` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
 - `2026-04-03` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
 
-#### На ревью (1)
+#### На ревью (3)
 
+- `2026-04-24` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
 - `2026-04-14` [Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)](https://github.com/x2-agency/norma-app/issues/219) · _Mobile App_
+- `2026-04-03` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_
 
 #### Есть вопросы (2)
 
 - `2026-04-14` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-app/issues/218) · _Mobile App_
 - `2026-04-11` [Пропал статус вещей активного заказа](https://github.com/x2-agency/norma-app/issues/201) · _Mobile App_
 
-#### Есть блокеры (7)
+#### Есть блокеры (6)
 
 - `2026-04-23` [Плавающий баг \| Дублирование Фамилии в поле Имя](https://github.com/x2-agency/norma-app/issues/244) · _Mobile App_
 - `2026-04-20` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_
@@ -44,14 +46,9 @@ _Обновлено: 2026-04-25 15:30 UTC_
 - `2026-04-15` [Сетевая активность в мобильном приложении](https://github.com/x2-agency/norma-app/issues/226) · _Mobile App_
 - `2026-04-15` [Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-app/issues/224) · _Mobile App_
 - `2026-04-13` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
-- `2026-04-03` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_
 
-#### Бэклог (46)
+#### Бэклог (39)
 
-- `2026-04-24` [Неправильный расчёт суммы заказа в корзине](https://github.com/x2-agency/norma-webapp/issues/355) · _Backend_
-- `2026-04-24` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-webapp/issues/354) · _Backend_
-- `2026-04-24` [Пропал функционал указания размеров при добавлении ковров и штор](https://github.com/x2-agency/norma-webapp/issues/352) · _Backend_
-- `2026-04-24` [Фикс ошибочных чеков при отсутствии email пользователя](https://github.com/x2-agency/norma-webapp/issues/347) · _Backend_
 - `2026-04-24` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-webapp/issues/345) · _Backend_
 - `2026-04-24` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-webapp/issues/344) · _Backend_
 - `2026-04-24` [В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_
@@ -66,8 +63,6 @@ _Обновлено: 2026-04-25 15:30 UTC_
 - `2026-04-23` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-webapp/issues/336) · _Backend_
 - `2026-04-23` [Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-webapp/issues/331) · _Backend_
 - `2026-04-23` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-webapp/issues/330) · _Backend_
-- `2026-04-23` [Баг №34. UX списка: клик по плашке открывает карточку клиента вместо заказа](https://github.com/x2-agency/norma-webapp/issues/329) · _Backend_
-- `2026-04-23` [Баг №29: Оплата бонусами не передаётся в АГБИС — клиент висит должником](https://github.com/x2-agency/norma-webapp/issues/328) · _Backend_
 - `2026-04-23` [Баг №25. Добавить отдельный индикатор «Подтверждён химчисткой»](https://github.com/x2-agency/norma-webapp/issues/327) · _Backend_
 - `2026-04-23` [Баг №20. Вывести доп. реквизиты и фото технолога](https://github.com/x2-agency/norma-webapp/issues/326) · _Backend_
 - `2026-04-23` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-webapp/issues/325) · _Backend_
@@ -85,7 +80,6 @@ _Обновлено: 2026-04-25 15:30 UTC_
 - `2026-04-15` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-webapp/issues/276) · _Backend_
 - `2026-04-14` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-webapp/issues/257) · _Backend_
 - `2026-04-14` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-webapp/issues/254) · _Backend_
-- `2026-04-13` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_
 - `2026-04-13` Бот создает задачи как драфт, нужно доработать, чтобы он создавал их как issue · _Backend_
 - `2026-04-13` Интеграция CloudPayments СБП: два метода API для оплаты · _Backend_
 - `2026-04-11` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_
@@ -101,8 +95,8 @@ _Обновлено: 2026-04-25 15:30 UTC_
 
 #### Готово к работе (7)
 
-- `2026-04-23` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
 - `2026-04-15` [Брюки в корзине: не отображается картинка, хотя добавлена](https://github.com/x2-agency/norma-webapp/issues/266) · _Frontend_
+- `2026-04-13` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_
 - `2026-04-03` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
 - `2026-04-03` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
 - `2026-03-31` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_
@@ -128,8 +122,14 @@ _Обновлено: 2026-04-25 15:30 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 155</b></summary>
+<details open><summary><b>✅ Готово — 161</b></summary>
 
+- `2026-04-24` [Неправильный расчёт суммы заказа в корзине](https://github.com/x2-agency/norma-backend/issues/32) · _Backend_
+- `2026-04-24` [Пропал функционал указания размеров при добавлении ковров и штор](https://github.com/x2-agency/norma-webapp/issues/352) · _Backend_
+- `2026-04-24` [Фикс ошибочных чеков при отсутствии email пользователя](https://github.com/x2-agency/norma-backend/issues/33) · _Backend_
+- `2026-04-23` [Баг №34. UX списка: клик по плашке открывает карточку клиента вместо заказа](https://github.com/x2-agency/norma-backend/issues/35) · _Backend_
+- `2026-04-23` [Баг №29: Оплата бонусами не передаётся в АГБИС — клиент висит должником](https://github.com/x2-agency/norma-backend/issues/34) · _Backend_
+- `2026-04-23` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
 - `2026-04-20` [Исправление багов в интеграциях с Агбис, максма и телетреком](https://github.com/x2-agency/norma-backend/pull/29) · _Backend_
 - `2026-04-20` [Поиск юзера по contr_id вместо dor_id при синхронизации оплат](https://github.com/x2-agency/norma-backend/pull/28) · _Backend_
 - `2026-04-19` [Расширить логирования колбэков телетрека](https://github.com/x2-agency/norma-backend/pull/21) · _Backend_
