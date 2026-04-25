@@ -133,6 +133,7 @@
   .filters { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border);
     display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
   .filters-label { font-size: 13px; color: var(--muted); margin-right: 4px; }
+  .week-chips { display: inline-flex; gap: 8px; flex-wrap: wrap; }
   .chip { display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px;
     border: 1px solid var(--border-strong); background: var(--card); color: var(--fg-2);
     border-radius: 999px; font-size: 13px; font-weight: 500; cursor: pointer;
@@ -178,7 +179,7 @@
       <button class="chip active" data-preset="all">Все</button>
       <button class="chip" data-preset="today">Сегодня</button>
       <button class="chip" data-preset="yesterday">Вчера</button>
-      <button class="chip" data-preset="7d">7 дней</button>
+      <span class="week-chips" id="week-chips"></span>
       <span class="range">
         <input type="date" id="from" aria-label="От">
         <span>—</span>
@@ -260,6 +261,39 @@
       setInterval(() => { relEl.textContent = '· ' + fmt(); }, 60000);
     }
 
+    // Generate week chips: current Mon-Sun and 2 prior weeks
+    const weekChipsHost = document.getElementById('week-chips');
+    const pad2 = n => String(n).padStart(2,'0');
+    const startOfWeek = d => {
+      const x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+      const dow = (x.getDay() + 6) % 7; // Mon=0..Sun=6
+      x.setDate(x.getDate() - dow);
+      return x;
+    };
+    const labelWeek = (start, end) => {
+      const sd = pad2(start.getDate()), ed = pad2(end.getDate());
+      const sm = pad2(start.getMonth()+1), em = pad2(end.getMonth()+1);
+      return start.getMonth() === end.getMonth()
+        ? `${sd}–${ed}.${em}`
+        : `${sd}.${sm}–${ed}.${em}`;
+    };
+    const weekRanges = [];
+    {
+      const todayWeekStart = startOfWeek(new Date());
+      for (let i = 0; i < 3; i++) {
+        const s = new Date(todayWeekStart); s.setDate(s.getDate() - 7*i);
+        const e = new Date(s); e.setDate(e.getDate() + 6);
+        weekRanges.push({ start: s, end: e });
+      }
+    }
+    weekRanges.forEach((r, i) => {
+      const b = document.createElement('button');
+      b.className = 'chip';
+      b.dataset.preset = 'week-' + i;
+      b.textContent = (i === 0 ? 'Тек. неделя ' : '') + labelWeek(r.start, r.end);
+      weekChipsHost.appendChild(b);
+    });
+
     // Date filtering
     const items = Array.from(document.querySelectorAll('.task-item'));
     const chips = Array.from(document.querySelectorAll('.chip'));
@@ -300,9 +334,9 @@
       } else if (p === 'yesterday') {
         const y = new Date(today); y.setDate(y.getDate()-1);
         fromI.value = fmtDate(y); toI.value = fmtDate(y);
-      } else if (p === '7d') {
-        const start = new Date(today); start.setDate(start.getDate()-6);
-        fromI.value = fmtDate(start); toI.value = fmtDate(today);
+      } else if (p && p.startsWith('week-')) {
+        const r = weekRanges[Number(p.slice(5))];
+        if (r) { fromI.value = fmtDate(r.start); toI.value = fmtDate(r.end); }
       } else {
         fromI.value = ''; toI.value = '';
       }
