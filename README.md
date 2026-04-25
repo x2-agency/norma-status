@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-25 17:41 UTC_
+_Обновлено: 2026-04-25 18:33 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -8,8 +8,9 @@ _Обновлено: 2026-04-25 17:41 UTC_
 
 <details><summary><b>🚧 В работе — 60</b></summary>
 
-#### В работе (4)
+#### В работе (5)
 
+- `2026-04-25` [Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента](https://github.com/x2-agency/norma-backend/issues/39) · _Backend_
 - `2026-04-19` [Интеграция LifePay](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_
 - `2026-04-18` [Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_
 - `2026-04-18` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
@@ -46,7 +47,7 @@ _Обновлено: 2026-04-25 17:41 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (39)
+#### Бэклог (37)
 
 - `2026-04-24` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-webapp/issues/345) · _Backend_
 - `2026-04-24` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-webapp/issues/344) · _Backend_
@@ -54,10 +55,8 @@ _Обновлено: 2026-04-25 17:41 UTC_
 - `2026-04-23` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-webapp/issues/343) · _Backend_
 - `2026-04-23` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_
 - `2026-04-23` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-webapp/issues/342) · _Backend_
-- `2026-04-23` [Минимальная сумма заказа 1 рубль при полной оплате бонусами](https://github.com/x2-agency/norma-webapp/issues/341) · _Backend_
 - `2026-04-23` [Вывести все статусы при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-webapp/issues/340) · _Mobile App_
 - `2026-04-23` [Проверить создание задач в телетрек на забор и отдачу API](https://github.com/x2-agency/norma-webapp/issues/339) · _Backend_
-- `2026-04-23` [Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента](https://github.com/x2-agency/norma-webapp/issues/338) · _Backend_
 - `2026-04-23` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-webapp/issues/337) · _Backend_
 - `2026-04-23` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-webapp/issues/336) · _Backend_
 - `2026-04-23` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-webapp/issues/197) · _Backend_
@@ -88,8 +87,9 @@ _Обновлено: 2026-04-25 17:41 UTC_
 - `2026-04-03` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-webapp/issues/170) · _Backend_
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
 
-#### Тестовый сервер (1)
+#### Тестовый сервер (2)
 
+- `2026-04-25` [Минимальная сумма заказа 1 рубль при полной оплате бонусами](https://github.com/x2-agency/norma-backend/issues/38) · _Backend_
 - `2026-04-25` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-backend/issues/36) · _Backend_
 
 </details>
