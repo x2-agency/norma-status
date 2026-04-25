@@ -30,6 +30,7 @@ query($org: String!, $num: Int!, $cursor: String) {
       items(first: 100, after: $cursor) {
         pageInfo { hasNextPage endCursor }
         nodes {
+          updatedAt
           fieldValues(first: 30) {
             nodes {
               __typename
@@ -90,6 +91,7 @@ def collect():
                 "title": (content.get("title") or "(без названия)").strip(),
                 "url": content.get("url"),
                 "created": content.get("createdAt"),
+                "updated": node.get("updatedAt") or content.get("createdAt"),
                 "project": label,
             }
             status = extract_status(node).strip()
@@ -129,7 +131,7 @@ def render_md(done, work, testing, now: str) -> str:
     def line(e: dict) -> str:
         title = e["title"].replace("|", "\\|")
         link = f"[{title}]({e['url']})" if e["url"] else title
-        date = e["created"][:10] if e.get("created") else "—"
+        date = e["updated"][:10] if e.get("updated") else "—"
         return f"- `{date}` {link} · _{e['project']}_"
 
     def group(emoji: str, name: str, buckets: dict, order: list[str], is_open: bool) -> None:
@@ -141,7 +143,7 @@ def render_md(done, work, testing, now: str) -> str:
             items = buckets[status]
             parts.append(f"#### {status} ({len(items)})")
             parts.append("")
-            parts.extend(line(e) for e in sorted(items, key=lambda x: (x.get("created") or ""), reverse=True))
+            parts.extend(line(e) for e in sorted(items, key=lambda x: (x.get("updated") or ""), reverse=True))
             parts.append("")
         parts.append("</details>")
         parts.append("")
@@ -151,7 +153,7 @@ def render_md(done, work, testing, now: str) -> str:
 
     parts.append(f"<details open><summary><b>✅ Готово — {len(done)}</b></summary>")
     parts.append("")
-    parts.extend(line(e) for e in sorted(done, key=lambda x: (x.get("created") or ""), reverse=True))
+    parts.extend(line(e) for e in sorted(done, key=lambda x: (x.get("updated") or ""), reverse=True))
     parts.append("")
     parts.append("</details>")
     parts.append("")
@@ -172,14 +174,15 @@ def render_html(done, work, testing, now_iso: str) -> str:
             link = f'<a href="{esc(e["url"])}" target="_blank" rel="noopener">{title}</a>'
         else:
             link = f'<span>{title}</span>'
-        date = esc(e["created"][:10]) if e.get("created") else "—"
+        updated = e.get("updated") or ""
+        date = esc(updated[:10]) if updated else "—"
         return (
-            f'<li>'
+            f'<li class="task-item" data-updated="{esc(updated)}">'
             f'<span class="bullet"></span>'
             f'<div class="task">'
             f'  <div class="task-title">{link}</div>'
             f'  <div class="task-meta">'
-            f'    <span class="date">{date}</span>'
+            f'    <span class="date" title="Дата последнего обновления">{date}</span>'
             f'    <span class="tag {pcls}">{proj}</span>'
             f'  </div>'
             f'</div>'
@@ -187,7 +190,7 @@ def render_html(done, work, testing, now_iso: str) -> str:
         )
 
     def status_block(status: str, items: list[dict], color_class: str) -> str:
-        items_sorted = sorted(items, key=lambda x: (x.get("created") or ""), reverse=True)
+        items_sorted = sorted(items, key=lambda x: (x.get("updated") or ""), reverse=True)
         return (
             f'<section class="status {color_class}">'
             f'<div class="status-head">'
@@ -350,6 +353,31 @@ def render_html(done, work, testing, now_iso: str) -> str:
   footer {{ text-align: center; color: var(--muted-2); font-size: 12.5px; margin-top: 32px; }}
   footer a {{ color: var(--muted); }}
 
+  /* Filters */
+  .filters {{ margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border);
+    display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
+  .filters-label {{ font-size: 13px; color: var(--muted); margin-right: 4px; }}
+  .chip {{ display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px;
+    border: 1px solid var(--border-strong); background: var(--card); color: var(--fg-2);
+    border-radius: 999px; font-size: 13px; font-weight: 500; cursor: pointer;
+    font-family: inherit; transition: all .12s; }}
+  .chip:hover {{ border-color: var(--accent); color: var(--accent); }}
+  .chip.active {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
+  .range {{ display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px;
+    background: var(--card-2); border: 1px solid var(--border); border-radius: 999px; }}
+  .range input[type=date] {{ border: none; background: transparent; font: inherit;
+    color: var(--fg-2); font-size: 13px; padding: 2px 4px; outline: none;
+    font-family: 'JetBrains Mono', monospace; }}
+  .range input[type=date]::-webkit-calendar-picker-indicator {{ cursor: pointer; opacity: 0.6; }}
+  .range span {{ color: var(--muted); font-size: 12px; }}
+  .reset {{ color: var(--muted); font-size: 13px; background: none; border: none;
+    cursor: pointer; padding: 6px 4px; font-family: inherit; text-decoration: underline;
+    text-decoration-style: dotted; text-underline-offset: 3px; }}
+  .reset:hover {{ color: var(--accent); }}
+  .filter-summary {{ margin-left: auto; font-size: 12.5px; color: var(--muted); }}
+  .task-item.hidden {{ display: none; }}
+  .status.empty, .group.empty {{ display: none; }}
+
   @media (max-width: 600px) {{
     .wrap {{ padding: 24px 16px 60px; }}
     .header, .group > summary, .status {{ padding-left: 18px; padding-right: 18px; }}
@@ -368,6 +396,20 @@ def render_html(done, work, testing, now_iso: str) -> str:
       <a href="https://github.com/orgs/{OWNER}/projects/9" target="_blank" rel="noopener">📱 Mobile App</a>
       <a href="https://github.com/orgs/{OWNER}/projects/7" target="_blank" rel="noopener">🖥 Frontend</a>
       <a href="https://github.com/orgs/{OWNER}/projects/4" target="_blank" rel="noopener">⚙ Backend</a>
+    </div>
+    <div class="filters" id="filters">
+      <span class="filters-label">Обновлены:</span>
+      <button class="chip active" data-preset="all">Все</button>
+      <button class="chip" data-preset="today">Сегодня</button>
+      <button class="chip" data-preset="yesterday">Вчера</button>
+      <button class="chip" data-preset="7d">7 дней</button>
+      <span class="range">
+        <input type="date" id="from" aria-label="От">
+        <span>—</span>
+        <input type="date" id="to" aria-label="До">
+      </span>
+      <button class="reset" id="reset">Сбросить</button>
+      <span class="filter-summary" id="summary"></span>
     </div>
     <div class="header-row">
       <div class="updated">
@@ -426,19 +468,124 @@ def render_html(done, work, testing, now_iso: str) -> str:
 </div>
 <script>
   (function () {{
-    const el = document.getElementById('rel-time');
+    // Relative "X min ago" label
+    const relEl = document.getElementById('rel-time');
     const t = document.getElementById('updated-at');
-    if (!el || !t) return;
-    const updated = new Date(t.getAttribute('datetime'));
-    function fmt() {{
-      const diff = Math.max(0, (Date.now() - updated.getTime()) / 1000);
-      if (diff < 60) return 'только что';
-      if (diff < 3600) return Math.floor(diff/60) + ' мин назад';
-      if (diff < 86400) return Math.floor(diff/3600) + ' ч назад';
-      return Math.floor(diff/86400) + ' дн назад';
+    if (relEl && t) {{
+      const updated = new Date(t.getAttribute('datetime'));
+      const fmt = () => {{
+        const diff = Math.max(0, (Date.now() - updated.getTime()) / 1000);
+        if (diff < 60) return 'только что';
+        if (diff < 3600) return Math.floor(diff/60) + ' мин назад';
+        if (diff < 86400) return Math.floor(diff/3600) + ' ч назад';
+        return Math.floor(diff/86400) + ' дн назад';
+      }};
+      relEl.textContent = '· ' + fmt();
+      setInterval(() => {{ relEl.textContent = '· ' + fmt(); }}, 60000);
     }}
-    el.textContent = '· ' + fmt();
-    setInterval(() => {{ el.textContent = '· ' + fmt(); }}, 60000);
+
+    // Date filtering
+    const items = Array.from(document.querySelectorAll('.task-item'));
+    const chips = Array.from(document.querySelectorAll('.chip'));
+    const fromI = document.getElementById('from');
+    const toI = document.getElementById('to');
+    const reset = document.getElementById('reset');
+    const summary = document.getElementById('summary');
+
+    const toLocalDate = iso => {{
+      if (!iso) return null;
+      const d = new Date(iso);
+      return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    }};
+    const startOfToday = () => {{
+      const d = new Date();
+      return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    }};
+    const fmtDate = d => {{
+      const y = d.getFullYear();
+      const m = String(d.getMonth()+1).padStart(2,'0');
+      const day = String(d.getDate()).padStart(2,'0');
+      return `${{y}}-${{m}}-${{day}}`;
+    }};
+    const parseInputDate = s => {{
+      if (!s) return null;
+      const [y,m,d] = s.split('-').map(Number);
+      return new Date(y, m-1, d);
+    }};
+
+    let preset = 'all';
+
+    const applyPreset = p => {{
+      preset = p;
+      chips.forEach(c => c.classList.toggle('active', c.dataset.preset === p));
+      const today = startOfToday();
+      if (p === 'today') {{
+        fromI.value = fmtDate(today); toI.value = fmtDate(today);
+      }} else if (p === 'yesterday') {{
+        const y = new Date(today); y.setDate(y.getDate()-1);
+        fromI.value = fmtDate(y); toI.value = fmtDate(y);
+      }} else if (p === '7d') {{
+        const start = new Date(today); start.setDate(start.getDate()-6);
+        fromI.value = fmtDate(start); toI.value = fmtDate(today);
+      }} else {{
+        fromI.value = ''; toI.value = '';
+      }}
+      apply();
+    }};
+
+    const apply = () => {{
+      const from = parseInputDate(fromI.value);
+      const to = parseInputDate(toI.value);
+      const toEnd = to ? new Date(to.getFullYear(), to.getMonth(), to.getDate()+1) : null;
+      let visible = 0;
+
+      items.forEach(li => {{
+        const d = toLocalDate(li.dataset.updated);
+        let show = true;
+        if (from && d && d < from) show = false;
+        if (toEnd && d && d >= toEnd) show = false;
+        if (!d && (from || toEnd)) show = false;
+        li.classList.toggle('hidden', !show);
+        if (show) visible++;
+      }});
+
+      // Hide empty status sections and groups
+      document.querySelectorAll('.status').forEach(s => {{
+        const has = s.querySelector('.task-item:not(.hidden)');
+        s.classList.toggle('empty', !has);
+        const cnt = s.querySelectorAll('.task-item:not(.hidden)').length;
+        const cntEl = s.querySelector('.status-count');
+        if (cntEl) cntEl.textContent = cnt;
+      }});
+      document.querySelectorAll('.group').forEach(g => {{
+        const has = g.querySelector('.task-item:not(.hidden)');
+        g.classList.toggle('empty', !has);
+        const cnt = g.querySelectorAll('.task-item:not(.hidden)').length;
+        const cntEl = g.querySelector('.group-count');
+        if (cntEl) cntEl.textContent = cnt;
+      }});
+
+      const filtering = preset !== 'all' || fromI.value || toI.value;
+      summary.textContent = filtering ? `Найдено: ${{visible}} из ${{items.length}}` : '';
+
+      // Auto-open groups when filtering so user sees results
+      if (filtering) {{
+        document.querySelectorAll('.group:not(.empty)').forEach(g => g.open = true);
+      }}
+    }};
+
+    chips.forEach(c => c.addEventListener('click', () => applyPreset(c.dataset.preset)));
+    fromI.addEventListener('change', () => {{
+      preset = 'custom';
+      chips.forEach(c => c.classList.remove('active'));
+      apply();
+    }});
+    toI.addEventListener('change', () => {{
+      preset = 'custom';
+      chips.forEach(c => c.classList.remove('active'));
+      apply();
+    }});
+    reset.addEventListener('click', () => applyPreset('all'));
   }})();
 </script>
 </body>
