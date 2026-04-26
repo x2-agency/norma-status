@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-26 08:09 UTC_
+_Обновлено: 2026-04-26 09:42 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 60</b></summary>
+<details><summary><b>🚧 В работе — 57</b></summary>
 
 #### В работе (4)
 
@@ -25,12 +25,6 @@ _Обновлено: 2026-04-26 08:09 UTC_
 
 - `2026-04-25` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
-
-#### На ревью (3)
-
-- `2026-04-25` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_
-- `2026-04-25` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
-- `2026-04-25` [Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)](https://github.com/x2-agency/norma-app/issues/219) · _Mobile App_
 
 #### Есть вопросы (2)
 
@@ -94,7 +88,7 @@ _Обновлено: 2026-04-26 08:09 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 19</b></summary>
+<details><summary><b>🧪 На тестировании — 22</b></summary>
 
 #### Готово к работе (8)
 
@@ -107,8 +101,11 @@ _Обновлено: 2026-04-26 08:09 UTC_
 - `2026-04-08` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_
 - `2026-04-08` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
 
-#### Передано в тестирование (10)
+#### Передано в тестирование (13)
 
+- `2026-04-26` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_
+- `2026-04-26` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_
+- `2026-04-26` [Виджет курьера: карта показывает слишком крупный масштаб (вся Россия вместо улиц)](https://github.com/x2-agency/norma-app/issues/219) · _Mobile App_
 - `2026-04-25` [Убрать текст про скидку 30% с кнопки в пустом состоянии раздела Заказы](https://github.com/x2-agency/norma-webapp/issues/353) · _Mobile App_
 - `2026-04-25` [Внедрить валидацию по адресу получения на этапе «Приёмка вещей»](https://github.com/x2-agency/norma-app/issues/250) · _Mobile App_
 - `2026-04-25` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_
