@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-26 19:37 UTC_
+_Обновлено: 2026-04-26 20:26 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 53</b></summary>
+<details><summary><b>🚧 В работе — 54</b></summary>
 
 #### В работе (4)
 
@@ -43,8 +43,9 @@ _Обновлено: 2026-04-26 19:37 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (33)
+#### Бэклог (34)
 
+- `2026-04-26` [Баг: переход с категорий на главной всегда ведёт на категорию 'верхняя одежда'](https://github.com/x2-agency/norma-webapp/issues/359) · _Frontend_
 - `2026-04-26` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_
 - `2026-04-26` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
