@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-26 16:29 UTC_
+_Обновлено: 2026-04-26 17:29 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 58</b></summary>
+<details><summary><b>🚧 В работе — 57</b></summary>
 
 #### В работе (4)
 
@@ -21,13 +21,15 @@ _Обновлено: 2026-04-26 16:29 UTC_
 - `2026-04-22` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_
 - `2026-04-22` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_
 
-#### В процессе (2)
+#### В процессе (3)
 
+- `2026-04-26` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_
 - `2026-04-25` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
 
-#### Есть вопросы (2)
+#### Есть вопросы (3)
 
+- `2026-04-26` [Вывести все статусы при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-webapp/issues/340) · _Mobile App_
 - `2026-04-14` [Пропал статус вещей активного заказа](https://github.com/x2-agency/norma-app/issues/201) · _Mobile App_
 - `2026-04-14` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-app/issues/218) · _Mobile App_
 
@@ -40,9 +42,8 @@ _Обновлено: 2026-04-26 16:29 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (39)
+#### Бэклог (36)
 
-- `2026-04-26` [Agbis Service Provider](https://github.com/x2-agency/norma-backend/pull/44) · _Backend_
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
 - `2026-04-26` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-backend/issues/42) · _Backend_
 - `2026-04-26` [Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_
@@ -50,9 +51,7 @@ _Обновлено: 2026-04-26 16:29 UTC_
 - `2026-04-25` [Баг валидации формы: при выборе 'дом' форма валидируется как 'квартира' или 'офис'](https://github.com/x2-agency/norma-webapp/issues/358) · _Frontend_
 - `2026-04-24` [В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_
 - `2026-04-23` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-webapp/issues/343) · _Backend_
-- `2026-04-23` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_
 - `2026-04-23` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-webapp/issues/342) · _Backend_
-- `2026-04-23` [Вывести все статусы при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-webapp/issues/340) · _Mobile App_
 - `2026-04-23` [Проверить создание задач в телетрек на забор и отдачу API](https://github.com/x2-agency/norma-webapp/issues/339) · _Backend_
 - `2026-04-23` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-webapp/issues/337) · _Backend_
 - `2026-04-23` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-webapp/issues/336) · _Backend_
@@ -124,8 +123,9 @@ _Обновлено: 2026-04-26 16:29 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 162</b></summary>
+<details open><summary><b>✅ Готово — 163</b></summary>
 
+- `2026-04-26` [Agbis Service Provider](https://github.com/x2-agency/norma-backend/pull/44) · _Backend_
 - `2026-04-25` [Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента](https://github.com/x2-agency/norma-backend/issues/39) · _Backend_
 - `2026-04-25` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
 - `2026-04-25` [Баг №34. UX списка: клик по плашке открывает карточку клиента вместо заказа](https://github.com/x2-agency/norma-backend/issues/35) · _Backend_
