@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-26 11:30 UTC_
+_Обновлено: 2026-04-26 12:36 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 57</b></summary>
+<details><summary><b>🚧 В работе — 58</b></summary>
 
 #### В работе (4)
 
@@ -40,8 +40,9 @@ _Обновлено: 2026-04-26 11:30 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (38)
+#### Бэклог (39)
 
+- `2026-04-26` [Agbis Service Provider](https://github.com/x2-agency/norma-backend/pull/44) · _Backend_
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
 - `2026-04-26` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-backend/issues/42) · _Backend_
 - `2026-04-26` [Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_
