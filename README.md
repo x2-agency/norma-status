@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-26 17:29 UTC_
+_Обновлено: 2026-04-26 18:34 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 57</b></summary>
+<details><summary><b>🚧 В работе — 56</b></summary>
 
 #### В работе (4)
 
@@ -21,8 +21,9 @@ _Обновлено: 2026-04-26 17:29 UTC_
 - `2026-04-22` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_
 - `2026-04-22` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_
 
-#### В процессе (3)
+#### В процессе (4)
 
+- `2026-04-26` [Реализовать флоу уведомлений](https://github.com/x2-agency/norma-app/issues/255) · _Mobile App_
 - `2026-04-26` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_
 - `2026-04-25` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
 - `2026-04-23` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_
@@ -42,7 +43,7 @@ _Обновлено: 2026-04-26 17:29 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (36)
+#### Бэклог (35)
 
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
 - `2026-04-26` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-backend/issues/42) · _Backend_
@@ -56,7 +57,6 @@ _Обновлено: 2026-04-26 17:29 UTC_
 - `2026-04-23` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-webapp/issues/337) · _Backend_
 - `2026-04-23` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-webapp/issues/336) · _Backend_
 - `2026-04-23` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-webapp/issues/197) · _Backend_
-- `2026-04-23` [Баг №25. Добавить отдельный индикатор «Подтверждён химчисткой»](https://github.com/x2-agency/norma-webapp/issues/327) · _Backend_
 - `2026-04-23` [Баг №20. Вывести доп. реквизиты и фото технолога](https://github.com/x2-agency/norma-webapp/issues/326) · _Backend_
 - `2026-04-23` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-webapp/issues/325) · _Backend_
 - `2026-04-23` [Реализовать API для отправки отзыва о заказе](https://github.com/x2-agency/norma-backend/issues/30) · _Backend_
@@ -81,10 +81,9 @@ _Обновлено: 2026-04-26 17:29 UTC_
 - `2026-04-03` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-webapp/issues/170) · _Backend_
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
 
-#### Тестовый сервер (2)
+#### Тестовый сервер (1)
 
 - `2026-04-25` [Минимальная сумма заказа 1 рубль при полной оплате бонусами](https://github.com/x2-agency/norma-backend/issues/38) · _Backend_
-- `2026-04-25` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-backend/issues/36) · _Backend_
 
 </details>
 
@@ -123,8 +122,10 @@ _Обновлено: 2026-04-26 17:29 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 163</b></summary>
+<details open><summary><b>✅ Готово — 165</b></summary>
 
+- `2026-04-26` [Баг №25. Добавить отдельный индикатор «Подтверждён химчисткой»](https://github.com/x2-agency/norma-webapp/issues/327) · _Backend_
+- `2026-04-26` [Бэкенд: выводить дополнительные поля адреса (дом, подъезд, этаж, квартира)](https://github.com/x2-agency/norma-backend/issues/36) · _Backend_
 - `2026-04-26` [Agbis Service Provider](https://github.com/x2-agency/norma-backend/pull/44) · _Backend_
 - `2026-04-25` [Добавить фильтрацию занятых слотов, не показывать их доступными для бронирования клиента](https://github.com/x2-agency/norma-backend/issues/39) · _Backend_
 - `2026-04-25` [Баг №10: Пропадает цена доставки при добавлении услуг к быстрому заказу](https://github.com/x2-agency/norma-backend/issues/31) · _Backend_
