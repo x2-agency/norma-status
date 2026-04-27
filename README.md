@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-27 22:38 UTC_
+_Обновлено: 2026-04-27 23:40 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -45,6 +45,7 @@ _Обновлено: 2026-04-27 22:38 UTC_
 
 #### Бэклог (31)
 
+- `2026-04-27` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
 - `2026-04-27` [Сделать редирект на страницу 404 при возникновении GoException page not found](https://github.com/x2-agency/norma-app/issues/256) · _Mobile App_
 - `2026-04-26` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
@@ -73,7 +74,6 @@ _Обновлено: 2026-04-27 22:38 UTC_
 - `2026-04-14` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-webapp/issues/254) · _Backend_
 - `2026-04-13` Бот создает задачи как драфт, нужно доработать, чтобы он создавал их как issue · _Backend_
 - `2026-04-13` Интеграция CloudPayments СБП: два метода API для оплаты · _Backend_
-- `2026-04-09` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
 - `2026-04-03` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-webapp/issues/170) · _Backend_
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
 
@@ -83,13 +83,13 @@ _Обновлено: 2026-04-27 22:38 UTC_
 
 #### Готово к работе (7)
 
+- `2026-04-27` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
 - `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_
 - `2026-04-25` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_
 - `2026-04-19` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
 - `2026-04-19` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_
 - `2026-04-08` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_
-- `2026-04-08` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
 
 #### Передано в тестирование (14)
 
