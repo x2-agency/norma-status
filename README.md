@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-27 07:31 UTC_
+_Обновлено: 2026-04-27 10:03 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 54</b></summary>
+<details><summary><b>🚧 В работе — 53</b></summary>
 
 #### В работе (4)
 
@@ -43,9 +43,8 @@ _Обновлено: 2026-04-27 07:31 UTC_
 - `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
 - `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
 
-#### Бэклог (34)
+#### Бэклог (33)
 
-- `2026-04-26` [Баг: переход с категорий на главной всегда ведёт на категорию 'верхняя одежда'](https://github.com/x2-agency/norma-webapp/issues/359) · _Frontend_
 - `2026-04-26` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_
 - `2026-04-26` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
@@ -82,7 +81,7 @@ _Обновлено: 2026-04-27 07:31 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 22</b></summary>
+<details><summary><b>🧪 На тестировании — 21</b></summary>
 
 #### Готово к работе (8)
 
@@ -111,14 +110,12 @@ _Обновлено: 2026-04-27 07:31 UTC_
 - `2026-04-24` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_
 - `2026-04-23` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_
 
-#### Тестирование (1)
-
-- `2026-04-23` [Анимация появления по блочно с таймингом и типом как на сайте Студии](https://github.com/x2-agency/norma-webapp/issues/322) · _Frontend_
-
 </details>
 
-<details open><summary><b>✅ Готово — 168</b></summary>
+<details open><summary><b>✅ Готово — 170</b></summary>
 
+- `2026-04-27` [Анимация появления по блочно с таймингом и типом как на сайте Студии](https://github.com/x2-agency/norma-webapp/issues/322) · _Frontend_
+- `2026-04-27` [Баг: переход с категорий на главной всегда ведёт на категорию 'верхняя одежда'](https://github.com/x2-agency/norma-webapp/issues/359) · _Frontend_
 - `2026-04-26` [Минимальная сумма заказа 1 рубль при полной оплате бонусами](https://github.com/x2-agency/norma-backend/issues/38) · _Backend_
 - `2026-04-26` [Баг №20. Вывести доп. реквизиты и фото технолога](https://github.com/x2-agency/norma-backend/issues/45) · _Backend_
 - `2026-04-26` [Пропадают этапы выдачи заказов при незаполненном адресе получения](https://github.com/x2-agency/norma-backend/issues/42) · _Backend_
