@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-27 10:03 UTC_
+_Обновлено: 2026-04-27 12:14 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 53</b></summary>
+<details><summary><b>🚧 В работе — 51</b></summary>
 
 #### В работе (4)
 
@@ -15,11 +15,9 @@ _Обновлено: 2026-04-27 10:03 UTC_
 - `2026-04-18` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
 - `2026-04-18` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_
 
-#### В разработке (3)
+#### В разработке (1)
 
-- `2026-04-23` [Подкидывать страницу наверх после нажатия кнопки выбора адреса и оформления заказа](https://github.com/x2-agency/norma-webapp/issues/284) · _Frontend_
-- `2026-04-22` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_
-- `2026-04-22` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_
+- `2026-04-27` [Изменить механику валидации на странице фидбека](https://github.com/x2-agency/norma-webapp/issues/362) · _Frontend_
 
 #### В процессе (4)
 
@@ -81,10 +79,12 @@ _Обновлено: 2026-04-27 10:03 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 21</b></summary>
+<details><summary><b>🧪 На тестировании — 24</b></summary>
 
-#### Готово к работе (8)
+#### Готово к работе (10)
 
+- `2026-04-27` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_
+- `2026-04-27` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_
 - `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_
 - `2026-04-25` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_
 - `2026-04-19` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
@@ -109,6 +109,10 @@ _Обновлено: 2026-04-27 10:03 UTC_
 - `2026-04-24` [Доработка \| Сделать заглушку на кнопку "Написать в поддержку"](https://github.com/x2-agency/norma-app/issues/240) · _Mobile App_
 - `2026-04-24` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_
 - `2026-04-23` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_
+
+#### Тестирование (1)
+
+- `2026-04-27` [Подкидывать страницу наверх после нажатия кнопки выбора адреса и оформления заказа](https://github.com/x2-agency/norma-webapp/issues/284) · _Frontend_
 
 </details>
 
