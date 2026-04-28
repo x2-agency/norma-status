@@ -42,8 +42,14 @@ query($org: String!, $num: Int!, $cursor: String) {
           }
           content {
             __typename
-            ... on Issue       { title url createdAt }
-            ... on PullRequest { title url createdAt }
+            ... on Issue {
+              title url createdAt
+              labels(first: 20) { nodes { name } }
+            }
+            ... on PullRequest {
+              title url createdAt
+              labels(first: 20) { nodes { name } }
+            }
             ... on DraftIssue  { title createdAt }
           }
         }
@@ -79,6 +85,16 @@ def extract_status(node: dict) -> str:
     return "Без статуса"
 
 
+def extract_priority(content: dict) -> str:
+    labels = ((content.get("labels") or {}).get("nodes") or [])
+    names = {(l.get("name") or "").lower() for l in labels}
+    if "must-have" in names:
+        return "must"
+    if "nice-to-have" in names:
+        return "nice"
+    return ""
+
+
 def collect():
     """Returns (done, work_by_status, testing_by_status)."""
     done = []
@@ -93,6 +109,7 @@ def collect():
                 "created": content.get("createdAt"),
                 "updated": node.get("updatedAt") or content.get("createdAt"),
                 "project": label,
+                "priority": extract_priority(content),
             }
             status = extract_status(node).strip()
             if status == DONE_STATUS:
@@ -176,14 +193,21 @@ def render_html(done, work, testing, now_iso: str) -> str:
             link = f'<span>{title}</span>'
         updated = e.get("updated") or ""
         date = esc(updated[:10]) if updated else "—"
+        priority = e.get("priority") or ""
+        priority_tag = ""
+        if priority == "must":
+            priority_tag = '<span class="tag t-must">🔴 Must Have</span>'
+        elif priority == "nice":
+            priority_tag = '<span class="tag t-nice">🟢 Nice to Have</span>'
         return (
-            f'<li class="task-item" data-updated="{esc(updated)}">'
+            f'<li class="task-item" data-updated="{esc(updated)}" data-priority="{esc(priority)}">'
             f'<span class="bullet"></span>'
             f'<div class="task">'
             f'  <div class="task-title">{link}</div>'
             f'  <div class="task-meta">'
             f'    <span class="date" title="Дата последнего обновления">{date}</span>'
             f'    <span class="tag {pcls}">{proj}</span>'
+            f'    {priority_tag}'
             f'  </div>'
             f'</div>'
             f'</li>'
@@ -349,6 +373,8 @@ def render_html(done, work, testing, now_iso: str) -> str:
   .tag.p-mobile {{ background: var(--accent-soft); color: var(--accent); }}
   .tag.p-frontend {{ background: var(--ready-soft); color: var(--ready); }}
   .tag.p-backend {{ background: var(--review-soft); color: var(--review); }}
+  .tag.t-must {{ background: var(--blocked-soft); color: var(--blocked); font-weight: 600; }}
+  .tag.t-nice {{ background: var(--green-soft); color: var(--green); font-weight: 600; }}
 
   footer {{ text-align: center; color: var(--muted-2); font-size: 12.5px; margin-top: 32px; }}
   footer a {{ color: var(--muted); }}
@@ -364,6 +390,12 @@ def render_html(done, work, testing, now_iso: str) -> str:
     font-family: inherit; transition: all .12s; }}
   .chip:hover {{ border-color: var(--accent); color: var(--accent); }}
   .chip.active {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
+  .chip.chip-must:hover {{ border-color: var(--blocked); color: var(--blocked); }}
+  .chip.chip-must.active {{ background: var(--blocked); color: #fff; border-color: var(--blocked); }}
+  .chip.chip-nice:hover {{ border-color: var(--green); color: var(--green); }}
+  .chip.chip-nice.active {{ background: var(--green); color: #fff; border-color: var(--green); }}
+  .priority-row {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+    padding: 12px 0; border-bottom: 1px dashed var(--border); margin-bottom: 12px; }}
   .range {{ display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px;
     background: var(--card-2); border: 1px solid var(--border); border-radius: 999px; }}
   .range input[type=date] {{ border: none; background: transparent; font: inherit;
@@ -399,6 +431,12 @@ def render_html(done, work, testing, now_iso: str) -> str:
       <a href="https://github.com/orgs/{OWNER}/projects/4" target="_blank" rel="noopener">⚙ Backend</a>
     </div>
     <div class="filters" id="filters">
+      <div class="priority-row">
+        <span class="filters-label">Приоритет:</span>
+        <button class="chip active" data-priority="all">Все</button>
+        <button class="chip chip-must" data-priority="must">🔴 Must Have</button>
+        <button class="chip chip-nice" data-priority="nice">🟢 Nice to Have</button>
+      </div>
       <span class="filters-label">Обновлены:</span>
       <button class="chip active" data-preset="all">Все</button>
       <button class="chip" data-preset="today">Сегодня</button>
@@ -520,11 +558,13 @@ def render_html(done, work, testing, now_iso: str) -> str:
 
     // Date filtering
     const items = Array.from(document.querySelectorAll('.task-item'));
-    const chips = Array.from(document.querySelectorAll('.chip'));
+    const chips = Array.from(document.querySelectorAll('.chip[data-preset]'));
+    const priorityChips = Array.from(document.querySelectorAll('.chip[data-priority]'));
     const fromI = document.getElementById('from');
     const toI = document.getElementById('to');
     const reset = document.getElementById('reset');
     const summary = document.getElementById('summary');
+    let priorityFilter = 'all';
 
     const toLocalDate = iso => {{
       if (!iso) return null;
@@ -575,10 +615,12 @@ def render_html(done, work, testing, now_iso: str) -> str:
 
       items.forEach(li => {{
         const d = toLocalDate(li.dataset.updated);
+        const p = li.dataset.priority || '';
         let show = true;
         if (from && d && d < from) show = false;
         if (toEnd && d && d >= toEnd) show = false;
         if (!d && (from || toEnd)) show = false;
+        if (priorityFilter !== 'all' && p !== priorityFilter) show = false;
         li.classList.toggle('hidden', !show);
         if (show) visible++;
       }});
@@ -599,7 +641,7 @@ def render_html(done, work, testing, now_iso: str) -> str:
         if (cntEl) cntEl.textContent = cnt;
       }});
 
-      const filtering = preset !== 'all' || fromI.value || toI.value;
+      const filtering = preset !== 'all' || fromI.value || toI.value || priorityFilter !== 'all';
       summary.textContent = filtering ? `Найдено: ${{visible}} из ${{items.length}}` : '';
 
       // Auto-open groups when filtering so user sees results
@@ -609,6 +651,11 @@ def render_html(done, work, testing, now_iso: str) -> str:
     }};
 
     chips.forEach(c => c.addEventListener('click', () => applyPreset(c.dataset.preset)));
+    priorityChips.forEach(c => c.addEventListener('click', () => {{
+      priorityFilter = c.dataset.priority;
+      priorityChips.forEach(x => x.classList.toggle('active', x.dataset.priority === priorityFilter));
+      apply();
+    }}));
     fromI.addEventListener('change', () => {{
       preset = 'custom';
       chips.forEach(c => c.classList.remove('active'));
@@ -619,7 +666,11 @@ def render_html(done, work, testing, now_iso: str) -> str:
       chips.forEach(c => c.classList.remove('active'));
       apply();
     }});
-    reset.addEventListener('click', () => applyPreset('all'));
+    reset.addEventListener('click', () => {{
+      priorityFilter = 'all';
+      priorityChips.forEach(x => x.classList.toggle('active', x.dataset.priority === 'all'));
+      applyPreset('all');
+    }});
   }})();
 </script>
 </body>

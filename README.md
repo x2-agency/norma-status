@@ -1,20 +1,20 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-28 20:56 UTC_
+_Обновлено: 2026-04-28 21:36 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 45</b></summary>
+<details><summary><b>🚧 В работе — 47</b></summary>
 
 #### В работе (6)
 
+- `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_
+- `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_
-- `2026-04-28` [Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_
-- `2026-04-27` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_
-- `2026-04-18` [Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_
-- `2026-04-18` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_
 - `2026-04-18` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_
 
 #### В разработке (2)
@@ -31,33 +31,36 @@ _Обновлено: 2026-04-28 20:56 UTC_
 
 - `2026-04-28` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_
 
-#### Есть блокеры (6)
+#### Есть блокеры (4)
 
-- `2026-04-28` [В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_
-- `2026-04-22` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_
-- `2026-04-20` [Сетевая активность в мобильном приложении](https://github.com/x2-agency/norma-app/issues/226) · _Mobile App_
-- `2026-04-16` [Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-app/issues/224) · _Mobile App_
-- `2026-04-16` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
-- `2026-04-16` [Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
+- `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_
+- `2026-04-28` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_
+- `2026-04-28` [🔴 MUST HAVE \| Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-app/issues/224) · _Mobile App_
+- `2026-04-28` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_
 
-#### Бэклог (28)
+#### Бэклог (32)
 
-- `2026-04-28` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_
-- `2026-04-28` [Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_
+- `2026-04-28` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
+- `2026-04-28` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-backend/issues/54) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Передавать сумму доставки в АГБИС и Максма](https://github.com/x2-agency/norma-backend/issues/66) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_
+- `2026-04-28` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_
+- `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Frontend_
+- `2026-04-28` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
+- `2026-04-28` [🔴 MUST HAVE \| Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Ручная отправка уведомлений с выбором типа клиента](https://github.com/x2-agency/norma-backend/issues/69) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| Сделать уведомления по 3 типам триггеров](https://github.com/x2-agency/norma-backend/issues/70) · _Backend_
+- `2026-04-28` [СПБ оплата курьеру через Телетрек](https://github.com/x2-agency/norma-backend/issues/68) · _Backend_
+- `2026-04-28` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_
 - `2026-04-28` [Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности](https://github.com/x2-agency/norma-backend/issues/59) · _Backend_
 - `2026-04-28` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_
-- `2026-04-28` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-backend/issues/57) · _Backend_
 - `2026-04-28` [Исправить проблему с ролями: добавить редактирование/удаление](https://github.com/x2-agency/norma-backend/issues/56) · _Backend_
-- `2026-04-28` [Данные курьерской доставки не отображаются в админке](https://github.com/x2-agency/norma-backend/issues/55) · _Backend_
-- `2026-04-28` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-backend/issues/54) · _Backend_
 - `2026-04-28` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_
-- `2026-04-28` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-backend/issues/50) · _Backend_
 - `2026-04-28` [Проверить создание задач в телетрек на забор и отдачу API](https://github.com/x2-agency/norma-backend/issues/49) · _Backend_
-- `2026-04-27` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
-- `2026-04-26` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_
-- `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
 - `2026-04-26` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_
 - `2026-04-23` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-webapp/issues/337) · _Backend_
 - `2026-04-23` [Реализовать API для отправки отзыва о заказе](https://github.com/x2-agency/norma-backend/issues/30) · _Backend_
@@ -66,7 +69,6 @@ _Обновлено: 2026-04-28 20:56 UTC_
 - `2026-04-22` Не передаётся имя клиента — вместо имени подставляется номер телефона и mail · _Backend_
 - `2026-04-22` добавить от там где поддтовары · _Frontend_
 - `2026-04-19` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_
-- `2026-04-19` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Frontend_
 - `2026-04-13` Бот создает задачи как драфт, нужно доработать, чтобы он создавал их как issue · _Backend_
 - `2026-04-13` Интеграция CloudPayments СБП: два метода API для оплаты · _Backend_
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
@@ -77,11 +79,11 @@ _Обновлено: 2026-04-28 20:56 UTC_
 
 #### Готово к работе (8)
 
+- `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
+- `2026-04-28` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
 - `2026-04-28` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-backend/issues/48) · _Backend_
-- `2026-04-27` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_
 - `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_
 - `2026-04-25` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_
-- `2026-04-19` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_
 - `2026-04-19` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_
 - `2026-04-08` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_
@@ -106,8 +108,11 @@ _Обновлено: 2026-04-28 20:56 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 178</b></summary>
+<details open><summary><b>✅ Готово — 181</b></summary>
 
+- `2026-04-28` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-backend/issues/50) · _Backend_
+- `2026-04-28` [Данные курьерской доставки не отображаются в админке](https://github.com/x2-agency/norma-backend/issues/55) · _Backend_
+- `2026-04-28` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-backend/issues/57) · _Backend_
 - `2026-04-28` [Плавающий баг \| Дублирование Фамилии в поле Имя](https://github.com/x2-agency/norma-app/issues/244) · _Mobile App_
 - `2026-04-28` [🛑  [APP-048]: Сделать оформление мобильного приложение в сторах согласно дизайну](https://github.com/x2-agency/norma-app/issues/144) · _Mobile App_
 - `2026-04-28` [Пропал статус вещей активного заказа](https://github.com/x2-agency/norma-app/issues/201) · _Mobile App_
