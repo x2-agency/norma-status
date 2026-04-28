@@ -45,10 +45,12 @@ query($org: String!, $num: Int!, $cursor: String) {
             ... on Issue {
               title url createdAt
               labels(first: 20) { nodes { name } }
+              assignees(first: 10) { nodes { login name } }
             }
             ... on PullRequest {
               title url createdAt
               labels(first: 20) { nodes { name } }
+              assignees(first: 10) { nodes { login name } }
             }
             ... on DraftIssue  { title createdAt }
           }
@@ -95,6 +97,11 @@ def extract_priority(content: dict) -> str:
     return ""
 
 
+def extract_assignees(content: dict) -> list[dict]:
+    nodes = ((content.get("assignees") or {}).get("nodes") or [])
+    return [{"login": a.get("login") or "", "name": a.get("name") or ""} for a in nodes]
+
+
 def collect():
     """Returns (done, work_by_status, testing_by_status)."""
     done = []
@@ -110,6 +117,7 @@ def collect():
                 "updated": node.get("updatedAt") or content.get("createdAt"),
                 "project": label,
                 "priority": extract_priority(content),
+                "assignees": extract_assignees(content),
             }
             status = extract_status(node).strip()
             if status == DONE_STATUS:
@@ -149,7 +157,12 @@ def render_md(done, work, testing, now: str) -> str:
         title = e["title"].replace("|", "\\|")
         link = f"[{title}]({e['url']})" if e["url"] else title
         date = e["updated"][:10] if e.get("updated") else "—"
-        return f"- `{date}` {link} · _{e['project']}_"
+        assignees = e.get("assignees") or []
+        if assignees:
+            who = ", ".join(a["name"] or a["login"] for a in assignees)
+        else:
+            who = "—"
+        return f"- `{date}` {link} · _{e['project']}_ · 👤 {who}"
 
     def group(emoji: str, name: str, buckets: dict, order: list[str], is_open: bool) -> None:
         total = sum(len(v) for v in buckets.values())
@@ -199,6 +212,16 @@ def render_html(done, work, testing, now_iso: str) -> str:
             priority_tag = '<span class="tag t-must">🔴 Must Have</span>'
         elif priority == "nice":
             priority_tag = '<span class="tag t-nice">🟢 Nice to Have</span>'
+        assignees = e.get("assignees") or []
+        if assignees:
+            assignee_html = "".join(
+                f'<a class="tag t-assignee" href="https://github.com/{esc(a["login"])}" '
+                f'target="_blank" rel="noopener" title="{esc(a["name"] or a["login"])}">'
+                f'👤 {esc(a["name"] or a["login"])}</a>'
+                for a in assignees
+            )
+        else:
+            assignee_html = '<span class="tag t-unassigned">👤 Без исполнителя</span>'
         return (
             f'<li class="task-item" data-updated="{esc(updated)}" data-priority="{esc(priority)}">'
             f'<span class="bullet"></span>'
@@ -208,6 +231,7 @@ def render_html(done, work, testing, now_iso: str) -> str:
             f'    <span class="date" title="Дата последнего обновления">{date}</span>'
             f'    <span class="tag {pcls}">{proj}</span>'
             f'    {priority_tag}'
+            f'    {assignee_html}'
             f'  </div>'
             f'</div>'
             f'</li>'
@@ -375,6 +399,10 @@ def render_html(done, work, testing, now_iso: str) -> str:
   .tag.p-backend {{ background: var(--review-soft); color: var(--review); }}
   .tag.t-must {{ background: var(--blocked-soft); color: var(--blocked); font-weight: 600; }}
   .tag.t-nice {{ background: var(--green-soft); color: var(--green); font-weight: 600; }}
+  .tag.t-assignee {{ background: var(--accent-soft); color: var(--accent); font-weight: 500;
+    text-decoration: none; }}
+  .tag.t-assignee:hover {{ filter: brightness(0.95); text-decoration: none; }}
+  .tag.t-unassigned {{ background: var(--backlog-soft); color: var(--muted); font-style: italic; }}
 
   footer {{ text-align: center; color: var(--muted-2); font-size: 12.5px; margin-top: 32px; }}
   footer a {{ color: var(--muted); }}
