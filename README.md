@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-28 08:01 UTC_
+_Обновлено: 2026-04-28 10:51 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -46,15 +46,25 @@ _Обновлено: 2026-04-28 08:01 UTC_
 
 #### Бэклог (29)
 
+- `2026-04-28` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_
+- `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_
+- `2026-04-28` [Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_
+- `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_
+- `2026-04-28` [Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности](https://github.com/x2-agency/norma-backend/issues/59) · _Backend_
+- `2026-04-28` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_
+- `2026-04-28` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-backend/issues/57) · _Backend_
+- `2026-04-28` [Исправить проблему с ролями: добавить редактирование/удаление](https://github.com/x2-agency/norma-backend/issues/56) · _Backend_
+- `2026-04-28` [Данные курьерской доставки не отображаются в админке](https://github.com/x2-agency/norma-backend/issues/55) · _Backend_
+- `2026-04-28` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-backend/issues/54) · _Backend_
+- `2026-04-28` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_
+- `2026-04-28` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-backend/issues/50) · _Backend_
 - `2026-04-28` [Проверить создание задач в телетрек на забор и отдачу API](https://github.com/x2-agency/norma-backend/issues/49) · _Backend_
 - `2026-04-27` [[SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_
 - `2026-04-27` [Сделать редирект на страницу 404 при возникновении GoException page not found](https://github.com/x2-agency/norma-app/issues/256) · _Mobile App_
 - `2026-04-26` [Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_
 - `2026-04-26` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_
 - `2026-04-26` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_
-- `2026-04-23` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-webapp/issues/342) · _Backend_
 - `2026-04-23` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-webapp/issues/337) · _Backend_
-- `2026-04-23` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-webapp/issues/197) · _Backend_
 - `2026-04-23` [Реализовать API для отправки отзыва о заказе](https://github.com/x2-agency/norma-backend/issues/30) · _Backend_
 - `2026-04-22` Баг №11. Не сработала бесплатная доставка у заказа (добавить) · _Backend_
 - `2026-04-22` Пропадает цена доставки · _Backend_
@@ -62,18 +72,8 @@ _Обновлено: 2026-04-28 08:01 UTC_
 - `2026-04-22` добавить от там где поддтовары · _Frontend_
 - `2026-04-19` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_
 - `2026-04-19` [[SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Frontend_
-- `2026-04-17` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-webapp/issues/302) · _Backend_
-- `2026-04-16` [Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности](https://github.com/x2-agency/norma-webapp/issues/295) · _Backend_
-- `2026-04-16` [Исправить проблему с ролями: добавить редактирование/удаление](https://github.com/x2-agency/norma-webapp/issues/293) · _Backend_
-- `2026-04-16` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-webapp/issues/257) · _Backend_
-- `2026-04-16` [Данные курьерской доставки не отображаются в админке](https://github.com/x2-agency/norma-webapp/issues/286) · _Backend_
-- `2026-04-15` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-webapp/issues/283) · _Backend_
-- `2026-04-15` [Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-webapp/issues/281) · _Backend_
-- `2026-04-15` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-webapp/issues/276) · _Backend_
-- `2026-04-14` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-webapp/issues/254) · _Backend_
 - `2026-04-13` Бот создает задачи как драфт, нужно доработать, чтобы он создавал их как issue · _Backend_
 - `2026-04-13` Интеграция CloudPayments СБП: два метода API для оплаты · _Backend_
-- `2026-04-03` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-webapp/issues/170) · _Backend_
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_
 
 </details>
