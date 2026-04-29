@@ -1,21 +1,20 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-29 07:56 UTC_
+_Обновлено: 2026-04-29 09:57 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 48</b></summary>
+<details><summary><b>🚧 В работе — 47</b></summary>
 
-#### В работе (6)
+#### В работе (5)
 
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-18` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_ · 👤 Alexander Khlyntcev
 
 #### В разработке (2)
 
@@ -108,8 +107,9 @@ _Обновлено: 2026-04-29 07:56 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 181</b></summary>
+<details open><summary><b>✅ Готово — 182</b></summary>
 
+- `2026-04-29` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-backend/issues/50) · _Backend_ · 👤 Ara Khachikyan
 - `2026-04-28` [Данные курьерской доставки не отображаются в админке](https://github.com/x2-agency/norma-backend/issues/55) · _Backend_ · 👤 —
 - `2026-04-28` [Перестали создаваться заказы в МАсме — последние заказы не попали](https://github.com/x2-agency/norma-backend/issues/57) · _Backend_ · 👤 Ara Khachikyan
