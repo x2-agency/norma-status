@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-29 09:57 UTC_
+_Обновлено: 2026-04-29 11:26 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -8,8 +8,9 @@ _Обновлено: 2026-04-29 09:57 UTC_
 
 <details><summary><b>🚧 В работе — 47</b></summary>
 
-#### В работе (5)
+#### В работе (6)
 
+- `2026-04-29` [🔴 MUST HAVE \| Ручная отправка уведомлений с выбором типа клиента](https://github.com/x2-agency/norma-backend/issues/69) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
@@ -37,13 +38,13 @@ _Обновлено: 2026-04-29 09:57 UTC_
 - `2026-04-28` [🔴 MUST HAVE \| Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-app/issues/224) · _Mobile App_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (33)
+#### Бэклог (32)
 
+- `2026-04-29` [Изучить ошибку создания заказа в АГБИС и повторную выгрузку](https://github.com/x2-agency/norma-backend/issues/73) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_ · 👤 —
 - `2026-04-28` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-28` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-backend/issues/54) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| Передавать сумму доставки в АГБИС и Максма](https://github.com/x2-agency/norma-backend/issues/66) · _Backend_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
@@ -52,7 +53,6 @@ _Обновлено: 2026-04-29 09:57 UTC_
 - `2026-04-28` [🔴 MUST HAVE \| Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-28` [🔴 MUST HAVE \| Ручная отправка уведомлений с выбором типа клиента](https://github.com/x2-agency/norma-backend/issues/69) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| Сделать уведомления по 3 типам триггеров](https://github.com/x2-agency/norma-backend/issues/70) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [СПБ оплата курьеру через Телетрек](https://github.com/x2-agency/norma-backend/issues/68) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
@@ -107,8 +107,11 @@ _Обновлено: 2026-04-29 09:57 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 182</b></summary>
+<details open><summary><b>✅ Готово — 185</b></summary>
 
+- `2026-04-29` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-backend/issues/54) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [Полные данные товаров заказа одним запросом, чтобы мобилка не дёргала /catalog/products/{id} в цикле](https://github.com/x2-agency/norma-backend/pull/72) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [Оптимизация скачиваний изображений из АГБИС](https://github.com/x2-agency/norma-backend/pull/71) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Изучить ТЗ по 8-му спринту (уведомления) и нарезать задачи](https://github.com/x2-agency/norma-backend/issues/13) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Оплатить услуг СБП lifepay](https://github.com/x2-agency/norma-backend/issues/50) · _Backend_ · 👤 Ara Khachikyan
 - `2026-04-28` [Данные курьерской доставки не отображаются в админке](https://github.com/x2-agency/norma-backend/issues/55) · _Backend_ · 👤 —
