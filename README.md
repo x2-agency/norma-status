@@ -1,17 +1,15 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-29 15:50 UTC_
+_Обновлено: 2026-04-29 17:14 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 51</b></summary>
+<details><summary><b>🚧 В работе — 49</b></summary>
 
-#### В работе (7)
+#### В работе (5)
 
-- `2026-04-29` [Изучить ошибку создания заказа в АГБИС и повторную выгрузку](https://github.com/x2-agency/norma-backend/issues/73) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-29` [🔴 MUST HAVE \| Ручная отправка уведомлений с выбором типа клиента](https://github.com/x2-agency/norma-backend/issues/69) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
@@ -41,8 +39,8 @@ _Обновлено: 2026-04-29 15:50 UTC_
 
 #### Бэклог (35)
 
-- `2026-04-29` [Ручная отправка уведомлений клиенту из админки](https://github.com/x2-agency/norma-backend/pull/76) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-29` [При ошибке создания заказа в АГБИС не терять agbis_id.](https://github.com/x2-agency/norma-backend/pull/75) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
+- `2026-04-29` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 —
 - `2026-04-29` [Картинки товаров долго загружаются — оптимизировать размер изображений](https://github.com/x2-agency/norma-backend/issues/74) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Баг: пустой экран при оформлении заказа без авторизации](https://github.com/x2-agency/norma-app/issues/264) · _Mobile App_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
@@ -111,8 +109,12 @@ _Обновлено: 2026-04-29 15:50 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 185</b></summary>
+<details open><summary><b>✅ Готово — 189</b></summary>
 
+- `2026-04-29` [🔴 MUST HAVE \| Ручная отправка уведомлений с выбором типа клиента](https://github.com/x2-agency/norma-backend/issues/69) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [Ручная отправка уведомлений клиенту из админки](https://github.com/x2-agency/norma-backend/pull/76) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [Изучить ошибку создания заказа в АГБИС и повторную выгрузку](https://github.com/x2-agency/norma-backend/issues/73) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [При ошибке создания заказа в АГБИС не терять agbis_id.](https://github.com/x2-agency/norma-backend/pull/75) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Добавить возможность получения всех позиций конкретного заказа](https://github.com/x2-agency/norma-backend/issues/54) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Полные данные товаров заказа одним запросом, чтобы мобилка не дёргала /catalog/products/{id} в цикле](https://github.com/x2-agency/norma-backend/pull/72) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Оптимизация скачиваний изображений из АГБИС](https://github.com/x2-agency/norma-backend/pull/71) · _Backend_ · 👤 Alexander Khlyntcev
