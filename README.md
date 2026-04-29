@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-29 17:14 UTC_
+_Обновлено: 2026-04-29 19:05 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 49</b></summary>
+<details><summary><b>🚧 В работе — 47</b></summary>
 
 #### В работе (5)
 
@@ -30,14 +30,13 @@ _Обновлено: 2026-04-29 17:14 UTC_
 
 - `2026-04-28` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Есть блокеры (4)
+#### Есть блокеры (3)
 
+- `2026-04-29` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-backend/issues/79) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
-- `2026-04-28` [🔴 MUST HAVE \| Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-app/issues/224) · _Mobile App_ · 👤 —
-- `2026-04-28` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (35)
+#### Бэклог (34)
 
 - `2026-04-29` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
 - `2026-04-29` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 —
@@ -51,7 +50,6 @@ _Обновлено: 2026-04-29 17:14 UTC_
 - `2026-04-28` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
-- `2026-04-28` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [🔴 MUST HAVE \| Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| Баг №11/2: Передавать стоимость доставки в АГБИС + Максма](https://github.com/x2-agency/norma-backend/issues/46) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_ · 👤 Alexander Khlyntcev
@@ -77,11 +75,10 @@ _Обновлено: 2026-04-29 17:14 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 22</b></summary>
+<details><summary><b>🧪 На тестировании — 21</b></summary>
 
-#### Готово к работе (7)
+#### Готово к работе (6)
 
-- `2026-04-28` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-backend/issues/48) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-25` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
@@ -109,8 +106,11 @@ _Обновлено: 2026-04-29 17:14 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 189</b></summary>
+<details open><summary><b>✅ Готово — 192</b></summary>
 
+- `2026-04-29` [🔴 MUST HAVE \| Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-backend/issues/80) · _Mobile App_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
+- `2026-04-29` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-29` [🔴 MUST HAVE \| Ручная отправка уведомлений с выбором типа клиента](https://github.com/x2-agency/norma-backend/issues/69) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Ручная отправка уведомлений клиенту из админки](https://github.com/x2-agency/norma-backend/pull/76) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [Изучить ошибку создания заказа в АГБИС и повторную выгрузку](https://github.com/x2-agency/norma-backend/issues/73) · _Backend_ · 👤 Alexander Khlyntcev
