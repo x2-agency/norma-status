@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-29 11:26 UTC_
+_Обновлено: 2026-04-29 13:17 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 47</b></summary>
+<details><summary><b>🚧 В работе — 49</b></summary>
 
 #### В работе (6)
 
@@ -38,8 +38,10 @@ _Обновлено: 2026-04-29 11:26 UTC_
 - `2026-04-28` [🔴 MUST HAVE \| Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-app/issues/224) · _Mobile App_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/249) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (32)
+#### Бэклог (34)
 
+- `2026-04-29` [Картинки товаров долго загружаются — оптимизировать размер изображений](https://github.com/x2-agency/norma-backend/issues/74) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-04-29` [Баг: пустой экран при оформлении заказа без авторизации](https://github.com/x2-agency/norma-app/issues/264) · _Mobile App_ · 👤 —
 - `2026-04-29` [Изучить ошибку создания заказа в АГБИС и повторную выгрузку](https://github.com/x2-agency/norma-backend/issues/73) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
