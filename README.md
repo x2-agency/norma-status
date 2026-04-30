@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-30 14:56 UTC_
+_Обновлено: 2026-04-30 16:13 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -18,7 +18,7 @@ _Обновлено: 2026-04-30 14:56 UTC_
 
 #### В разработке (2)
 
-- `2026-04-30` [Сделать апскейл изображений в отзывах](https://github.com/x2-agency/norma-webapp/issues/379) · _Frontend_ · 👤 Eugene
+- `2026-04-30` [Сделать корректный вывод названия услуги в корзине](https://github.com/x2-agency/norma-webapp/issues/384) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
 #### В процессе (2)
@@ -78,13 +78,12 @@ _Обновлено: 2026-04-30 14:56 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 27</b></summary>
+<details><summary><b>🧪 На тестировании — 29</b></summary>
 
-#### Готово к работе (11)
+#### Готово к работе (10)
 
 - `2026-04-30` добавить от там где поддтовары · _Frontend_ · 👤 —
 - `2026-04-30` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
-- `2026-04-30` [Замена картинки в секции "Не просто чистка"](https://github.com/x2-agency/norma-webapp/issues/377) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-04-28` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-backend/issues/48) · _Backend_ · 👤 Alexander Khlyntcev
@@ -112,8 +111,11 @@ _Обновлено: 2026-04-30 14:56 UTC_
 - `2026-04-24` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_ · 👤 —
 - `2026-04-23` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_ · 👤 —
 
-#### Тестирование (1)
+#### Тестирование (4)
 
+- `2026-04-30` [Замена картинки в секции "Не просто чистка"](https://github.com/x2-agency/norma-webapp/issues/377) · _Frontend_ · 👤 Eugene
+- `2026-04-30` [Ограничить поиск адерсов - сделать приоритет на Москву и Санкт-Петербург](https://github.com/x2-agency/norma-webapp/issues/382) · _Frontend_ · 👤 Eugene
+- `2026-04-30` [Сделать апскейл изображений в отзывах](https://github.com/x2-agency/norma-webapp/issues/379) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Фикс стилей на странице "Цены"](https://github.com/x2-agency/norma-webapp/issues/375) · _Frontend_ · 👤 Eugene
 
 </details>
