@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-04-30 18:01 UTC_
+_Обновлено: 2026-04-30 20:03 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 50</b></summary>
+<details><summary><b>🚧 В работе — 47</b></summary>
 
 #### В работе (5)
 
@@ -16,9 +16,8 @@ _Обновлено: 2026-04-30 18:01 UTC_
 - `2026-04-28` [🔴 MUST HAVE \| Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_ · 👤 Alexander Khlyntcev
 
-#### В разработке (2)
+#### В разработке (1)
 
-- `2026-04-30` добавить от там где поддтовары · _Frontend_ · 👤 —
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
 #### В процессе (2)
@@ -30,22 +29,20 @@ _Обновлено: 2026-04-30 18:01 UTC_
 
 - `2026-04-28` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Есть блокеры (3)
+#### Есть блокеры (2)
 
-- `2026-04-29` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-backend/issues/79) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (37)
+#### Бэклог (36)
 
+- `2026-04-30` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-backend/issues/79) · _Mobile App_ · 👤 Alexander Khlyntcev
+- `2026-04-30` [Баг: пустой экран при оформлении заказа без авторизации](https://github.com/x2-agency/norma-app/issues/264) · _Mobile App_ · 👤 —
 - `2026-04-30` [Одинаковая высота у статусов заказов](https://github.com/x2-agency/norma-app/issues/270) · _Mobile App_ · 👤 —
-- `2026-04-30` [Текст на некоторых акциях в МП заходит на картинки](https://github.com/x2-agency/norma-app/issues/269) · _Mobile App_ · 👤 —
 - `2026-04-30` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 —
-- `2026-04-30` [Серый экран авторизации после тотального рефакторинга](https://github.com/x2-agency/norma-app/issues/267) · _Mobile App_ · 👤 —
 - `2026-04-29` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
 - `2026-04-29` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 —
 - `2026-04-29` [Картинки товаров долго загружаются — оптимизировать размер изображений](https://github.com/x2-agency/norma-backend/issues/74) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-29` [Баг: пустой экран при оформлении заказа без авторизации](https://github.com/x2-agency/norma-app/issues/264) · _Mobile App_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_ · 👤 —
@@ -78,7 +75,7 @@ _Обновлено: 2026-04-30 18:01 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 30</b></summary>
+<details><summary><b>🧪 На тестировании — 33</b></summary>
 
 #### Готово к работе (10)
 
@@ -93,8 +90,10 @@ _Обновлено: 2026-04-30 18:01 UTC_
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 - `2026-04-08` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 
-#### Передано в тестирование (15)
+#### Передано в тестирование (17)
 
+- `2026-04-30` [Серый экран авторизации после тотального рефакторинга](https://github.com/x2-agency/norma-app/issues/267) · _Mobile App_ · 👤 —
+- `2026-04-30` [Текст на некоторых акциях в МП заходит на картинки](https://github.com/x2-agency/norma-app/issues/269) · _Mobile App_ · 👤 —
 - `2026-04-28` [Сделать редирект на страницу 404 при возникновении GoException page not found](https://github.com/x2-agency/norma-app/issues/256) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-27` [Починить подтверждение заказа (3 бага)](https://github.com/x2-agency/norma-app/issues/238) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-26` [🛑 [APP-045]: Не работает кнопка "не знаю размер"](https://github.com/x2-agency/norma-app/issues/156) · _Mobile App_ · 👤 —
@@ -111,8 +110,9 @@ _Обновлено: 2026-04-30 18:01 UTC_
 - `2026-04-24` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_ · 👤 —
 - `2026-04-23` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_ · 👤 —
 
-#### Тестирование (5)
+#### Тестирование (6)
 
+- `2026-04-30` добавить от там где поддтовары · _Frontend_ · 👤 —
 - `2026-04-30` [Сделать корректный вывод названия услуги в корзине](https://github.com/x2-agency/norma-webapp/issues/384) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Замена картинки в секции "Не просто чистка"](https://github.com/x2-agency/norma-webapp/issues/377) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Ограничить поиск адерсов - сделать приоритет на Москву и Санкт-Петербург](https://github.com/x2-agency/norma-webapp/issues/382) · _Frontend_ · 👤 Eugene
