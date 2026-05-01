@@ -1,16 +1,15 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-01 01:48 UTC_
+_Обновлено: 2026-05-01 05:32 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 55</b></summary>
+<details><summary><b>🚧 В работе — 54</b></summary>
 
-#### В работе (6)
+#### В работе (5)
 
-- `2026-04-30` [🔴 MUST HAVE \| СПБ оплата курьеру через Телетрек](https://github.com/x2-agency/norma-backend/issues/68) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
@@ -133,8 +132,10 @@ _Обновлено: 2026-05-01 01:48 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 193</b></summary>
+<details open><summary><b>✅ Готово — 195</b></summary>
 
+- `2026-05-01` [🔴 MUST HAVE \| СПБ оплата курьеру через Телетрек](https://github.com/x2-agency/norma-backend/issues/68) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-01` [Ссылка на оплату в телетрек](https://github.com/x2-agency/norma-backend/pull/86) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-30` [Замена картинки с сапогом в отзывах](https://github.com/x2-agency/norma-webapp/issues/378) · _Frontend_ · 👤 Eugene
 - `2026-04-29` [🔴 MUST HAVE \| Выгода (акции) кнопка скачать приложение в приложении](https://github.com/x2-agency/norma-backend/issues/80) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-04-29` [🔴 MUST HAVE \| [SITE-022]: Акция "блоки контента" должны быть отдельные для мобильного приложения / сайта + разные кнопки](https://github.com/x2-agency/norma-webapp/issues/154) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
