@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-01 10:15 UTC_
+_Обновлено: 2026-05-01 10:21 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -37,6 +37,9 @@ _Обновлено: 2026-05-01 10:15 UTC_
 
 #### Бэклог (35)
 
+- `2026-05-01` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
+- `2026-05-01` [Страница Цена: добавить фильтр «Все» и больше воздуха перед подвалом](https://github.com/x2-agency/norma-webapp/issues/393) · _Frontend_ · 👤 Eugene
+- `2026-05-01` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
 - `2026-05-01` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
 - `2026-05-01` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_ · 👤 Alexander Khlyntcev
@@ -57,9 +60,6 @@ _Обновлено: 2026-05-01 10:15 UTC_
 - `2026-05-01` [Мэтчинг услуг между АГБИС и МП: альтернативные услуги для расхождений номенклатуры](https://github.com/x2-agency/norma-backend/issues/87) · _Backend_ · 👤 Ara Khachikyan
 - `2026-05-01` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Добавить дату возврата вещей в отзыв/заказ](https://github.com/x2-agency/norma-app/issues/273) · _Mobile App_ · 👤 Artem Kraus
-- `2026-04-30` [Страница Цена: добавить фильтр «Все» и больше воздуха перед подвалом](https://github.com/x2-agency/norma-webapp/issues/393) · _Frontend_ · 👤 —
-- `2026-04-30` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 —
-- `2026-04-29` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_ · 👤 —
@@ -79,16 +79,16 @@ _Обновлено: 2026-05-01 10:15 UTC_
 
 #### Готово к работе (10)
 
+- `2026-05-01` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
+- `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
+- `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-01` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-backend/issues/48) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
-- `2026-04-30` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
-- `2026-04-30` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
-- `2026-04-08` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 
 #### Передано в тестирование (21)
 
@@ -116,12 +116,12 @@ _Обновлено: 2026-05-01 10:15 UTC_
 
 #### Тестирование (6)
 
-- `2026-04-30` добавить от там где поддтовары · _Frontend_ · 👤 —
+- `2026-05-01` [добавить от там где поддтовары](https://github.com/x2-agency/norma-webapp/issues/394) · _Frontend_ · 👤 Eugene
+- `2026-05-01` [Фикс стилей на странице "Цены"](https://github.com/x2-agency/norma-webapp/issues/375) · _Frontend_ · 👤 Eugene
+- `2026-05-01` [Ограничить поиск адерсов - сделать приоритет на Москву и Санкт-Петербург](https://github.com/x2-agency/norma-webapp/issues/382) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Сделать корректный вывод названия услуги в корзине](https://github.com/x2-agency/norma-webapp/issues/384) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Замена картинки в секции "Не просто чистка"](https://github.com/x2-agency/norma-webapp/issues/377) · _Frontend_ · 👤 Eugene
-- `2026-04-30` [Ограничить поиск адерсов - сделать приоритет на Москву и Санкт-Петербург](https://github.com/x2-agency/norma-webapp/issues/382) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Сделать апскейл изображений в отзывах](https://github.com/x2-agency/norma-webapp/issues/379) · _Frontend_ · 👤 Eugene
-- `2026-04-30` [Фикс стилей на странице "Цены"](https://github.com/x2-agency/norma-webapp/issues/375) · _Frontend_ · 👤 Eugene
 
 </details>
 
