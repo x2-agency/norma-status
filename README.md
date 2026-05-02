@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-02 22:27 UTC_
+_Обновлено: 2026-05-02 23:32 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -89,10 +89,10 @@ _Обновлено: 2026-05-02 22:27 UTC_
 
 #### Передано в тестирование (23)
 
+- `2026-05-02` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/281) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [Добавить дату возврата вещей в отзыв/заказ](https://github.com/x2-agency/norma-app/issues/273) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-app/issues/276) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-30` [Некорректная работа определения геолокации: невозможно нажать на стрелочку, перекидывает на общую картинку](https://github.com/x2-agency/norma-app/issues/271) · _Mobile App_ · 👤 Artem Kraus
-- `2026-04-30` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-backend/issues/79) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-04-30` [Убрать фразу из завершенных заказов](https://github.com/x2-agency/norma-app/issues/275) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-30` [Сократить расстояние — много пустоты](https://github.com/x2-agency/norma-app/issues/274) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-30` [Серый экран авторизации после тотального рефакторинга](https://github.com/x2-agency/norma-app/issues/267) · _Mobile App_ · 👤 —
