@@ -1,21 +1,20 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-02 08:16 UTC_
+_Обновлено: 2026-05-02 09:51 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 48</b></summary>
+<details><summary><b>🚧 В работе — 47</b></summary>
 
-#### В работе (6)
+#### В работе (5)
 
 - `2026-05-01` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [🔴 MUST HAVE \| Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_ · 👤 —
-- `2026-04-28` [🔴 MUST HAVE \| Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_ · 👤 Alexander Khlyntcev
 
 #### В разработке (1)
 
@@ -126,8 +125,9 @@ _Обновлено: 2026-05-02 08:16 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 198</b></summary>
+<details open><summary><b>✅ Готово — 199</b></summary>
 
+- `2026-05-02` [🔴 MUST HAVE \| Интеграция Телетрек: получить фото и подпись курьера, вывести в заказ](https://github.com/x2-agency/norma-backend/issues/41) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Не передаётся имя клиента — вместо имени подставляется номер телефона и mail](https://github.com/x2-agency/norma-backend/issues/88) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Добавить анимации при нажатии кнопок и сториз](https://github.com/x2-agency/norma-app/issues/272) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-01` [Баг: пустой экран при оформлении заказа без авторизации](https://github.com/x2-agency/norma-app/issues/264) · _Mobile App_ · 👤 Artem Kraus
