@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-03 17:37 UTC_
+_Обновлено: 2026-05-03 18:40 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 43</b></summary>
+<details><summary><b>🚧 В работе — 41</b></summary>
 
 #### В работе (5)
 
@@ -20,9 +20,8 @@ _Обновлено: 2026-05-03 17:37 UTC_
 
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
-#### В процессе (3)
+#### В процессе (2)
 
-- `2026-05-03` [Баг \| Ошибка загрузки \| Раздел вопросы](https://github.com/x2-agency/norma-app/issues/283) · _Mobile App_ · 👤 —
 - `2026-05-02` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
 
@@ -30,15 +29,14 @@ _Обновлено: 2026-05-03 17:37 UTC_
 
 - `2026-05-01` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Есть блокеры (2)
+#### Есть блокеры (3)
 
+- `2026-05-03` [Баг \| Уведомления \| Кнопки с текстом "текст"](https://github.com/x2-agency/norma-app/issues/285) · _Mobile App_ · 👤 —
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (31)
+#### Бэклог (29)
 
-- `2026-05-03` [Баг \| Уведомления \| Кнопки с текстом "текст"](https://github.com/x2-agency/norma-app/issues/285) · _Mobile App_ · 👤 —
-- `2026-05-03` [Баг \| Админ панель \| Истории \| Неправильная логика переходов кнопок](https://github.com/x2-agency/norma-app/issues/284) · _Mobile App_ · 👤 —
 - `2026-05-02` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-01` [Футер не прибит к полу на странице «Пункты приёма»](https://github.com/x2-agency/norma-webapp/issues/395) · _Frontend_ · 👤 —
 - `2026-05-01` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
@@ -71,7 +69,7 @@ _Обновлено: 2026-05-03 17:37 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 29</b></summary>
+<details><summary><b>🧪 На тестировании — 31</b></summary>
 
 #### Готово к работе (10)
 
@@ -86,8 +84,10 @@ _Обновлено: 2026-05-03 17:37 UTC_
 - `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 
-#### Передано в тестирование (13)
+#### Передано в тестирование (15)
 
+- `2026-05-03` [Баг \| Ошибка загрузки \| Раздел вопросы](https://github.com/x2-agency/norma-app/issues/283) · _Mobile App_ · 👤 —
+- `2026-05-03` [Баг \| Админ панель \| Истории \| Неправильная логика переходов кнопок](https://github.com/x2-agency/norma-app/issues/284) · _Mobile App_ · 👤 —
 - `2026-05-03` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-app/issues/276) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/281) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [Добавить дату возврата вещей в отзыв/заказ](https://github.com/x2-agency/norma-app/issues/273) · _Mobile App_ · 👤 Artem Kraus
