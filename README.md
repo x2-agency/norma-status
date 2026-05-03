@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-03 14:03 UTC_
+_Обновлено: 2026-05-03 15:36 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 44</b></summary>
+<details><summary><b>🚧 В работе — 43</b></summary>
 
 #### В работе (5)
 
@@ -34,7 +34,7 @@ _Обновлено: 2026-05-03 14:03 UTC_
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (33)
+#### Бэклог (32)
 
 - `2026-05-03` [Баг \| Уведомления \| Кнопки с текстом "текст"](https://github.com/x2-agency/norma-app/issues/285) · _Mobile App_ · 👤 —
 - `2026-05-03` [Баг \| Админ панель \| Истории \| Неправильная логика переходов кнопок](https://github.com/x2-agency/norma-app/issues/284) · _Mobile App_ · 👤 —
@@ -67,7 +67,6 @@ _Обновлено: 2026-05-03 14:03 UTC_
 - `2026-04-28` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [🔴 MUST HAVE \| [SITE-025]: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [🔴 MUST HAVE \| Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_ · 👤 —
-- `2026-04-28` [🔴 MUST HAVE \| Сделать уведомления по 3 типам триггеров](https://github.com/x2-agency/norma-backend/issues/70) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_ · 👤 Eugene
 
 </details>
@@ -114,8 +113,9 @@ _Обновлено: 2026-05-03 14:03 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 212</b></summary>
+<details open><summary><b>✅ Готово — 213</b></summary>
 
+- `2026-05-03` [🔴 MUST HAVE \| Сделать уведомления по 3 типам триггеров](https://github.com/x2-agency/norma-backend/issues/70) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [Сделать редирект на страницу 404 при возникновении GoException page not found](https://github.com/x2-agency/norma-app/issues/256) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-03` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_ · 👤 —
 - `2026-05-03` [В сторис не отображается текст, хотя в админке он добавлен](https://github.com/x2-agency/norma-app/issues/282) · _Mobile App_ · 👤 Artem Kraus
