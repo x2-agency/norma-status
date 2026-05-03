@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-03 21:30 UTC_
+_Обновлено: 2026-05-03 22:28 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -36,6 +36,7 @@ _Обновлено: 2026-05-03 21:30 UTC_
 
 #### Бэклог (30)
 
+- `2026-05-03` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-03` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
 - `2026-05-03` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
@@ -55,7 +56,6 @@ _Обновлено: 2026-05-03 21:30 UTC_
 - `2026-05-01` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Картинки товаров долго загружаются — оптимизировать размер изображений](https://github.com/x2-agency/norma-backend/issues/74) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-05-01` [Сделать функционал отзывов с сбором в админке](https://github.com/x2-agency/norma-backend/issues/82) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Добавить блоки на страницу услуги: описание, что входит в химчистку, требования к материалам](https://github.com/x2-agency/norma-backend/issues/84) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Поиск по каталогу: не работает для категории «Кожа и мех» и нет поиска по альтернативным названиям](https://github.com/x2-agency/norma-backend/issues/85) · _Backend_ · 👤 Ara Khachikyan
@@ -69,15 +69,14 @@ _Обновлено: 2026-05-03 21:30 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 31</b></summary>
+<details><summary><b>🧪 На тестировании — 30</b></summary>
 
-#### Готово к работе (10)
+#### Готово к работе (9)
 
 - `2026-05-01` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
-- `2026-05-01` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-backend/issues/48) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
@@ -113,8 +112,10 @@ _Обновлено: 2026-05-03 21:30 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 214</b></summary>
+<details open><summary><b>✅ Готово — 216</b></summary>
 
+- `2026-05-03` [Проверить возможность в Максме: ручное списание бонусов и произвольная скидка при создании заказа](https://github.com/x2-agency/norma-backend/issues/48) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-03` [Сделать функционал отзывов с сбором в админке](https://github.com/x2-agency/norma-backend/issues/82) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [🔴 MUST HAVE \| Добавить уведомления по курьерским событиям, отменам заказов, отложенным триггерам (таймеры).](https://github.com/x2-agency/norma-backend/issues/15) · _Backend_ · 👤 —
 - `2026-05-03` [🔴 MUST HAVE \| Сделать уведомления по 3 типам триггеров](https://github.com/x2-agency/norma-backend/issues/70) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [Сделать редирект на страницу 404 при возникновении GoException page not found](https://github.com/x2-agency/norma-app/issues/256) · _Mobile App_ · 👤 Artem Kraus
