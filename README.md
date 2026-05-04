@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-04 21:52 UTC_
+_Обновлено: 2026-05-04 22:44 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 39</b></summary>
+<details><summary><b>🚧 В работе — 38</b></summary>
 
 #### В работе (4)
 
@@ -34,9 +34,8 @@ _Обновлено: 2026-05-04 21:52 UTC_
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Бэклог (28)
+#### Бэклог (27)
 
-- `2026-05-04` [Страница Цена: добавить фильтр «Все» и больше воздуха перед подвалом](https://github.com/x2-agency/norma-webapp/issues/393) · _Frontend_ · 👤 NSLES, Eugene
 - `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
 - `2026-05-03` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
@@ -67,7 +66,7 @@ _Обновлено: 2026-05-04 21:52 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 30</b></summary>
+<details><summary><b>🧪 На тестировании — 31</b></summary>
 
 #### Готово к работе (9)
 
@@ -99,8 +98,9 @@ _Обновлено: 2026-05-04 21:52 UTC_
 - `2026-04-25` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-24` [Не показывается история бонусов](https://github.com/x2-agency/norma-app/issues/248) · _Mobile App_ · 👤 Artem Kraus
 
-#### Тестирование (6)
+#### Тестирование (7)
 
+- `2026-05-04` [Страница Цена: добавить фильтр «Все» и больше воздуха перед подвалом](https://github.com/x2-agency/norma-webapp/issues/393) · _Frontend_ · 👤 NSLES, Eugene
 - `2026-05-01` [добавить от там где поддтовары](https://github.com/x2-agency/norma-webapp/issues/394) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [Фикс стилей на странице "Цены"](https://github.com/x2-agency/norma-webapp/issues/375) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [Ограничить поиск адерсов - сделать приоритет на Москву и Санкт-Петербург](https://github.com/x2-agency/norma-webapp/issues/382) · _Frontend_ · 👤 Eugene
