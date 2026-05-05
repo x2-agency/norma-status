@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-05 19:01 UTC_
+_Обновлено: 2026-05-05 20:51 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 37</b></summary>
+<details><summary><b>🚧 В работе — 38</b></summary>
 
 #### В работе (4)
 
@@ -19,12 +19,15 @@ _Обновлено: 2026-05-05 19:01 UTC_
 
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
-#### В процессе (4)
+#### В процессе (3)
 
-- `2026-05-05` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
 - `2026-05-05` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-05-02` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
+
+#### На ревью (1)
+
+- `2026-05-05` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
 
 #### Есть вопросы (1)
 
@@ -34,8 +37,9 @@ _Обновлено: 2026-05-05 19:01 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (26)
+#### Бэклог (27)
 
+- `2026-05-05` [Оптимизация и логирование запросов в АГБИС](https://github.com/x2-agency/norma-backend/issues/89) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
 - `2026-05-03` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
