@@ -1,16 +1,15 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-06 17:19 UTC_
+_Обновлено: 2026-05-06 19:17 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 38</b></summary>
+<details><summary><b>🚧 В работе — 34</b></summary>
 
-#### В работе (4)
+#### В работе (3)
 
-- `2026-05-01` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
@@ -19,15 +18,10 @@ _Обновлено: 2026-05-06 17:19 UTC_
 
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
-#### В процессе (3)
+#### В процессе (2)
 
-- `2026-05-05` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-05-02` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
-
-#### На ревью (1)
-
-- `2026-05-05` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
 
 #### Есть вопросы (1)
 
@@ -37,12 +31,11 @@ _Обновлено: 2026-05-06 17:19 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (27)
+#### Бэклог (26)
 
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
-- `2026-05-03` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-03` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
 - `2026-05-02` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
@@ -69,21 +62,23 @@ _Обновлено: 2026-05-06 17:19 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 31</b></summary>
+<details><summary><b>🧪 На тестировании — 33</b></summary>
 
-#### Готово к работе (8)
+#### Готово к работе (7)
 
 - `2026-05-01` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
-- `2026-05-01` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 
-#### Передано в тестирование (16)
+#### Передано в тестирование (19)
 
+- `2026-05-06` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-06` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
+- `2026-05-06` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
 - `2026-05-05` [Баг \| Уведомления \| Кнопки с текстом "текст"](https://github.com/x2-agency/norma-app/issues/285) · _Mobile App_ · 👤 —
 - `2026-05-03` [Баг \| Ошибка загрузки \| Раздел вопросы](https://github.com/x2-agency/norma-app/issues/283) · _Mobile App_ · 👤 —
 - `2026-05-03` [Баг \| Админ панель \| Истории \| Неправильная логика переходов кнопок](https://github.com/x2-agency/norma-app/issues/284) · _Mobile App_ · 👤 —
@@ -113,8 +108,10 @@ _Обновлено: 2026-05-06 17:19 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 222</b></summary>
+<details open><summary><b>✅ Готово — 224</b></summary>
 
+- `2026-05-06` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
+- `2026-05-06` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-06` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-06` [Оптимизация и логирование запросов в АГБИС](https://github.com/x2-agency/norma-backend/issues/89) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-04` [Картинки товаров долго загружаются — оптимизировать размер изображений](https://github.com/x2-agency/norma-backend/issues/74) · _Backend_ · 👤 Alexander Khlyntcev
