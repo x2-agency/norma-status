@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-06 08:02 UTC_
+_Обновлено: 2026-05-06 10:54 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 38</b></summary>
+<details><summary><b>🚧 В работе — 39</b></summary>
 
 #### В работе (4)
 
@@ -37,8 +37,9 @@ _Обновлено: 2026-05-06 08:02 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (27)
+#### Бэклог (28)
 
+- `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-05` [Оптимизация и логирование запросов в АГБИС](https://github.com/x2-agency/norma-backend/issues/89) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
