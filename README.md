@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-06 21:00 UTC_
+_Обновлено: 2026-05-06 22:37 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 33</b></summary>
+<details><summary><b>🚧 В работе — 34</b></summary>
 
 #### В работе (3)
 
@@ -30,8 +30,9 @@ _Обновлено: 2026-05-06 21:00 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (26)
+#### Бэклог (27)
 
+- `2026-05-06` [Генерация PDF с прайс листом](https://github.com/x2-agency/norma-backend/issues/92) · _Backend_ · 👤 —
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
@@ -108,8 +109,9 @@ _Обновлено: 2026-05-06 21:00 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 224</b></summary>
+<details open><summary><b>✅ Готово — 225</b></summary>
 
+- `2026-05-06` [АПИ для отображения прайс листа](https://github.com/x2-agency/norma-backend/issues/91) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-06` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
 - `2026-05-06` [🔴 MUST HAVE \| Наладить работу лояльности для заказов: АГБИС-БЭК-Максма и БЭК-Максма-АГБИС](https://github.com/x2-agency/norma-backend/issues/67) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-06` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
