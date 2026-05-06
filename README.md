@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-06 19:17 UTC_
+_Обновлено: 2026-05-06 21:00 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 34</b></summary>
+<details><summary><b>🚧 В работе — 33</b></summary>
 
 #### В работе (3)
 
@@ -18,10 +18,9 @@ _Обновлено: 2026-05-06 19:17 UTC_
 
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
-#### В процессе (2)
+#### В процессе (1)
 
 - `2026-05-02` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-02` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
 
 #### Есть вопросы (1)
 
@@ -62,7 +61,7 @@ _Обновлено: 2026-05-06 19:17 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 33</b></summary>
+<details><summary><b>🧪 На тестировании — 34</b></summary>
 
 #### Готово к работе (7)
 
@@ -74,8 +73,9 @@ _Обновлено: 2026-05-06 19:17 UTC_
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 
-#### Передано в тестирование (19)
+#### Передано в тестирование (20)
 
+- `2026-05-06` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-06` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-06` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-05-06` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
