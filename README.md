@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-05 23:38 UTC_
+_Обновлено: 2026-05-06 01:27 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
