@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-06 12:21 UTC_
+_Обновлено: 2026-05-06 15:19 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 39</b></summary>
+<details><summary><b>🚧 В работе — 38</b></summary>
 
 #### В работе (4)
 
@@ -37,10 +37,9 @@ _Обновлено: 2026-05-06 12:21 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (28)
+#### Бэклог (27)
 
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
-- `2026-05-05` [Оптимизация и логирование запросов в АГБИС](https://github.com/x2-agency/norma-backend/issues/89) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
 - `2026-05-03` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
@@ -70,9 +69,9 @@ _Обновлено: 2026-05-06 12:21 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 32</b></summary>
+<details><summary><b>🧪 На тестировании — 31</b></summary>
 
-#### Готово к работе (9)
+#### Готово к работе (8)
 
 - `2026-05-01` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
@@ -81,7 +80,6 @@ _Обновлено: 2026-05-06 12:21 UTC_
 - `2026-05-01` [Интегрировать комментарий технолога из АГБИС](https://github.com/x2-agency/norma-backend/issues/26) · _Backend_ · 👤 —
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
-- `2026-04-25` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 
 #### Передано в тестирование (16)
@@ -115,8 +113,10 @@ _Обновлено: 2026-05-06 12:21 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 220</b></summary>
+<details open><summary><b>✅ Готово — 222</b></summary>
 
+- `2026-05-06` [Оптимизировать синхронизацию с АГБИС и избавиться от N+1](https://github.com/x2-agency/norma-backend/issues/37) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-06` [Оптимизация и логирование запросов в АГБИС](https://github.com/x2-agency/norma-backend/issues/89) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-04` [Картинки товаров долго загружаются — оптимизировать размер изображений](https://github.com/x2-agency/norma-backend/issues/74) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-04` [🔴 MUST HAVE \| Проверить изменение даты забора: API Агбис и синхронизация с Телетрек](https://github.com/x2-agency/norma-backend/issues/61) · _Backend_ · 👤 —
 - `2026-05-04` [Реализовать API для отправки отзыва о заказе](https://github.com/x2-agency/norma-backend/issues/30) · _Backend_ · 👤 Alexander Khlyntcev
