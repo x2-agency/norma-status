@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-07 17:29 UTC_
+_Обновлено: 2026-05-07 19:22 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -14,8 +14,9 @@ _Обновлено: 2026-05-07 17:29 UTC_
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 
-#### В разработке (1)
+#### В разработке (2)
 
+- `2026-05-07` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
 #### В процессе (2)
@@ -32,13 +33,12 @@ _Обновлено: 2026-05-07 17:29 UTC_
 - `2026-05-07` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (22)
+#### Бэклог (21)
 
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-03` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
 - `2026-05-02` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-01` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
 - `2026-05-01` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
