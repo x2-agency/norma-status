@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-07 05:20 UTC_
+_Обновлено: 2026-05-07 08:10 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -18,23 +18,24 @@ _Обновлено: 2026-05-07 05:20 UTC_
 
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
-#### В процессе (1)
+#### В процессе (2)
 
+- `2026-05-07` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
 
 #### Есть вопросы (1)
 
 - `2026-05-01` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_ · 👤 Alexander Khlyntcev
 
-#### Есть блокеры (1)
+#### Есть блокеры (2)
 
+- `2026-05-07` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (27)
+#### Бэклог (25)
 
 - `2026-05-06` [Генерация PDF с прайс листом](https://github.com/x2-agency/norma-backend/issues/92) · _Backend_ · 👤 —
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
-- `2026-05-04` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-04` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
 - `2026-05-03` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
@@ -57,7 +58,6 @@ _Обновлено: 2026-05-07 05:20 UTC_
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_ · 👤 —
 - `2026-04-28` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-04-28` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_ · 👤 Eugene
 
 </details>
