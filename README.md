@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-07 15:23 UTC_
+_Обновлено: 2026-05-07 17:29 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 32</b></summary>
+<details><summary><b>🚧 В работе — 31</b></summary>
 
 #### В работе (3)
 
@@ -32,9 +32,8 @@ _Обновлено: 2026-05-07 15:23 UTC_
 - `2026-05-07` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (23)
+#### Бэклог (22)
 
-- `2026-05-06` [Генерация PDF с прайс листом](https://github.com/x2-agency/norma-backend/issues/92) · _Backend_ · 👤 —
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-03` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
@@ -64,11 +63,11 @@ _Обновлено: 2026-05-07 15:23 UTC_
 
 #### Готово к работе (8)
 
+- `2026-05-07` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-webapp/issues/401) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-07` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-01` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
-- `2026-05-01` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-backend/issues/23) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
@@ -98,8 +97,9 @@ _Обновлено: 2026-05-07 15:23 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 234</b></summary>
+<details open><summary><b>✅ Готово — 235</b></summary>
 
+- `2026-05-07` [Генерация PDF с прайс листом](https://github.com/x2-agency/norma-backend/issues/92) · _Backend_ · 👤 —
 - `2026-05-07` [АПИ для отображения прайс листа](https://github.com/x2-agency/norma-backend/issues/91) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-07` [Футер не прибит к полу на странице «Пункты приёма»](https://github.com/x2-agency/norma-webapp/issues/395) · _Frontend_ · 👤 —
 - `2026-05-07` [Футер не прижат к полу на странице с картой пунктов приёма](https://github.com/x2-agency/norma-webapp/issues/396) · _Frontend_ · 👤 —
