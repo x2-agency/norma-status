@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-08 20:02 UTC_
+_Обновлено: 2026-05-08 21:46 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 30</b></summary>
+<details><summary><b>🚧 В работе — 27</b></summary>
 
 #### В работе (3)
 
@@ -27,7 +27,7 @@ _Обновлено: 2026-05-08 20:02 UTC_
 - `2026-05-07` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (23)
+#### Бэклог (20)
 
 - `2026-05-08` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-07` [Интегрировать Firebase Crashlytics](https://github.com/x2-agency/norma-app/issues/296) · _Mobile App_ · 👤 —
@@ -36,17 +36,14 @@ _Обновлено: 2026-05-08 20:02 UTC_
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
 - `2026-05-02` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-01` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
-- `2026-05-01` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
 - `2026-05-01` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Исправить проблему с ролями: добавить редактирование/удаление](https://github.com/x2-agency/norma-backend/issues/56) · _Backend_ · 👤 —
 - `2026-05-01` [Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности](https://github.com/x2-agency/norma-backend/issues/59) · _Backend_ · 👤 —
 - `2026-05-01` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-01` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-05-01` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Добавить блоки на страницу услуги: описание, что входит в химчистку, требования к материалам](https://github.com/x2-agency/norma-backend/issues/84) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-05-01` [Поиск по каталогу: не работает для категории «Кожа и мех» и нет поиска по альтернативным названиям](https://github.com/x2-agency/norma-backend/issues/85) · _Backend_ · 👤 Ara Khachikyan
 - `2026-05-01` [Мэтчинг услуг между АГБИС и МП: альтернативные услуги для расхождений номенклатуры](https://github.com/x2-agency/norma-backend/issues/87) · _Backend_ · 👤 Ara Khachikyan
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_ · 👤 —
@@ -99,8 +96,11 @@ _Обновлено: 2026-05-08 20:02 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 235</b></summary>
+<details open><summary><b>✅ Готово — 238</b></summary>
 
+- `2026-05-08` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-08` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-08` [Поиск по каталогу: не работает для категории «Кожа и мех» и нет поиска по альтернативным названиям](https://github.com/x2-agency/norma-backend/issues/85) · _Backend_ · 👤 Ara Khachikyan
 - `2026-05-07` [Генерация PDF с прайс листом](https://github.com/x2-agency/norma-backend/issues/92) · _Backend_ · 👤 —
 - `2026-05-07` [АПИ для отображения прайс листа](https://github.com/x2-agency/norma-backend/issues/91) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-07` [Футер не прибит к полу на странице «Пункты приёма»](https://github.com/x2-agency/norma-webapp/issues/395) · _Frontend_ · 👤 —
