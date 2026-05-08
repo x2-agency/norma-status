@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-08 08:16 UTC_
+_Обновлено: 2026-05-08 10:14 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 30</b></summary>
+<details><summary><b>🚧 В работе — 29</b></summary>
 
 #### В работе (3)
 
@@ -14,9 +14,8 @@ _Обновлено: 2026-05-08 08:16 UTC_
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 
-#### В разработке (2)
+#### В разработке (1)
 
-- `2026-05-07` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 
 #### Есть вопросы (1)
@@ -55,7 +54,7 @@ _Обновлено: 2026-05-08 08:16 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 30</b></summary>
+<details><summary><b>🧪 На тестировании — 31</b></summary>
 
 #### Готово к работе (8)
 
@@ -92,6 +91,10 @@ _Обновлено: 2026-05-08 08:16 UTC_
 - `2026-04-25` [Внедрить валидацию по адресу получения на этапе «Приёмка вещей»](https://github.com/x2-agency/norma-app/issues/250) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-25` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-24` [Не показывается история бонусов](https://github.com/x2-agency/norma-app/issues/248) · _Mobile App_ · 👤 Artem Kraus
+
+#### Тестирование (1)
+
+- `2026-05-08` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 
 </details>
 
