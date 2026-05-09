@@ -1,15 +1,16 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-09 11:39 UTC_
+_Обновлено: 2026-05-09 12:47 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 27</b></summary>
+<details><summary><b>🚧 В работе — 28</b></summary>
 
-#### В работе (3)
+#### В работе (4)
 
+- `2026-05-09` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
@@ -52,12 +53,11 @@ _Обновлено: 2026-05-09 11:39 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 31</b></summary>
+<details><summary><b>🧪 На тестировании — 30</b></summary>
 
-#### Готово к работе (7)
+#### Готово к работе (6)
 
 - `2026-05-07` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-webapp/issues/401) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
-- `2026-05-07` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
