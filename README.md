@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-09 17:39 UTC_
+_Обновлено: 2026-05-09 18:41 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -53,11 +53,10 @@ _Обновлено: 2026-05-09 17:39 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 30</b></summary>
+<details><summary><b>🧪 На тестировании — 29</b></summary>
 
-#### Готово к работе (6)
+#### Готово к работе (5)
 
-- `2026-05-07` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-webapp/issues/401) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
@@ -96,8 +95,10 @@ _Обновлено: 2026-05-09 17:39 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 238</b></summary>
+<details open><summary><b>✅ Готово — 240</b></summary>
 
+- `2026-05-09` [feat(product): добавить поле description_tabs с кастомными rich-блоками](https://github.com/x2-agency/norma-backend/pull/94) · _Backend_ · 👤 Eugene
+- `2026-05-09` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-webapp/issues/401) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-08` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-08` [Расширить область поиска услуг](https://github.com/x2-agency/norma-backend/issues/77) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-08` [Поиск по каталогу: не работает для категории «Кожа и мех» и нет поиска по альтернативным названиям](https://github.com/x2-agency/norma-backend/issues/85) · _Backend_ · 👤 Ara Khachikyan
