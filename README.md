@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-09 09:05 UTC_
+_Обновлено: 2026-05-09 10:44 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -16,7 +16,7 @@ _Обновлено: 2026-05-09 09:05 UTC_
 
 #### В разработке (1)
 
-- `2026-04-30` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
+- `2026-05-09` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 
 #### Есть вопросы (1)
 
@@ -54,11 +54,10 @@ _Обновлено: 2026-05-09 09:05 UTC_
 
 <details><summary><b>🧪 На тестировании — 31</b></summary>
 
-#### Готово к работе (8)
+#### Готово к работе (7)
 
 - `2026-05-07` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-webapp/issues/401) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-07` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
-- `2026-05-01` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
@@ -90,8 +89,9 @@ _Обновлено: 2026-05-09 09:05 UTC_
 - `2026-04-25` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-24` [Не показывается история бонусов](https://github.com/x2-agency/norma-app/issues/248) · _Mobile App_ · 👤 Artem Kraus
 
-#### Тестирование (1)
+#### Тестирование (2)
 
+- `2026-05-09` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 - `2026-05-08` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 
 </details>
