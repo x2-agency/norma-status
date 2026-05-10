@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 09:19 UTC_
+_Обновлено: 2026-05-10 10:52 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 29</b></summary>
+<details><summary><b>🚧 В работе — 32</b></summary>
 
 #### В работе (3)
 
@@ -23,8 +23,11 @@ _Обновлено: 2026-05-10 09:19 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (23)
+#### Бэклог (26)
 
+- `2026-05-10` [Скрывать баннеры «первый заказ» и «скидки» если у пользователя уже есть выполненные заказы](https://github.com/x2-agency/norma-app/issues/301) · _Mobile App_ · 👤 —
+- `2026-05-10` [Не срабатывает автопереход в статус «Вещи приняты» после подтверждения заказа](https://github.com/x2-agency/norma-app/issues/300) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
+- `2026-05-10` [Не отображаются статусы вещей в заказе (должны показываться начиная со статуса «Чистим»)](https://github.com/x2-agency/norma-app/issues/299) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
 - `2026-05-10` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Mobile App_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-10` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-10` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-webapp/issues/408) · _Frontend_ · 👤 Eugene
