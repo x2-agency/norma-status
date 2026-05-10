@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 18:42 UTC_
+_Обновлено: 2026-05-10 19:50 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 34</b></summary>
+<details><summary><b>🚧 В работе — 35</b></summary>
 
 #### В работе (3)
 
@@ -30,8 +30,9 @@ _Обновлено: 2026-05-10 18:42 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (24)
+#### Бэклог (25)
 
+- `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
 - `2026-05-10` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
