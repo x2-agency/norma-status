@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 17:40 UTC_
+_Обновлено: 2026-05-10 18:42 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 33</b></summary>
+<details><summary><b>🚧 В работе — 34</b></summary>
 
 #### В работе (3)
 
@@ -21,20 +21,18 @@ _Обновлено: 2026-05-10 17:40 UTC_
 - `2026-05-10` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-05-09` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 
-#### В процессе (1)
-
-- `2026-05-10` [Нет статуса «Готово к выдаче» при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-app/issues/302) · _Mobile App_ · 👤 Ara Khachikyan
-
-#### На ревью (1)
+#### В процессе (2)
 
 - `2026-05-10` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [Нет статуса «Готово к выдаче» при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-app/issues/302) · _Mobile App_ · 👤 Ara Khachikyan
 
 #### Есть блокеры (1)
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (23)
+#### Бэклог (24)
 
+- `2026-05-10` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-10` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
