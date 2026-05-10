@@ -1,17 +1,16 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 01:45 UTC_
+_Обновлено: 2026-05-10 05:25 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 28</b></summary>
+<details><summary><b>🚧 В работе — 24</b></summary>
 
-#### В работе (4)
+#### В работе (3)
 
 - `2026-05-09` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
-- `2026-04-28` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 
@@ -19,16 +18,12 @@ _Обновлено: 2026-05-10 01:45 UTC_
 
 - `2026-05-09` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 
-#### Есть вопросы (1)
-
-- `2026-05-01` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_ · 👤 Alexander Khlyntcev
-
 #### Есть блокеры (2)
 
 - `2026-05-07` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (20)
+#### Бэклог (18)
 
 - `2026-05-08` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-07` [Интегрировать Firebase Crashlytics](https://github.com/x2-agency/norma-app/issues/296) · _Mobile App_ · 👤 —
@@ -36,8 +31,6 @@ _Обновлено: 2026-05-10 01:45 UTC_
 - `2026-05-03` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
 - `2026-05-02` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-01` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
-- `2026-05-01` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
 - `2026-05-01` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Исправить проблему с ролями: добавить редактирование/удаление](https://github.com/x2-agency/norma-backend/issues/56) · _Backend_ · 👤 —
 - `2026-05-01` [Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности](https://github.com/x2-agency/norma-backend/issues/59) · _Backend_ · 👤 —
@@ -95,8 +88,12 @@ _Обновлено: 2026-05-10 01:45 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 240</b></summary>
+<details open><summary><b>✅ Готово — 244</b></summary>
 
+- `2026-05-10` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
+- `2026-05-10` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-10` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
+- `2026-05-10` [Исправить порядок категорий быстрого заказа согласно дизайну](https://github.com/x2-agency/norma-backend/issues/65) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-05-09` [feat(product): добавить поле description_tabs с кастомными rich-блоками](https://github.com/x2-agency/norma-backend/pull/94) · _Backend_ · 👤 Eugene
 - `2026-05-09` [[SEO]: Создание страницы "Цены"](https://github.com/x2-agency/norma-webapp/issues/401) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-08` [Сделать так чтобы подтовары находились из поиска](https://github.com/x2-agency/norma-backend/issues/53) · _Backend_ · 👤 Alexander Khlyntcev
