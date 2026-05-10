@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 06:47 UTC_
+_Обновлено: 2026-05-10 07:01 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 24</b></summary>
+<details><summary><b>🚧 В работе — 23</b></summary>
 
 #### В работе (3)
 
@@ -18,9 +18,8 @@ _Обновлено: 2026-05-10 06:47 UTC_
 
 - `2026-05-09` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 
-#### Есть блокеры (2)
+#### Есть блокеры (1)
 
-- `2026-05-07` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
 #### Бэклог (18)
@@ -46,7 +45,7 @@ _Обновлено: 2026-05-10 06:47 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 29</b></summary>
+<details><summary><b>🧪 На тестировании — 25</b></summary>
 
 #### Готово к работе (5)
 
@@ -56,20 +55,16 @@ _Обновлено: 2026-05-10 06:47 UTC_
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 
-#### Передано в тестирование (22)
+#### Передано в тестирование (18)
 
-- `2026-05-07` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-07` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-06` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-06` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-06` [Возможность оставить несколько отзывов на один заказ](https://github.com/x2-agency/norma-app/issues/233) · _Mobile App_ · 👤 Alexander Khlyntcev
 - `2026-05-06` [Съехали кнопки (приложено медиа)](https://github.com/x2-agency/norma-app/issues/287) · _Mobile App_ · 👤 Albert Rybalko
 - `2026-05-05` [Баг \| Уведомления \| Кнопки с текстом "текст"](https://github.com/x2-agency/norma-app/issues/285) · _Mobile App_ · 👤 —
 - `2026-05-03` [Баг \| Ошибка загрузки \| Раздел вопросы](https://github.com/x2-agency/norma-app/issues/283) · _Mobile App_ · 👤 —
 - `2026-05-03` [Баг \| Админ панель \| Истории \| Неправильная логика переходов кнопок](https://github.com/x2-agency/norma-app/issues/284) · _Mobile App_ · 👤 —
-- `2026-05-03` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-app/issues/276) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-02` [🔴 MUST HAVE \| В секции со списанием баллов отображается общее кол-во баллов](https://github.com/x2-agency/norma-app/issues/281) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-02` [Добавить дату возврата вещей в отзыв/заказ](https://github.com/x2-agency/norma-app/issues/273) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-30` [Некорректная работа определения геолокации: невозможно нажать на стрелочку, перекидывает на общую картинку](https://github.com/x2-agency/norma-app/issues/271) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-30` [Сократить расстояние — много пустоты](https://github.com/x2-agency/norma-app/issues/274) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-30` [Текст на некоторых акциях в МП заходит на картинки](https://github.com/x2-agency/norma-app/issues/269) · _Mobile App_ · 👤 —
@@ -88,8 +83,14 @@ _Обновлено: 2026-05-10 06:47 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 244</b></summary>
+<details open><summary><b>✅ Готово — 249</b></summary>
 
+- `2026-05-10` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-app/issues/276) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [В сторис не отображается текст, хотя в админке он добавлен](https://github.com/x2-agency/norma-app/issues/282) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [🔴 MUST HAVE \| Проработать флоу просмотра комментария технолога в заказе](https://github.com/x2-agency/norma-app/issues/214) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [Добавить дату возврата вещей в отзыв/заказ](https://github.com/x2-agency/norma-app/issues/273) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [🔴 MUST HAVE \| Интегрировать уведомления в приложение push / in-app](https://github.com/x2-agency/norma-app/issues/263) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-10` [Доработать API контракты мобильного приложения: добавить варианты изображений (webp, avif, optimize)](https://github.com/x2-agency/norma-backend/issues/78) · _Backend_ · 👤 —
 - `2026-05-10` [Возможность редактировать адрес доставки до этапа "Готов к отправке" включительно](https://github.com/x2-agency/norma-backend/issues/47) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-10` [Баг: не отображаются слоты доставки для Санкт-Петербурга](https://github.com/x2-agency/norma-backend/issues/63) · _Backend_ · 👤 —
@@ -124,7 +125,6 @@ _Обновлено: 2026-05-10 06:47 UTC_
 - `2026-05-03` [🔴 MUST HAVE \| Сделать уведомления по 3 типам триггеров](https://github.com/x2-agency/norma-backend/issues/70) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-03` [Сделать редирект на страницу 404 при возникновении GoException page not found](https://github.com/x2-agency/norma-app/issues/256) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-03` [Админка правки \| Привести список пунктов к общему виду (добавить везде Москву или убрать)](https://github.com/x2-agency/norma-app/issues/243) · _Mobile App_ · 👤 —
-- `2026-05-03` [В сторис не отображается текст, хотя в админке он добавлен](https://github.com/x2-agency/norma-app/issues/282) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-03` [Баг \| Серый квадрат в уровнях привилегий](https://github.com/x2-agency/norma-app/issues/239) · _Mobile App_ · 👤 —
 - `2026-05-03` [Убрать фразу из завершенных заказов](https://github.com/x2-agency/norma-app/issues/275) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-03` [Добавить кнопку «Не знаю размер» на экран выбора размера штор](https://github.com/x2-agency/norma-app/issues/252) · _Mobile App_ · 👤 Artem Kraus
