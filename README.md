@@ -1,29 +1,35 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 07:52 UTC_
+_Обновлено: 2026-05-10 09:19 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 23</b></summary>
+<details><summary><b>🚧 В работе — 29</b></summary>
 
 #### В работе (3)
 
-- `2026-05-09` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
+- `2026-05-10` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Backend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 
-#### В разработке (1)
+#### В разработке (2)
 
+- `2026-05-10` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-05-09` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 
 #### Есть блокеры (1)
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (18)
+#### Бэклог (23)
 
+- `2026-05-10` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Mobile App_ · 👤 Alexander Khlyntcev, Eugene
+- `2026-05-10` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
+- `2026-05-10` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-webapp/issues/408) · _Frontend_ · 👤 Eugene
+- `2026-05-10` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-app/issues/298) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-10` [Добавить новое поле в админку с маркап и табами для описания услуги.](https://github.com/x2-agency/norma-backend/issues/95) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-08` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-07` [Интегрировать Firebase Crashlytics](https://github.com/x2-agency/norma-app/issues/296) · _Mobile App_ · 👤 —
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
@@ -45,13 +51,12 @@ _Обновлено: 2026-05-10 07:52 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 25</b></summary>
+<details><summary><b>🧪 На тестировании — 22</b></summary>
 
-#### Готово к работе (5)
+#### Готово к работе (4)
 
 - `2026-05-01` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-01` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
-- `2026-04-30` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-04-30` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-04-15` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 
@@ -76,15 +81,12 @@ _Обновлено: 2026-05-10 07:52 UTC_
 - `2026-04-25` [Диплинки](https://github.com/x2-agency/norma-app/issues/175) · _Mobile App_ · 👤 Artem Kraus
 - `2026-04-24` [Не показывается история бонусов](https://github.com/x2-agency/norma-app/issues/248) · _Mobile App_ · 👤 Artem Kraus
 
-#### Тестирование (2)
-
-- `2026-05-09` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
-- `2026-05-08` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
-
 </details>
 
-<details open><summary><b>✅ Готово — 249</b></summary>
+<details open><summary><b>✅ Готово — 251</b></summary>
 
+- `2026-05-10` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
+- `2026-05-10` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-app/issues/276) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-10` [В сторис не отображается текст, хотя в админке он добавлен](https://github.com/x2-agency/norma-app/issues/282) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-10` [Чат в МП через SDK HelpDeskEddy](https://github.com/x2-agency/norma-app/issues/268) · _Mobile App_ · 👤 Artem Kraus
