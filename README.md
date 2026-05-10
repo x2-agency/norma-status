@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 11:40 UTC_
+_Обновлено: 2026-05-10 12:48 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 33</b></summary>
+<details><summary><b>🚧 В работе — 32</b></summary>
 
 #### В работе (3)
 
@@ -24,7 +24,7 @@ _Обновлено: 2026-05-10 11:40 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (26)
+#### Бэклог (25)
 
 - `2026-05-10` [Скрывать баннеры «первый заказ» и «скидки» если у пользователя уже есть выполненные заказы](https://github.com/x2-agency/norma-app/issues/301) · _Mobile App_ · 👤 —
 - `2026-05-10` [Не срабатывает автопереход в статус «Вещи приняты» после подтверждения заказа](https://github.com/x2-agency/norma-app/issues/300) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
@@ -33,7 +33,6 @@ _Обновлено: 2026-05-10 11:40 UTC_
 - `2026-05-10` [Перевести описание услуги на маркап с табами](https://github.com/x2-agency/norma-backend/issues/93) · _Frontend_ · 👤 Alexander Khlyntcev, Eugene
 - `2026-05-10` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-webapp/issues/408) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-app/issues/298) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-10` [Добавить новое поле в админку с маркап и табами для описания услуги.](https://github.com/x2-agency/norma-backend/issues/95) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-08` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-07` [Интегрировать Firebase Crashlytics](https://github.com/x2-agency/norma-app/issues/296) · _Mobile App_ · 👤 —
 - `2026-05-06` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
@@ -86,8 +85,9 @@ _Обновлено: 2026-05-10 11:40 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 251</b></summary>
+<details open><summary><b>✅ Готово — 252</b></summary>
 
+- `2026-05-10` [Добавить новое поле в админку с маркап и табами для описания услуги.](https://github.com/x2-agency/norma-backend/issues/95) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-10` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Скрыть кнопку 'Уточню позже' на этапе 'Готов к отправке'](https://github.com/x2-agency/norma-app/issues/276) · _Mobile App_ · 👤 Artem Kraus
