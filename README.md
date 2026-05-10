@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-10 15:40 UTC_
+_Обновлено: 2026-05-10 16:39 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 33</b></summary>
+<details><summary><b>🚧 В работе — 32</b></summary>
 
 #### В работе (3)
 
@@ -14,9 +14,8 @@ _Обновлено: 2026-05-10 15:40 UTC_
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 
-#### В разработке (3)
+#### В разработке (2)
 
-- `2026-05-10` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-05-09` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
 
@@ -86,8 +85,9 @@ _Обновлено: 2026-05-10 15:40 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 252</b></summary>
+<details open><summary><b>✅ Готово — 253</b></summary>
 
+- `2026-05-10` [[SITE-047]: Не работает кнопка построить маршрут на Яндекс карте](https://github.com/x2-agency/norma-webapp/issues/128) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [Добавить новое поле в админку с маркап и табами для описания услуги.](https://github.com/x2-agency/norma-backend/issues/95) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-10` [Актуализация компонента "Пункты выдачи" на главной странице](https://github.com/x2-agency/norma-webapp/issues/374) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [В каталоге для услуги с вложениями выводится название выбранной подуслуги вместо корневого](https://github.com/x2-agency/norma-webapp/issues/392) · _Frontend_ · 👤 Eugene
