@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-11 19:24 UTC_
+_Обновлено: 2026-05-11 21:07 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -29,6 +29,7 @@ _Обновлено: 2026-05-11 19:24 UTC_
 
 #### Бэклог (19)
 
+- `2026-05-11` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
 - `2026-05-10` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
@@ -40,7 +41,6 @@ _Обновлено: 2026-05-11 19:24 UTC_
 - `2026-05-01` [Расширить логирование на бекенде и улучшить поиск логов в админке](https://github.com/x2-agency/norma-backend/issues/25) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Исправить проблему с ролями: добавить редактирование/удаление](https://github.com/x2-agency/norma-backend/issues/56) · _Backend_ · 👤 —
 - `2026-05-01` [Разобраться с синхронизацией сущностей между интеграциями при любом редактировании сущности](https://github.com/x2-agency/norma-backend/issues/59) · _Backend_ · 👤 —
-- `2026-05-01` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-01` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Мэтчинг услуг между АГБИС и МП: альтернативные услуги для расхождений номенклатуры](https://github.com/x2-agency/norma-backend/issues/87) · _Backend_ · 👤 Ara Khachikyan
