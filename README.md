@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-11 16:37 UTC_
+_Обновлено: 2026-05-11 17:16 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 28</b></summary>
+<details><summary><b>🚧 В работе — 26</b></summary>
 
 #### В работе (2)
 
@@ -18,11 +18,9 @@ _Обновлено: 2026-05-11 16:37 UTC_
 - `2026-05-11` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-05-11` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 
-#### В процессе (4)
+#### В процессе (2)
 
 - `2026-05-11` [Не отображаются статусы вещей в заказе (должны показываться начиная со статуса «Чистим»)](https://github.com/x2-agency/norma-app/issues/299) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
-- `2026-05-11` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-app/issues/298) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-10` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-10` [Нет статуса «Готово к выдаче» при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-app/issues/302) · _Mobile App_ · 👤 Ara Khachikyan
 
 #### Есть блокеры (1)
@@ -53,10 +51,12 @@ _Обновлено: 2026-05-11 16:37 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 19</b></summary>
+<details><summary><b>🧪 На тестировании — 21</b></summary>
 
-#### Передано в тестирование (19)
+#### Передано в тестирование (21)
 
+- `2026-05-11` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
+- `2026-05-11` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-app/issues/298) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-11` [Скрывать баннеры «первый заказ» и «скидки» если у пользователя уже есть выполненные заказы](https://github.com/x2-agency/norma-app/issues/301) · _Mobile App_ · 👤 —
 - `2026-05-07` [Сделать так, чтобы при обращении в чат через webview пользователь был авторизован, либо как-то передавалась информация о его имени, фамилии, телефоне.](https://github.com/x2-agency/norma-app/issues/290) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-06` [Нужно скрывать создание отзыва после того как его оставили.](https://github.com/x2-agency/norma-app/issues/289) · _Mobile App_ · 👤 Artem Kraus
