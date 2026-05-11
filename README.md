@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-11 08:53 UTC_
+_Обновлено: 2026-05-11 11:54 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 31</b></summary>
+<details><summary><b>🚧 В работе — 29</b></summary>
 
 #### В работе (2)
 
@@ -27,12 +27,11 @@ _Обновлено: 2026-05-11 08:53 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (24)
+#### Бэклог (22)
 
 - `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
 - `2026-05-10` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
-- `2026-05-10` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-10` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-10` [Скрывать баннеры «первый заказ» и «скидки» если у пользователя уже есть выполненные заказы](https://github.com/x2-agency/norma-app/issues/301) · _Mobile App_ · 👤 —
 - `2026-05-10` [Не срабатывает автопереход в статус «Вещи приняты» после подтверждения заказа](https://github.com/x2-agency/norma-app/issues/300) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
@@ -47,7 +46,6 @@ _Обновлено: 2026-05-11 08:53 UTC_
 - `2026-05-01` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-01` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-05-01` [Добавить блоки на страницу услуги: описание, что входит в химчистку, требования к материалам](https://github.com/x2-agency/norma-backend/issues/84) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Мэтчинг услуг между АГБИС и МП: альтернативные услуги для расхождений номенклатуры](https://github.com/x2-agency/norma-backend/issues/87) · _Backend_ · 👤 Ara Khachikyan
 - `2026-04-28` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-04-28` [Пункты приема: заменить азбуку Морзе на адекватное отображение дней/режима работы](https://github.com/x2-agency/norma-backend/issues/60) · _Backend_ · 👤 —
@@ -81,8 +79,10 @@ _Обновлено: 2026-05-11 08:53 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 259</b></summary>
+<details open><summary><b>✅ Готово — 261</b></summary>
 
+- `2026-05-11` [Добавить блоки на страницу услуги: описание, что входит в химчистку, требования к материалам](https://github.com/x2-agency/norma-backend/issues/84) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-11` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
 - `2026-05-11` [Перезагрузить изображения для быстрого заказа - картинки налезают на чекбоксы](https://github.com/x2-agency/norma-webapp/issues/386) · _Frontend_ · 👤 Eugene
 - `2026-05-11` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-webapp/issues/408) · _Frontend_ · 👤 Eugene
 - `2026-05-11` [Интеграция поля "Описание товара"](https://github.com/x2-agency/norma-webapp/issues/376) · _Frontend_ · 👤 Eugene
