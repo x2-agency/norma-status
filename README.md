@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-12 16:10 UTC_
+_Обновлено: 2026-05-12 18:29 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -29,9 +29,9 @@ _Обновлено: 2026-05-12 16:10 UTC_
 
 #### Бэклог (19)
 
+- `2026-05-12` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-11` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
-- `2026-05-10` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-10` [Не срабатывает автопереход в статус «Вещи приняты» после подтверждения заказа](https://github.com/x2-agency/norma-app/issues/300) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
