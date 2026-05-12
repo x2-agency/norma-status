@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-12 13:46 UTC_
+_Обновлено: 2026-05-12 16:10 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -51,7 +51,11 @@ _Обновлено: 2026-05-12 13:46 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 21</b></summary>
+<details><summary><b>🧪 На тестировании — 22</b></summary>
+
+#### Готово к работе (1)
+
+- `2026-05-12` [Добавить новые секции](https://github.com/x2-agency/norma-backend/issues/100) · _Backend_ · 👤 —
 
 #### Передано в тестирование (21)
 
