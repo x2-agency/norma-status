@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-13 22:02 UTC_
+_Обновлено: 2026-05-13 23:46 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 27</b></summary>
+<details><summary><b>🚧 В работе — 26</b></summary>
 
 #### В работе (2)
 
@@ -18,19 +18,20 @@ _Обновлено: 2026-05-13 22:02 UTC_
 - `2026-05-11` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-05-11` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 
-#### В процессе (2)
+#### В процессе (1)
 
-- `2026-05-11` [Не отображаются статусы вещей в заказе (должны показываться начиная со статуса «Чистим»)](https://github.com/x2-agency/norma-app/issues/299) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
 - `2026-05-10` [Нет статуса «Готово к выдаче» при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-app/issues/302) · _Mobile App_ · 👤 Ara Khachikyan
+
+#### На ревью (1)
+
+- `2026-05-13` [Добавить active-эффект (анимацию нажатия) на кнопки в приложении](https://github.com/x2-agency/norma-app/issues/307) · _Mobile App_ · 👤 Artem Kraus
 
 #### Есть блокеры (1)
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (20)
+#### Бэклог (18)
 
-- `2026-05-13` [Добавить active-эффект (анимацию нажатия) на кнопки в приложении](https://github.com/x2-agency/norma-app/issues/307) · _Mobile App_ · 👤 Artem Kraus
-- `2026-05-12` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
 - `2026-05-11` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
@@ -50,16 +51,21 @@ _Обновлено: 2026-05-13 22:02 UTC_
 - `2026-04-28` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_ · 👤 Eugene
 
+#### Тестовый сервер (1)
+
+- `2026-05-13` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
+
 </details>
 
-<details><summary><b>🧪 На тестировании — 22</b></summary>
+<details><summary><b>🧪 На тестировании — 23</b></summary>
 
 #### Готово к работе (1)
 
 - `2026-05-12` [Добавить новые секции](https://github.com/x2-agency/norma-backend/issues/100) · _Backend_ · 👤 —
 
-#### Передано в тестирование (21)
+#### Передано в тестирование (22)
 
+- `2026-05-13` [Не отображаются статусы вещей в заказе (должны показываться начиная со статуса «Чистим»)](https://github.com/x2-agency/norma-app/issues/299) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
 - `2026-05-11` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-11` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-app/issues/298) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-11` [Скрывать баннеры «первый заказ» и «скидки» если у пользователя уже есть выполненные заказы](https://github.com/x2-agency/norma-app/issues/301) · _Mobile App_ · 👤 —
