@@ -1,16 +1,15 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-15 01:52 UTC_
+_Обновлено: 2026-05-15 05:44 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 26</b></summary>
+<details><summary><b>🚧 В работе — 25</b></summary>
 
-#### В работе (3)
+#### В работе (2)
 
-- `2026-05-14` [Добавить страницу "Согласие на обработку персональных данных" по образу и подобию страницы "Политика конфиденциальности"](https://github.com/x2-agency/norma-backend/issues/102) · _Backend_ · 👤 —
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 
@@ -57,14 +56,13 @@ _Обновлено: 2026-05-15 01:52 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 27</b></summary>
+<details><summary><b>🧪 На тестировании — 26</b></summary>
 
-#### Готово к работе (5)
+#### Готово к работе (4)
 
 - `2026-05-14` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-14` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-05-14` [Изменение каталога - подкатегории](https://github.com/x2-agency/norma-backend/issues/104) · _Backend_ · 👤 —
-- `2026-05-14` [Добавить поле рекомендуемых/похожих новостей во внутреннюю страницу новости](https://github.com/x2-agency/norma-backend/issues/101) · _Backend_ · 👤 —
 - `2026-05-12` [Добавить новые секции](https://github.com/x2-agency/norma-backend/issues/100) · _Backend_ · 👤 —
 
 #### Передано в тестирование (22)
@@ -94,8 +92,10 @@ _Обновлено: 2026-05-15 01:52 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 262</b></summary>
+<details open><summary><b>✅ Готово — 264</b></summary>
 
+- `2026-05-15` [Добавить поле рекомендуемых/похожих новостей во внутреннюю страницу новости](https://github.com/x2-agency/norma-backend/issues/101) · _Backend_ · 👤 Alexander Khlyntcev
+- `2026-05-15` [Добавить страницу "Согласие на обработку персональных данных" по образу и подобию страницы "Политика конфиденциальности"](https://github.com/x2-agency/norma-backend/issues/102) · _Backend_ · 👤 —
 - `2026-05-14` [Добавить номер телефона в хэдер](https://github.com/x2-agency/norma-webapp/issues/416) · _Frontend_ · 👤 —
 - `2026-05-11` [Добавить блоки на страницу услуги: описание, что входит в химчистку, требования к материалам](https://github.com/x2-agency/norma-backend/issues/84) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-11` [Добавить в ответ API информации о заказе дату создания и флаг скрытия формы отзыва](https://github.com/x2-agency/norma-backend/issues/90) · _Backend_ · 👤 Artem Kraus, Alexander Khlyntcev
