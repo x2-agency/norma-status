@@ -1,6 +1,6 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-15 08:35 UTC_
+_Обновлено: 2026-05-15 11:10 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
@@ -12,10 +12,6 @@ _Обновлено: 2026-05-15 08:35 UTC_
 
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 - `2026-04-28` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
-
-#### В разработке (1)
-
-- `2026-05-14` [Согласие на обработку персональных данных](https://github.com/x2-agency/norma-webapp/issues/415) · _Frontend_ · 👤 —
 
 #### В процессе (1)
 
@@ -29,8 +25,9 @@ _Обновлено: 2026-05-15 08:35 UTC_
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (18)
+#### Бэклог (19)
 
+- `2026-05-15` [Добавить анимацию нажатия на все кликабельные элементы приложения](https://github.com/x2-agency/norma-app/issues/309) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-11` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
@@ -92,8 +89,9 @@ _Обновлено: 2026-05-15 08:35 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 264</b></summary>
+<details open><summary><b>✅ Готово — 265</b></summary>
 
+- `2026-05-15` [Согласие на обработку персональных данных](https://github.com/x2-agency/norma-webapp/issues/415) · _Frontend_ · 👤 —
 - `2026-05-15` [Добавить поле рекомендуемых/похожих новостей во внутреннюю страницу новости](https://github.com/x2-agency/norma-backend/issues/101) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-15` [Добавить страницу "Согласие на обработку персональных данных" по образу и подобию страницы "Политика конфиденциальности"](https://github.com/x2-agency/norma-backend/issues/102) · _Backend_ · 👤 —
 - `2026-05-14` [Добавить номер телефона в хэдер](https://github.com/x2-agency/norma-webapp/issues/416) · _Frontend_ · 👤 —
