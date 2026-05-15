@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-15 19:12 UTC_
+_Обновлено: 2026-05-15 20:47 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 25</b></summary>
+<details><summary><b>🚧 В работе — 26</b></summary>
 
 #### В работе (2)
 
@@ -17,16 +17,14 @@ _Обновлено: 2026-05-15 19:12 UTC_
 
 - `2026-05-10` [Нет статуса «Готово к выдаче» при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-app/issues/302) · _Mobile App_ · 👤 Ara Khachikyan
 
-#### На ревью (1)
-
-- `2026-05-13` [Добавить active-эффект (анимацию нажатия) на кнопки в приложении](https://github.com/x2-agency/norma-app/issues/307) · _Mobile App_ · 👤 Artem Kraus
-
 #### Есть блокеры (1)
 
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (19)
+#### Бэклог (21)
 
+- `2026-05-15` [Интегрировать статичные блоки на сайте](https://github.com/x2-agency/norma-webapp/issues/421) · _Frontend_ · 👤 —
+- `2026-05-15` [Изменить UI каталога по SEO](https://github.com/x2-agency/norma-webapp/issues/422) · _Frontend_ · 👤 —
 - `2026-05-15` [Добавить анимацию нажатия на все кликабельные элементы приложения](https://github.com/x2-agency/norma-app/issues/309) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-11` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-10` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
@@ -53,7 +51,7 @@ _Обновлено: 2026-05-15 19:12 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 26</b></summary>
+<details><summary><b>🧪 На тестировании — 27</b></summary>
 
 #### Готово к работе (4)
 
@@ -62,8 +60,9 @@ _Обновлено: 2026-05-15 19:12 UTC_
 - `2026-05-14` [Изменение каталога - подкатегории](https://github.com/x2-agency/norma-backend/issues/104) · _Backend_ · 👤 —
 - `2026-05-12` [Добавить новые секции](https://github.com/x2-agency/norma-backend/issues/100) · _Backend_ · 👤 —
 
-#### Передано в тестирование (22)
+#### Передано в тестирование (23)
 
+- `2026-05-15` [Добавить active-эффект (анимацию нажатия) на кнопки в приложении](https://github.com/x2-agency/norma-app/issues/307) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-13` [Не отображаются статусы вещей в заказе (должны показываться начиная со статуса «Чистим»)](https://github.com/x2-agency/norma-app/issues/299) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
 - `2026-05-11` [Правки по приёмке заказа: кнопка комментария технолога, скрытие доставки, кнопка «Связаться с технологом»](https://github.com/x2-agency/norma-app/issues/297) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-11` [Перевести вывод описания услуги на маркап с табами](https://github.com/x2-agency/norma-app/issues/298) · _Mobile App_ · 👤 Artem Kraus
