@@ -1,33 +1,34 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-16 14:16 UTC_
+_Обновлено: 2026-05-16 15:45 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 20</b></summary>
+<details><summary><b>🚧 В работе — 18</b></summary>
 
 #### В работе (2)
 
 - `2026-05-16` [Интеграция LifePay (NICE)](https://github.com/x2-agency/norma-backend/issues/22) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-04-28` [Реализовать маркетинговые уведомления (лояльность, реактивация, сезонные акции, рефералы), добавить поддержку, онбординг, брошенные корзины, отзывы/UGC. Добавить opt-in/consent](https://github.com/x2-agency/norma-backend/issues/16) · _Backend_ · 👤 —
 
-#### Есть блокеры (2)
+#### В процессе (1)
 
-- `2026-05-16` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
+- `2026-05-16` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
+
+#### Есть блокеры (1)
+
 - `2026-04-28` [Переработать парсинг режима работы пункта выдачи](https://github.com/x2-agency/norma-app/issues/227) · _Mobile App_ · 👤 Artem Kraus
 
-#### Бэклог (15)
+#### Бэклог (13)
 
 - `2026-05-15` [Интегрировать статичные блоки на сайте](https://github.com/x2-agency/norma-webapp/issues/421) · _Frontend_ · 👤 —
 - `2026-05-15` [Изменить UI каталога по SEO](https://github.com/x2-agency/norma-webapp/issues/422) · _Frontend_ · 👤 —
 - `2026-05-11` [Разобраться с настройкой АГБИС для подтверждения онлайн-заказов](https://github.com/x2-agency/norma-backend/issues/58) · _Backend_ · 👤 —
 - `2026-05-10` [[SITE-043]: Улучшение показателя "Производительность" для мобильных устройств](https://github.com/x2-agency/norma-webapp/issues/92) · _Frontend_ · 👤 Eugene
 - `2026-05-10` [🔴 MUST HAVE: Интеграция MAX: приоритет MAX над Telegram для верификации](https://github.com/x2-agency/norma-backend/issues/24) · _Backend_ · 👤 Alexander Khlyntcev
-- `2026-05-10` [Не срабатывает автопереход в статус «Вещи приняты» после подтверждения заказа](https://github.com/x2-agency/norma-app/issues/300) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
 - `2026-05-07` [Интегрировать Firebase Crashlytics](https://github.com/x2-agency/norma-app/issues/296) · _Mobile App_ · 👤 —
-- `2026-05-02` [Выяснить почему не рассчитываются начисляемые бонусы при оформлении заказа](https://github.com/x2-agency/norma-app/issues/247) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-01` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-01` [Мэтчинг услуг между АГБИС и МП: альтернативные услуги для расхождений номенклатуры](https://github.com/x2-agency/norma-backend/issues/87) · _Backend_ · 👤 Ara Khachikyan
@@ -42,7 +43,7 @@ _Обновлено: 2026-05-16 14:16 UTC_
 
 </details>
 
-<details><summary><b>🧪 На тестировании — 29</b></summary>
+<details><summary><b>🧪 На тестировании — 31</b></summary>
 
 #### Готово к работе (4)
 
@@ -51,8 +52,10 @@ _Обновлено: 2026-05-16 14:16 UTC_
 - `2026-05-14` [Изменение каталога - подкатегории](https://github.com/x2-agency/norma-backend/issues/104) · _Backend_ · 👤 —
 - `2026-05-12` [Добавить новые секции](https://github.com/x2-agency/norma-backend/issues/100) · _Backend_ · 👤 —
 
-#### Передано в тестирование (25)
+#### Передано в тестирование (27)
 
+- `2026-05-16` [Не срабатывает автопереход в статус «Вещи приняты» после подтверждения заказа](https://github.com/x2-agency/norma-app/issues/300) · _Mobile App_ · 👤 Artem Kraus, Ara Khachikyan
+- `2026-05-16` [Перевести поиск по каталогу на GET запрос](https://github.com/x2-agency/norma-app/issues/303) · _Mobile App_ · 👤 —
 - `2026-05-16` [Нет статуса «Готово к выдаче» при выборе получения в пункте выдачи](https://github.com/x2-agency/norma-app/issues/302) · _Mobile App_ · 👤 Ara Khachikyan
 - `2026-05-16` [Добавить анимацию нажатия на все кликабельные элементы приложения](https://github.com/x2-agency/norma-app/issues/309) · _Mobile App_ · 👤 Artem Kraus
 - `2026-05-16` [При обновлении страницы возникает инерция движения после ребута](https://github.com/x2-agency/norma-app/issues/288) · _Mobile App_ · 👤 —
