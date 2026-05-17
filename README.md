@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-17 18:49 UTC_
+_Обновлено: 2026-05-17 19:58 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 14</b></summary>
+<details><summary><b>🚧 В работе — 13</b></summary>
 
 #### В работе (2)
 
@@ -36,16 +36,13 @@ _Обновлено: 2026-05-17 18:49 UTC_
 - `2026-04-28` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_ · 👤 Eugene
 
-#### Тестовый сервер (1)
-
-- `2026-05-17` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
-
 </details>
 
-<details><summary><b>🧪 На тестировании — 30</b></summary>
+<details><summary><b>🧪 На тестировании — 31</b></summary>
 
-#### Готово к работе (3)
+#### Готово к работе (4)
 
+- `2026-05-17` [Добавить поле описания к блоку хиро на главной странице](https://github.com/x2-agency/norma-backend/issues/106) · _Backend_ · 👤 —
 - `2026-05-14` [[SITE-045]: Исправление позиционирование футера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/90) · _Frontend_ · 👤 Eugene
 - `2026-05-14` [[SITE-044]: Исправление позиционирование хэдера на устройствах с IOS](https://github.com/x2-agency/norma-webapp/issues/104) · _Frontend_ · 👤 Eugene
 - `2026-05-14` [Изменение каталога - подкатегории](https://github.com/x2-agency/norma-backend/issues/104) · _Backend_ · 👤 —
@@ -82,8 +79,9 @@ _Обновлено: 2026-05-17 18:49 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 275</b></summary>
+<details open><summary><b>✅ Готово — 276</b></summary>
 
+- `2026-05-17` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
 - `2026-05-17` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-17` [Заменить диплинки](https://github.com/x2-agency/norma-backend/issues/105) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-17` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
