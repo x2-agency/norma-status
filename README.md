@@ -1,12 +1,12 @@
 # Norma — статус задач
 
-_Обновлено: 2026-05-17 17:45 UTC_
+_Обновлено: 2026-05-17 18:49 UTC_
 
 Источники: [Mobile App](https://github.com/orgs/x2-agency/projects/9) · [Frontend](https://github.com/orgs/x2-agency/projects/7) · [Backend](https://github.com/orgs/x2-agency/projects/4)
 
 **Публичная страница:** https://x2-agency.github.io/norma-status/
 
-<details><summary><b>🚧 В работе — 15</b></summary>
+<details><summary><b>🚧 В работе — 14</b></summary>
 
 #### В работе (2)
 
@@ -36,10 +36,9 @@ _Обновлено: 2026-05-17 17:45 UTC_
 - `2026-04-28` [Баг №37. Привести в порядок статусы заказов в бэке](https://github.com/x2-agency/norma-backend/issues/43) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-03-31` [[CORE-3]: Покрытие тестами оформление заказа](https://github.com/x2-agency/norma-webapp/issues/99) · _Frontend_ · 👤 Eugene
 
-#### Тестовый сервер (2)
+#### Тестовый сервер (1)
 
 - `2026-05-17` [Filament-админка: добавить возможность редактировать адрес, слоты и состав заказа](https://github.com/x2-agency/norma-backend/issues/62) · _Backend_ · 👤 —
-- `2026-05-17` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 
 </details>
 
@@ -83,8 +82,9 @@ _Обновлено: 2026-05-17 17:45 UTC_
 
 </details>
 
-<details open><summary><b>✅ Готово — 274</b></summary>
+<details open><summary><b>✅ Готово — 275</b></summary>
 
+- `2026-05-17` [Интеграция с АГБИС: отслеживание статуса «Готов к выдаче в ПП»](https://github.com/x2-agency/norma-backend/issues/40) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-17` [Заменить диплинки](https://github.com/x2-agency/norma-backend/issues/105) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-17` [В админке в списке сторис нет возможности задать название](https://github.com/x2-agency/norma-backend/issues/83) · _Backend_ · 👤 Alexander Khlyntcev
 - `2026-05-16` [Начисление бонусов в Maxма и интеграция данных заказа из АГБИС в админке](https://github.com/x2-agency/norma-backend/issues/99) · _Backend_ · 👤 Alexander Khlyntcev, Ara Khachikyan
